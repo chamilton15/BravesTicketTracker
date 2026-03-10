@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Braves Ticket Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0C2340;
+    --red: #CE1141;
+    --gold: #EAAA00;
+    --cream: #F5F0E8;
+    --dark: #080F1A;
+    --card: #111B2B;
+    --border: rgba(234,170,0,0.15);
+    --text-muted: rgba(245,240,232,0.45);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--dark);
+    color: var(--cream);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    background-image: 
+      radial-gradient(ellipse at 20% 0%, rgba(206,17,65,0.12) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 100%, rgba(12,35,64,0.8) 0%, transparent 50%);
+  }
+
+  header {
+    padding: 24px 24px 20px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .logo-mark {
+    width: 42px;
+    height: 42px;
+    background: var(--red);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 20px rgba(206,17,65,0.4);
+  }
+
+  .header-text h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: var(--cream);
+    line-height: 1;
+  }
+
+  .header-text p {
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 0.5px;
+    margin-top: 3px;
+  }
+
+  .container {
+    padding: 24px;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+
+  .game-selector { margin-bottom: 24px; }
+
+  .game-selector label {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+
+  .game-select-wrapper { position: relative; }
+
+  select {
+    width: 100%;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--cream);
+    padding: 14px 44px 14px 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  select:focus { border-color: rgba(234,170,0,0.4); }
+
+  .select-arrow {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--gold);
+    pointer-events: none;
+    font-size: 12px;
+  }
+
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .stat-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+
+  .stat-card .stat-label {
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 5px;
+  }
+
+  .stat-card .stat-value {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+
+  .stat-card.highlight .stat-value { color: var(--gold); }
+  .stat-card.low .stat-value { color: #4ade80; }
+  .stat-card.high .stat-value { color: var(--red); }
+
+  .section-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+
+  .tab {
+    padding: 7px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-muted);
+    transition: all 0.2s;
+  }
+
+  .tab:hover { color: var(--cream); border-color: rgba(245,240,232,0.3); }
+
+  .tab.active {
+    background: var(--navy);
+    border-color: var(--gold);
+    color: var(--gold);
+  }
+
+  .refresh-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .listing-count {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .refresh-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--cream);
+    padding: 7px 14px;
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .refresh-btn:hover { border-color: var(--gold); color: var(--gold); }
+  .refresh-btn svg { transition: transform 0.4s; }
+  .refresh-btn.spinning svg { transform: rotate(360deg); }
+
+  .table-wrap {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  table { width: 100%; border-collapse: collapse; }
+
+  thead th {
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 9px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    background: rgba(255,255,255,0.03);
+    border-bottom: 1px solid var(--border);
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+
+  thead th:hover { color: var(--gold); }
+  thead th.sorted { color: var(--gold); }
+  thead th:last-child { text-align: right; }
+
+  tbody tr {
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    transition: background 0.15s;
+  }
+
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: rgba(255,255,255,0.04); }
+
+  tbody td { padding: 14px 16px; font-size: 14px; }
+
+  .section-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 24px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+
+  .sec-13 { background: rgba(234,170,0,0.12); color: #e8c84a; border: 1px solid rgba(234,170,0,0.3); }
+  .sec-14 { background: rgba(12,35,64,0.8); color: #7aa3cc; border: 1px solid rgba(122,163,204,0.3); }
+  .sec-15 { background: rgba(206,17,65,0.15); color: #f06080; border: 1px solid rgba(206,17,65,0.3); }
+
+  .row-label { color: var(--text-muted); font-size: 13px; }
+
+  .price-cell {
+    text-align: right;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  .price-top { color: var(--red); }
+  .price-mid { color: var(--cream); }
+  .price-low { color: #4ade80; }
+
+  .price-per {
+    font-size: 10px;
+    color: var(--text-muted);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    margin-left: 2px;
+    letter-spacing: 0;
+  }
+
+  .last-updated {
+    text-align: center;
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 16px;
+    padding-bottom: 8px;
+  }
+
+  .pulse {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #4ade80;
+    border-radius: 50%;
+    margin-right: 6px;
+    animation: pulse 2s infinite;
+    vertical-align: middle;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.8); }
+  }
+
+  .empty-state {
+    padding: 48px 24px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 14px;
+  }
+
+  .error-banner {
+    background: rgba(206,17,65,0.1);
+    border: 1px solid rgba(206,17,65,0.3);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #f06080;
+    display: none;
+  }
+
+  .loading-state {
+    padding: 48px 24px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 14px;
+  }
+
+  .spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--border);
+    border-top-color: var(--gold);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  @media (max-width: 520px) {
+    header { padding: 16px; }
+    .container { padding: 16px; }
+    .stats-row { grid-template-columns: repeat(3,1fr); gap: 8px; }
+    .stat-card { padding: 10px 12px; }
+    .stat-card .stat-value { font-size: 22px; }
+    tbody td { padding: 12px 12px; font-size: 13px; }
+    thead th { padding: 10px 12px; }
+  }
+</style>
+<!-- INJECTED_DATA -->
+<script id="injected-data">window.INJECTED_DATA = {"lastUpdated":"2026-03-10T19:37:28.011Z","sections":["13","14","15"],"games":{"1":{"id":1,"label":"Fri, Mar 27, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-3-27-2026/event/159262068/","listings":[{"section":"14","row":"9","price":391},{"section":"13","row":"4","price":401},{"section":"14","row":"6","price":439},{"section":"14","row":"5","price":449},{"section":"13","row":"2","price":461},{"section":"15","row":"6","price":493}]},"2":{"id":2,"label":"Sat, Mar 28, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-3-28-2026/event/159262100/","listings":[{"section":"14","row":"9","price":234},{"section":"15","row":"8","price":240},{"section":"13","row":"4","price":240},{"section":"13","row":"3","price":254},{"section":"14","row":"7","price":254},{"section":"14","row":"6","price":266},{"section":"13","row":"2","price":276},{"section":"15","row":"5","price":278},{"section":"14","row":"2","price":315}]},"3":{"id":3,"label":"Sun, Mar 29, 2026 · 1:30PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-3-29-2026/event/159262101/","listings":[{"section":"14","row":"7","price":196},{"section":"13","row":"3","price":210},{"section":"14","row":"6","price":220},{"section":"13","row":"2","price":223},{"section":"14","row":"2","price":255}]},"4":{"id":4,"label":"Mon, Mar 30, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-3-30-2026/event/159262102/","listings":[{"section":"15","row":"8","price":127},{"section":"13","row":"2","price":134},{"section":"14","row":"7","price":140},{"section":"14","row":"6","price":217},{"section":"14","row":"2","price":232}]},"5":{"id":5,"label":"Tue, Mar 31, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-3-31-2026/event/159262103/","listings":[{"section":"14","row":"7","price":140},{"section":"13","row":"3","price":140},{"section":"13","row":"2","price":151},{"section":"14","row":"2","price":176},{"section":"15","row":"5","price":541}]},"6":{"id":6,"label":"Wed, Apr 1, 2026 · 12:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-1-2026/event/159262104/","listings":[{"section":"15","row":"3","price":138},{"section":"14","row":"2","price":157}]},"7":{"id":7,"label":"Fri, Apr 10, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-10-2026/event/159262105/","listings":[{"section":"13","row":"3","price":220},{"section":"14","row":"6","price":231},{"section":"13","row":"2","price":238},{"section":"15","row":"6","price":260},{"section":"15","row":"5","price":266},{"section":"14","row":"2","price":272}]},"8":{"id":8,"label":"Sat, Apr 11, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-11-2026/event/159262106/","listings":[{"section":"14","row":"9","price":174},{"section":"13","row":"3","price":189},{"section":"14","row":"6","price":199},{"section":"13","row":"2","price":203},{"section":"15","row":"6","price":223},{"section":"14","row":"2","price":233}]},"9":{"id":9,"label":"Sun, Apr 12, 2026 · 7:20PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-12-2026/event/159262107/","listings":[{"section":"13","row":"4","price":119},{"section":"13","row":"3","price":127},{"section":"14","row":"6","price":134},{"section":"13","row":"2","price":136},{"section":"15","row":"6","price":150},{"section":"15","row":"5","price":155},{"section":"14","row":"2","price":158}]},"10":{"id":10,"label":"Mon, Apr 13, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-13-2026/event/159262108/","listings":[{"section":"15","row":"8","price":90},{"section":"13","row":"3","price":97},{"section":"14","row":"7","price":102},{"section":"13","row":"2","price":108},{"section":"15","row":"5","price":119},{"section":"14","row":"2","price":125}]},"11":{"id":11,"label":"Tue, Apr 14, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-14-2026/event/159262109/","listings":[{"section":"15","row":"8","price":84},{"section":"14","row":"7","price":102},{"section":"13","row":"3","price":116},{"section":"15","row":"5","price":129},{"section":"14","row":"2","price":145}]},"12":{"id":12,"label":"Wed, Apr 15, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-15-2026/event/159262110/","listings":[{"section":"15","row":"8","price":78},{"section":"14","row":"7","price":90},{"section":"13","row":"3","price":98},{"section":"13","row":"2","price":108},{"section":"15","row":"6","price":117},{"section":"15","row":"5","price":120},{"section":"14","row":"2","price":125}]},"13":{"id":13,"label":"Fri, Apr 24, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-24-2026/event/159262111/","listings":[{"section":"15","row":"8","price":207},{"section":"13","row":"4","price":226},{"section":"14","row":"7","price":232},{"section":"13","row":"3","price":237},{"section":"14","row":"6","price":249},{"section":"13","row":"2","price":255},{"section":"15","row":"5","price":261},{"section":"14","row":"2","price":291}]},"14":{"id":14,"label":"Sat, Apr 25, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-25-2026/event/159262112/","listings":[{"section":"13","row":"4","price":228},{"section":"13","row":"3","price":240},{"section":"14","row":"6","price":252},{"section":"13","row":"2","price":259},{"section":"15","row":"5","price":265},{"section":"14","row":"2","price":294}]},"15":{"id":15,"label":"Sun, Apr 26, 2026 · 1:30PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-26-2026/event/159262113/","listings":[{"section":"14","row":"9","price":168},{"section":"13","row":"4","price":174},{"section":"13","row":"3","price":184},{"section":"14","row":"6","price":193},{"section":"15","row":"6","price":198},{"section":"13","row":"2","price":199},{"section":"14","row":"2","price":228}]},"16":{"id":16,"label":"Tue, Apr 28, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-28-2026/event/159262114/","listings":[{"section":"14","row":"7","price":121},{"section":"13","row":"3","price":139},{"section":"13","row":"2","price":151},{"section":"15","row":"5","price":155},{"section":"15","row":"3","price":166},{"section":"14","row":"2","price":176}]},"17":{"id":17,"label":"Wed, Apr 29, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-29-2026/event/159262115/","listings":[{"section":"14","row":"9","price":109},{"section":"13","row":"4","price":113},{"section":"14","row":"7","price":115},{"section":"13","row":"3","price":120},{"section":"14","row":"6","price":127},{"section":"13","row":"2","price":133},{"section":"15","row":"6","price":144},{"section":"15","row":"5","price":147},{"section":"14","row":"2","price":155},{"section":"15","row":"3","price":162}]},"18":{"id":18,"label":"Thu, Apr 30, 2026 · 12:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-30-2026/event/159262116/","listings":[{"section":"15","row":"8","price":140},{"section":"14","row":"9","price":140},{"section":"13","row":"4","price":145},{"section":"13","row":"3","price":153},{"section":"13","row":"2","price":161},{"section":"14","row":"7","price":165},{"section":"15","row":"6","price":166},{"section":"14","row":"5","price":166},{"section":"15","row":"5","price":171},{"section":"14","row":"2","price":187}]},"19":{"id":19,"label":"Tue, May 12, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-12-2026/event/159262117/","listings":[{"section":"14","row":"9","price":160},{"section":"13","row":"4","price":165},{"section":"13","row":"3","price":174},{"section":"14","row":"6","price":183},{"section":"13","row":"2","price":189},{"section":"15","row":"5","price":193},{"section":"14","row":"2","price":217},{"section":"15","row":"3","price":227}]},"20":{"id":20,"label":"Wed, May 13, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-13-2026/event/159262118/","listings":[{"section":"14","row":"9","price":172},{"section":"13","row":"4","price":177},{"section":"13","row":"3","price":187},{"section":"14","row":"6","price":196},{"section":"15","row":"6","price":201},{"section":"13","row":"2","price":210},{"section":"15","row":"3","price":223},{"section":"14","row":"2","price":240}]},"21":{"id":21,"label":"Thu, May 14, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-14-2026/event/159262119/","listings":[{"section":"14","row":"9","price":184},{"section":"13","row":"4","price":190},{"section":"13","row":"3","price":200},{"section":"15","row":"8","price":207},{"section":"14","row":"6","price":210},{"section":"13","row":"2","price":222},{"section":"15","row":"6","price":237},{"section":"14","row":"2","price":254}]},"22":{"id":22,"label":"Fri, May 15, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-15-2026/event/159262120/","listings":[{"section":"14","row":"9","price":280},{"section":"13","row":"4","price":288},{"section":"13","row":"3","price":302},{"section":"15","row":"8","price":309},{"section":"14","row":"6","price":316},{"section":"13","row":"2","price":318},{"section":"15","row":"3","price":331},{"section":"14","row":"2","price":361}]},"23":{"id":23,"label":"Sat, May 16, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-16-2026/event/159262121/","listings":[{"section":"14","row":"9","price":294},{"section":"13","row":"4","price":303},{"section":"15","row":"8","price":322},{"section":"14","row":"6","price":334},{"section":"15","row":"6","price":341},{"section":"13","row":"2","price":351},{"section":"15","row":"3","price":365},{"section":"14","row":"2","price":397}]},"24":{"id":24,"label":"Sun, May 17, 2026 · 1:30PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-17-2026/event/159262122/","listings":[{"section":"14","row":"9","price":233},{"section":"13","row":"4","price":240},{"section":"13","row":"3","price":253},{"section":"14","row":"6","price":265},{"section":"13","row":"2","price":277},{"section":"15","row":"6","price":297},{"section":"15","row":"5","price":305},{"section":"14","row":"2","price":315},{"section":"15","row":"3","price":325}]},"25":{"id":25,"label":"Fri, May 22, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-22-2026/event/159262123/","listings":[{"section":"13","row":"4","price":176},{"section":"13","row":"3","price":185},{"section":"13","row":"2","price":198},{"section":"14","row":"5","price":200},{"section":"15","row":"8","price":201},{"section":"15","row":"3","price":217},{"section":"14","row":"2","price":227}]},"26":{"id":26,"label":"Sat, May 23, 2026 · 4:10PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-23-2026/event/159262124/","listings":[{"section":"14","row":"9","price":223},{"section":"13","row":"4","price":231},{"section":"13","row":"3","price":242},{"section":"14","row":"6","price":254},{"section":"15","row":"8","price":258},{"section":"13","row":"2","price":264},{"section":"15","row":"3","price":280},{"section":"14","row":"2","price":302}]},"27":{"id":27,"label":"Sun, May 24, 2026 · 4:10PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-24-2026/event/159262125/","listings":[{"section":"14","row":"9","price":178},{"section":"13","row":"4","price":184},{"section":"13","row":"3","price":194},{"section":"14","row":"6","price":204},{"section":"13","row":"2","price":209},{"section":"15","row":"8","price":226},{"section":"15","row":"6","price":229},{"section":"15","row":"5","price":236},{"section":"14","row":"2","price":239}]},"28":{"id":28,"label":"Tue, Jun 2, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-2-2026/event/159262126/","listings":[{"section":"14","row":"9","price":144},{"section":"13","row":"4","price":149},{"section":"13","row":"3","price":157},{"section":"14","row":"6","price":165},{"section":"13","row":"2","price":173},{"section":"15","row":"6","price":185},{"section":"15","row":"5","price":191},{"section":"15","row":"3","price":194},{"section":"14","row":"2","price":200}]},"29":{"id":29,"label":"Wed, Jun 3, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-3-2026/event/159262127/","listings":[{"section":"14","row":"9","price":176},{"section":"13","row":"4","price":180},{"section":"15","row":"3","price":186},{"section":"13","row":"3","price":190},{"section":"13","row":"2","price":195},{"section":"14","row":"6","price":200},{"section":"14","row":"2","price":225}]},"30":{"id":30,"label":"Thu, Jun 4, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-4-2026/event/159262128/","listings":[{"section":"14","row":"9","price":172},{"section":"13","row":"4","price":178},{"section":"13","row":"3","price":187},{"section":"13","row":"2","price":194},{"section":"15","row":"6","price":201},{"section":"14","row":"5","price":203},{"section":"14","row":"2","price":223},{"section":"15","row":"3","price":374}]},"31":{"id":31,"label":"Fri, Jun 5, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-5-2026/event/159262129/","listings":[{"section":"14","row":"9","price":190},{"section":"13","row":"4","price":196},{"section":"13","row":"3","price":207},{"section":"14","row":"6","price":217},{"section":"13","row":"2","price":237},{"section":"15","row":"6","price":245},{"section":"15","row":"5","price":252},{"section":"15","row":"3","price":255},{"section":"14","row":"2","price":270}]},"32":{"id":32,"label":"Sat, Jun 6, 2026 · 4:10PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-6-2026/event/159262130/","listings":[{"section":"13","row":"4","price":218},{"section":"13","row":"3","price":229},{"section":"14","row":"6","price":242},{"section":"13","row":"2","price":249},{"section":"15","row":"6","price":271},{"section":"15","row":"5","price":278},{"section":"14","row":"2","price":285},{"section":"15","row":"3","price":522}]},"33":{"id":33,"label":"Sun, Jun 7, 2026 · 1:30PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-7-2026/event/159262131/","listings":[{"section":"14","row":"9","price":166},{"section":"13","row":"4","price":171},{"section":"13","row":"3","price":180},{"section":"14","row":"6","price":190},{"section":"13","row":"2","price":199},{"section":"15","row":"6","price":214},{"section":"15","row":"5","price":220},{"section":"14","row":"2","price":228}]},"34":{"id":34,"label":"Tue, Jun 16, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-16-2026/event/159262132/","listings":[{"section":"14","row":"9","price":160},{"section":"13","row":"4","price":165},{"section":"13","row":"3","price":174},{"section":"14","row":"6","price":183},{"section":"13","row":"2","price":187},{"section":"15","row":"5","price":193},{"section":"15","row":"3","price":198},{"section":"14","row":"2","price":215}]},"35":{"id":35,"label":"Wed, Jun 17, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-17-2026/event/159262133/","listings":[{"section":"14","row":"9","price":150},{"section":"13","row":"4","price":155},{"section":"13","row":"3","price":163},{"section":"14","row":"6","price":172},{"section":"13","row":"2","price":179},{"section":"15","row":"6","price":194},{"section":"15","row":"5","price":199},{"section":"14","row":"2","price":206}]},"36":{"id":36,"label":"Thu, Jun 18, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-18-2026/event/159262134/","listings":[{"section":"14","row":"9","price":158},{"section":"13","row":"4","price":163},{"section":"13","row":"3","price":173},{"section":"14","row":"6","price":182},{"section":"13","row":"2","price":189},{"section":"15","row":"3","price":190},{"section":"14","row":"2","price":218}]},"37":{"id":37,"label":"Fri, Jun 19, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-19-2026/event/159262135/","listings":[{"section":"13","row":"4","price":221},{"section":"15","row":"3","price":228},{"section":"13","row":"3","price":233},{"section":"13","row":"2","price":243},{"section":"14","row":"6","price":244},{"section":"14","row":"2","price":277}]},"38":{"id":38,"label":"Sat, Jun 20, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-20-2026/event/159262136/","listings":[{"section":"14","row":"9","price":220},{"section":"13","row":"4","price":227},{"section":"14","row":"6","price":250},{"section":"13","row":"2","price":255},{"section":"15","row":"3","price":259},{"section":"14","row":"2","price":291},{"section":"15","row":"2","price":302}]},"39":{"id":39,"label":"Sun, Jun 21, 2026 · 1:30PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-21-2026/event/159262137/","listings":[{"section":"14","row":"9","price":223},{"section":"13","row":"4","price":229},{"section":"13","row":"3","price":242},{"section":"14","row":"6","price":254},{"section":"13","row":"2","price":264},{"section":"15","row":"6","price":286},{"section":"15","row":"5","price":293},{"section":"14","row":"2","price":301}]},"40":{"id":40,"label":"Tue, Jun 30, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-30-2026/event/159262138/","listings":[{"section":"14","row":"9","price":169},{"section":"13","row":"4","price":176},{"section":"13","row":"3","price":184},{"section":"14","row":"6","price":194},{"section":"15","row":"3","price":198},{"section":"13","row":"2","price":206},{"section":"14","row":"2","price":237}]},"41":{"id":41,"label":"Wed, Jul 1, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-1-2026/event/159262139/","listings":[{"section":"14","row":"9","price":174},{"section":"13","row":"4","price":180},{"section":"13","row":"3","price":190},{"section":"14","row":"6","price":200},{"section":"15","row":"3","price":205},{"section":"13","row":"2","price":207},{"section":"14","row":"2","price":238}]},"42":{"id":42,"label":"Thu, Jul 2, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-2-2026/event/159262140/","listings":[{"section":"13","row":"4","price":200},{"section":"15","row":"3","price":208},{"section":"13","row":"3","price":211},{"section":"14","row":"6","price":222},{"section":"13","row":"2","price":234},{"section":"14","row":"2","price":267}]},"43":{"id":43,"label":"Fri, Jul 3, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-3-2026/event/159262141/","listings":[{"section":"14","row":"9","price":299},{"section":"13","row":"4","price":308},{"section":"13","row":"3","price":324},{"section":"14","row":"6","price":339},{"section":"15","row":"3","price":345},{"section":"13","row":"2","price":346},{"section":"14","row":"2","price":392}]},"44":{"id":44,"label":"Sat, Jul 4, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-4-2026/event/159262142/","listings":[{"section":"14","row":"9","price":324},{"section":"13","row":"4","price":332},{"section":"15","row":"3","price":342},{"section":"14","row":"6","price":364},{"section":"13","row":"2","price":381},{"section":"14","row":"2","price":430}]},"45":{"id":45,"label":"Sun, Jul 5, 2026 · 12:30PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-5-2026/event/159262143/","listings":[{"section":"14","row":"9","price":237},{"section":"13","row":"3","price":256},{"section":"14","row":"6","price":269},{"section":"13","row":"2","price":272},{"section":"15","row":"3","price":280},{"section":"14","row":"2","price":310}]},"46":{"id":46,"label":"Mon, Jul 6, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-6-2026/event/159262144/","listings":[{"section":"14","row":"9","price":194},{"section":"13","row":"4","price":200},{"section":"13","row":"3","price":210},{"section":"14","row":"6","price":221},{"section":"15","row":"3","price":227},{"section":"13","row":"2","price":234},{"section":"14","row":"2","price":269}]},"47":{"id":47,"label":"Fri, Jul 17, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-17-2026/event/159262145/","listings":[{"section":"14","row":"9","price":206},{"section":"13","row":"4","price":212},{"section":"13","row":"3","price":223},{"section":"14","row":"6","price":234},{"section":"13","row":"2","price":245},{"section":"15","row":"6","price":264},{"section":"15","row":"5","price":270},{"section":"14","row":"2","price":281},{"section":"15","row":"3","price":522}]},"48":{"id":48,"label":"Sat, Jul 18, 2026 · 4:10PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-18-2026/event/159262146/","listings":[{"section":"14","row":"9","price":239},{"section":"13","row":"4","price":247},{"section":"14","row":"6","price":271},{"section":"13","row":"2","price":292},{"section":"15","row":"6","price":305},{"section":"15","row":"5","price":313},{"section":"14","row":"2","price":332},{"section":"15","row":"2","price":345}]},"49":{"id":49,"label":"Sun, Jul 19, 2026 · 1:30PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-19-2026/event/159262147/","listings":[{"section":"14","row":"9","price":187},{"section":"13","row":"4","price":193},{"section":"13","row":"3","price":203},{"section":"14","row":"6","price":212},{"section":"13","row":"2","price":222},{"section":"15","row":"3","price":231},{"section":"14","row":"2","price":254}]},"50":{"id":50,"label":"Mon, Jul 20, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-20-2026/event/159262148/","listings":[{"section":"14","row":"9","price":176},{"section":"13","row":"4","price":182},{"section":"13","row":"3","price":191},{"section":"14","row":"6","price":201},{"section":"13","row":"2","price":211},{"section":"15","row":"6","price":227},{"section":"15","row":"5","price":233},{"section":"14","row":"2","price":242}]},"51":{"id":51,"label":"Tue, Jul 21, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-21-2026/event/159262149/","listings":[{"section":"14","row":"9","price":156},{"section":"13","row":"4","price":161},{"section":"13","row":"3","price":169},{"section":"14","row":"6","price":178},{"section":"13","row":"2","price":187},{"section":"15","row":"6","price":201},{"section":"15","row":"5","price":206},{"section":"14","row":"2","price":215}]},"52":{"id":52,"label":"Wed, Jul 22, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-22-2026/event/159262150/","listings":[{"section":"14","row":"9","price":163},{"section":"13","row":"4","price":168},{"section":"13","row":"3","price":177},{"section":"14","row":"6","price":187},{"section":"13","row":"2","price":201},{"section":"15","row":"6","price":210},{"section":"15","row":"5","price":216},{"section":"14","row":"2","price":231}]},"53":{"id":53,"label":"Thu, Jul 23, 2026 · 12:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-23-2026/event/159262151/","listings":[{"section":"14","row":"9","price":162},{"section":"13","row":"4","price":167},{"section":"13","row":"3","price":177},{"section":"14","row":"6","price":185},{"section":"15","row":"3","price":190},{"section":"13","row":"2","price":194},{"section":"14","row":"2","price":222}]},"54":{"id":54,"label":"Thu, Jul 30, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-30-2026/event/159262152/","listings":[{"section":"14","row":"9","price":167},{"section":"13","row":"4","price":173},{"section":"13","row":"3","price":182},{"section":"14","row":"6","price":191},{"section":"13","row":"2","price":201},{"section":"15","row":"6","price":216},{"section":"15","row":"5","price":221},{"section":"14","row":"2","price":231}]},"55":{"id":55,"label":"Fri, Jul 31, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-31-2026/event/159262153/","listings":[{"section":"14","row":"9","price":196},{"section":"13","row":"4","price":203},{"section":"13","row":"3","price":214},{"section":"15","row":"3","price":223},{"section":"14","row":"6","price":225},{"section":"13","row":"2","price":229},{"section":"14","row":"2","price":263}]},"56":{"id":56,"label":"Sat, Aug 1, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-1-2026/event/159262154/","listings":[{"section":"14","row":"9","price":211},{"section":"13","row":"4","price":218},{"section":"15","row":"3","price":227},{"section":"13","row":"3","price":229},{"section":"14","row":"6","price":240},{"section":"13","row":"2","price":247},{"section":"14","row":"2","price":282}]},"57":{"id":57,"label":"Sun, Aug 2, 2026 · 1:30PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-2-2026/event/159262155/","listings":[{"section":"14","row":"9","price":169},{"section":"13","row":"4","price":174},{"section":"13","row":"3","price":184},{"section":"15","row":"3","price":194},{"section":"14","row":"6","price":194},{"section":"13","row":"2","price":203},{"section":"14","row":"2","price":232}]},"58":{"id":58,"label":"Tue, Aug 4, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-4-2026/event/159262156/","listings":[{"section":"15","row":"3","price":138},{"section":"13","row":"3","price":139},{"section":"13","row":"2","price":153},{"section":"14","row":"2","price":178}]},"59":{"id":59,"label":"Wed, Aug 5, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-5-2026/event/159262157/","listings":[{"section":"13","row":"3","price":139},{"section":"13","row":"2","price":153},{"section":"15","row":"6","price":166},{"section":"15","row":"5","price":171},{"section":"14","row":"2","price":178},{"section":"15","row":"3","price":344}]},"60":{"id":60,"label":"Thu, Aug 6, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-6-2026/event/159262158/","listings":[{"section":"15","row":"3","price":138},{"section":"13","row":"3","price":139},{"section":"13","row":"2","price":153},{"section":"14","row":"2","price":178}]},"61":{"id":61,"label":"Mon, Aug 10, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-10-2026/event/159262159/","listings":[{"section":"14","row":"9","price":176},{"section":"13","row":"4","price":182},{"section":"13","row":"3","price":191},{"section":"14","row":"6","price":201},{"section":"15","row":"3","price":201},{"section":"13","row":"2","price":209},{"section":"14","row":"2","price":239}]},"62":{"id":62,"label":"Tue, Aug 11, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-11-2026/event/159262160/","listings":[{"section":"14","row":"9","price":184},{"section":"13","row":"4","price":190},{"section":"13","row":"3","price":200},{"section":"14","row":"6","price":210},{"section":"13","row":"2","price":220},{"section":"15","row":"6","price":237},{"section":"15","row":"5","price":243},{"section":"14","row":"2","price":252}]},"63":{"id":63,"label":"Wed, Aug 12, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-12-2026/event/159262161/","listings":[{"section":"14","row":"9","price":173},{"section":"13","row":"4","price":179},{"section":"13","row":"3","price":189},{"section":"14","row":"6","price":199},{"section":"13","row":"2","price":206},{"section":"15","row":"3","price":209},{"section":"14","row":"2","price":237}]},"64":{"id":64,"label":"Fri, Aug 14, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-14-2026/event/159262162/","listings":[{"section":"14","row":"9","price":167},{"section":"13","row":"4","price":172},{"section":"13","row":"3","price":182},{"section":"14","row":"6","price":191},{"section":"15","row":"3","price":198},{"section":"13","row":"2","price":201},{"section":"14","row":"2","price":231}]},"65":{"id":65,"label":"Sat, Aug 15, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-15-2026/event/159262163/","listings":[{"section":"14","row":"9","price":205},{"section":"13","row":"4","price":211},{"section":"13","row":"3","price":222},{"section":"15","row":"3","price":227},{"section":"14","row":"6","price":234},{"section":"13","row":"2","price":249},{"section":"14","row":"2","price":283}]},"66":{"id":66,"label":"Sun, Aug 16, 2026 · 1:30PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-16-2026/event/159262164/","listings":[{"section":"14","row":"9","price":184},{"section":"13","row":"4","price":190},{"section":"13","row":"3","price":200},{"section":"14","row":"6","price":210},{"section":"13","row":"2","price":220},{"section":"15","row":"6","price":237},{"section":"14","row":"4","price":238},{"section":"15","row":"5","price":243},{"section":"14","row":"2","price":252}]},"67":{"id":67,"label":"Tue, Aug 25, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-25-2026/event/159262165/","listings":[{"section":"14","row":"9","price":292},{"section":"13","row":"4","price":299},{"section":"13","row":"3","price":315},{"section":"14","row":"6","price":329},{"section":"14","row":"5","price":337},{"section":"13","row":"2","price":353},{"section":"15","row":"6","price":370},{"section":"15","row":"5","price":379}]},"68":{"id":68,"label":"Wed, Aug 26, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-26-2026/event/159262166/","listings":[{"section":"14","row":"9","price":283},{"section":"13","row":"4","price":292},{"section":"13","row":"3","price":307},{"section":"14","row":"6","price":320},{"section":"13","row":"2","price":321},{"section":"15","row":"6","price":361},{"section":"14","row":"2","price":364}]},"69":{"id":69,"label":"Thu, Aug 27, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-27-2026/event/159262167/","listings":[{"section":"14","row":"9","price":335},{"section":"13","row":"4","price":345},{"section":"13","row":"3","price":361},{"section":"14","row":"6","price":378},{"section":"13","row":"2","price":410},{"section":"15","row":"6","price":424},{"section":"15","row":"5","price":434},{"section":"14","row":"2","price":462}]},"70":{"id":70,"label":"Fri, Aug 28, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-28-2026/event/159262168/","listings":[{"section":"14","row":"9","price":162},{"section":"13","row":"4","price":168},{"section":"13","row":"3","price":177},{"section":"14","row":"6","price":187},{"section":"15","row":"3","price":190},{"section":"13","row":"2","price":195},{"section":"14","row":"2","price":225}]},"71":{"id":71,"label":"Sat, Aug 29, 2026 · 4:10PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-29-2026/event/159262169/","listings":[{"section":"14","row":"9","price":199},{"section":"13","row":"4","price":205},{"section":"13","row":"3","price":216},{"section":"15","row":"3","price":223},{"section":"14","row":"6","price":226},{"section":"13","row":"2","price":236},{"section":"14","row":"2","price":270}]},"72":{"id":72,"label":"Sun, Aug 30, 2026 · 1:30PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-30-2026/event/159262170/","listings":[{"section":"14","row":"9","price":177},{"section":"13","row":"4","price":183},{"section":"15","row":"3","price":190},{"section":"13","row":"3","price":193},{"section":"14","row":"6","price":203},{"section":"13","row":"2","price":211},{"section":"14","row":"4","price":238},{"section":"14","row":"2","price":242}]},"73":{"id":73,"label":"Tue, Sep 8, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-8-2026/event/159262171/","listings":[{"section":"15","row":"3","price":158},{"section":"13","row":"3","price":161},{"section":"13","row":"2","price":176},{"section":"14","row":"2","price":203}]},"74":{"id":74,"label":"Wed, Sep 9, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-9-2026/event/159262172/","listings":[{"section":"13","row":"3","price":161},{"section":"13","row":"2","price":176},{"section":"15","row":"6","price":190},{"section":"15","row":"5","price":195},{"section":"14","row":"2","price":203}]},"75":{"id":75,"label":"Thu, Sep 10, 2026 · 12:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-10-2026/event/159262173/","listings":[{"section":"15","row":"3","price":158},{"section":"13","row":"3","price":161},{"section":"13","row":"2","price":176},{"section":"14","row":"2","price":203}]},"76":{"id":76,"label":"Fri, Sep 11, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-11-2026/event/159262174/","listings":[{"section":"14","row":"9","price":207},{"section":"13","row":"4","price":214},{"section":"13","row":"3","price":225},{"section":"14","row":"6","price":236},{"section":"15","row":"3","price":241},{"section":"13","row":"2","price":245},{"section":"14","row":"2","price":281}]},"77":{"id":77,"label":"Sat, Sep 12, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-12-2026/event/159262175/","listings":[{"section":"14","row":"9","price":244},{"section":"13","row":"4","price":252},{"section":"14","row":"6","price":277},{"section":"13","row":"2","price":280},{"section":"15","row":"6","price":312},{"section":"15","row":"5","price":319},{"section":"14","row":"2","price":319},{"section":"15","row":"3","price":522}]},"78":{"id":78,"label":"Sun, Sep 13, 2026 · 1:30PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-13-2026/event/159262176/","listings":[{"section":"14","row":"9","price":223},{"section":"13","row":"4","price":229},{"section":"15","row":"3","price":238},{"section":"13","row":"3","price":242},{"section":"14","row":"6","price":254},{"section":"13","row":"2","price":264},{"section":"14","row":"2","price":301}]},"79":{"id":79,"label":"Tue, Sep 22, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-22-2026/event/159262177/","listings":[{"section":"14","row":"9","price":145},{"section":"13","row":"4","price":150},{"section":"13","row":"3","price":158},{"section":"15","row":"3","price":162},{"section":"14","row":"6","price":167},{"section":"13","row":"2","price":174},{"section":"14","row":"2","price":201}]},"80":{"id":80,"label":"Wed, Sep 23, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-23-2026/event/159262178/","listings":[{"section":"14","row":"9","price":147},{"section":"13","row":"4","price":152},{"section":"13","row":"3","price":161},{"section":"14","row":"6","price":168},{"section":"13","row":"2","price":176},{"section":"15","row":"6","price":190},{"section":"15","row":"5","price":195},{"section":"14","row":"2","price":203}]},"81":{"id":81,"label":"Thu, Sep 24, 2026 · 7:15PM","url":"https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-24-2026/event/159262179/","listings":[{"section":"14","row":"9","price":152},{"section":"13","row":"4","price":157},{"section":"13","row":"3","price":166},{"section":"14","row":"6","price":174},{"section":"13","row":"2","price":182},{"section":"15","row":"6","price":196},{"section":"15","row":"5","price":203},{"section":"14","row":"2","price":210}]}}};</script>
+</head>
+<body>
+
+<header>
+  <div class="logo-mark">ATL</div>
+  <div class="header-text">
+    <h1>Ticket Tracker</h1>
+    <p>SECTIONS 13 · 14 · 15 &nbsp;·&nbsp; TRUIST PARK</p>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="error-banner" id="errorBanner"></div>
+
+  <div class="game-selector">
+    <label>Select Game</label>
+    <div class="game-select-wrapper">
+      <select id="gameSelect" onchange="loadGame()">
+        <option value="">Loading games...</option>
+      </select>
+      <span class="select-arrow">▼</span>
+    </div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-card low">
+      <div class="stat-label">Lowest</div>
+      <div class="stat-value" id="statLow">—</div>
+    </div>
+    <div class="stat-card highlight">
+      <div class="stat-label">Avg Price</div>
+      <div class="stat-value" id="statAvg">—</div>
+    </div>
+    <div class="stat-card high">
+      <div class="stat-label">Highest</div>
+      <div class="stat-value" id="statHigh">—</div>
+    </div>
+  </div>
+
+  <div class="section-tabs">
+    <button class="tab active" onclick="filterSection('all', this)">All Sections</button>
+    <button class="tab" onclick="filterSection('13', this)">Section 13</button>
+    <button class="tab" onclick="filterSection('14', this)">Section 14</button>
+    <button class="tab" onclick="filterSection('15', this)">Section 15</button>
+  </div>
+
+  <div class="refresh-row">
+    <span class="listing-count" id="listingCount"><span class="pulse"></span>— listings</span>
+    <button class="refresh-btn" id="refreshBtn" onclick="reloadData()">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M23 4v6h-6M1 20v-6h6"/>
+        <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+      </svg>
+      Refresh
+    </button>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th onclick="sortBy('section')" id="th-section">Section</th>
+          <th onclick="sortBy('row')" id="th-row">Row</th>
+          <th onclick="sortBy('price')" id="th-price" class="sorted">Price ↓</th>
+        </tr>
+      </thead>
+      <tbody id="ticketBody">
+        <tr><td colspan="3" class="loading-state"><span class="spinner"></span>Loading listings...</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="last-updated" id="lastUpdated">Fetching data...</div>
+
+</div>
+
+<script>
+// ─── State ────────────────────────────────────────────────────────────────
+let allData = null;        // full parsed data.json
+let currentGameId = null;  // currently selected game key
+let currentSection = 'all';
+let currentSort = 'price';
+let sortDir = -1;          // -1 = descending (highest first)
+
+// ─── Boot ─────────────────────────────────────────────────────────────────
+window.addEventListener('DOMContentLoaded', () => {
+  loadData();
+});
+
+// ─── Load data.json ───────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const res = await fetch('data.json?t=' + Date.now());
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    allData = await res.json();
+    populateGameSelector();
+    hideError();
+  } catch (err) {
+    showError(
+      'Could not load data.json. Make sure the scraper has been run at least once and data.json is in the same folder as this file. ' +
+      '(<code>node scraper.js</code>)'
+    );
+    document.getElementById('ticketBody').innerHTML =
+      `<tr><td colspan="3" class="empty-state">No data available — run the scraper first.</td></tr>`;
+    document.getElementById('lastUpdated').textContent = 'No data loaded';
+  }
+}
+
+// ─── Reload (refresh button) ──────────────────────────────────────────────
+async function reloadData() {
+  const btn = document.getElementById('refreshBtn');
+  btn.classList.add('spinning');
+  btn.disabled = true;
+  await loadData();
+  setTimeout(() => {
+    btn.classList.remove('spinning');
+    btn.disabled = false;
+  }, 500);
+}
+
+// ─── Populate game dropdown ───────────────────────────────────────────────
+function populateGameSelector() {
+  if (!allData || !allData.games) return;
+
+  const sel = document.getElementById('gameSelect');
+  sel.innerHTML = '';
+
+  const gameIds = Object.keys(allData.games);
+  if (gameIds.length === 0) {
+    sel.innerHTML = '<option value="">No games found in data.json</option>';
+    return;
+  }
+
+  gameIds.forEach(id => {
+    const game = allData.games[id];
+    const opt = document.createElement('option');
+    opt.value = id;
+    opt.textContent = game.label || `Game ${id}`;
+    sel.appendChild(opt);
+  });
+
+  // Default to first game
+  currentGameId = gameIds[0];
+  sel.value = currentGameId;
+  renderTable();
+  updateStats();
+  updateLastUpdated();
+}
+
+// ─── Game select change ───────────────────────────────────────────────────
+function loadGame() {
+  currentGameId = document.getElementById('gameSelect').value;
+  renderTable();
+  updateStats();
+}
+
+// ─── Section filter ───────────────────────────────────────────────────────
+function filterSection(sec, el) {
+  currentSection = sec;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  renderTable();
+}
+
+// ─── Column sort ──────────────────────────────────────────────────────────
+function sortBy(col) {
+  if (currentSort === col) {
+    sortDir *= -1;
+  } else {
+    currentSort = col;
+    sortDir = col === 'price' ? -1 : 1;
+  }
+  document.querySelectorAll('thead th').forEach(th => {
+    th.classList.remove('sorted');
+    // Strip sort arrows
+    th.textContent = th.textContent.replace(/ [↑↓]$/, '');
+  });
+  const th = document.getElementById('th-' + col);
+  th.classList.add('sorted');
+  th.textContent += sortDir === -1 ? ' ↓' : ' ↑';
+  renderTable();
+}
+
+// ─── Render table ─────────────────────────────────────────────────────────
+function renderTable() {
+  const tbody = document.getElementById('ticketBody');
+
+  if (!allData || !currentGameId || !allData.games[currentGameId]) {
+    tbody.innerHTML = `<tr><td colspan="3" class="empty-state">No data available</td></tr>`;
+    return;
+  }
+
+  let data = [...allData.games[currentGameId].listings];
+
+  // Section filter
+  if (currentSection !== 'all') {
+    data = data.filter(t => String(t.section) === currentSection);
+  }
+
+  // Sort
+  data.sort((a, b) => {
+    if (currentSort === 'price') return (a.price - b.price) * sortDir;
+    if (currentSort === 'section') return String(a.section).localeCompare(String(b.section)) * sortDir;
+    if (currentSort === 'row') return String(a.row).localeCompare(String(b.row)) * sortDir;
+    return 0;
+  });
+
+  // Listing count
+  document.getElementById('listingCount').innerHTML =
+    `<span class="pulse"></span>${data.length} listing${data.length !== 1 ? 's' : ''}`;
+
+  if (data.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="3" class="empty-state">No listings found in this section</td></tr>`;
+    return;
+  }
+
+  // Price tier thresholds for color coding
+  const prices = data.map(t => t.price);
+  const maxP = Math.max(...prices);
+  const minP = Math.min(...prices);
+  const range = maxP - minP;
+  const highThresh = minP + range * 0.66;
+  const midThresh  = minP + range * 0.33;
+
+  tbody.innerHTML = data.map(t => {
+    const cls = t.price >= highThresh ? 'price-top' : t.price >= midThresh ? 'price-mid' : 'price-low';
+    const sec = String(t.section);
+    return `<tr>
+      <td><span class="section-badge sec-${sec}">${sec}</span></td>
+      <td><span class="row-label">Row ${t.row}</span></td>
+      <td class="price-cell"><span class="${cls}">$${t.price.toFixed(0)}</span><span class="price-per">/ea</span></td>
+    </tr>`;
+  }).join('');
+}
+
+// ─── Stats row ────────────────────────────────────────────────────────────
+function updateStats() {
+  if (!allData || !currentGameId || !allData.games[currentGameId]) return;
+
+  const listings = allData.games[currentGameId].listings;
+  if (!listings || listings.length === 0) {
+    document.getElementById('statLow').textContent = '—';
+    document.getElementById('statAvg').textContent = '—';
+    document.getElementById('statHigh').textContent = '—';
+    return;
+  }
+
+  const prices = listings.map(t => t.price);
+  const low  = Math.min(...prices);
+  const high = Math.max(...prices);
+  const avg  = Math.round(prices.reduce((a, b) => a + b, 0) / prices.length);
+
+  document.getElementById('statLow').textContent  = '$' + low;
+  document.getElementById('statAvg').textContent  = '$' + avg;
+  document.getElementById('statHigh').textContent = '$' + high;
+}
+
+// ─── Last updated ─────────────────────────────────────────────────────────
+function updateLastUpdated() {
+  if (!allData || !allData.lastUpdated) return;
+  const d = new Date(allData.lastUpdated);
+  const formatted = d.toLocaleString('en-US', {
+    month: 'short', day: 'numeric',
+    hour: 'numeric', minute: '2-digit', hour12: true
+  });
+  document.getElementById('lastUpdated').textContent = 'Last updated: ' + formatted;
+}
+
+// ─── Error display ────────────────────────────────────────────────────────
+function showError(msg) {
+  const el = document.getElementById('errorBanner');
+  el.innerHTML = '⚠️ ' + msg;
+  el.style.display = 'block';
+}
+
+function hideError() {
+  document.getElementById('errorBanner').style.display = 'none';
+}
+</script>
+</body>
+</html>
