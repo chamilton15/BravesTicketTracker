@@ -8,9 +8,10 @@ const path = require('path');
 
 const TARGET_SECTIONS = ['13', '14', '15'];
 const OUTPUT_FILE = path.join(process.cwd(), 'data.json');
-const HTML_FILE = path.join(process.cwd(), 'braves-ticket-tracker.html');
+const HTML_FILE = path.join(process.cwd(), 'index.html');
 const BRAVES_BASE_URL = 'https://www.stubhub.com/atlanta-braves-tickets/category/138303219';
 const SECTION_PARAMS = 'quantity=1&sections=1711036%2C1711037%2C1711035&ticketClasses=3824';
+const TOTAL_PAGES = 14;
 
 function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
@@ -28,42 +29,34 @@ function labelFromUrl(url) {
   } catch { return url; }
 }
 
-// Load all games by clicking "See more" until all 81 are loaded
+// Hit each paginated page directly via URL
 async function getHomeGameUrls(page) {
-  console.log('Fetching all Braves home games (clicking See more until all loaded)...');
+  console.log('Fetching upcoming Braves home games across ' + TOTAL_PAGES + ' pages...');
+  const allUrls = new Set();
 
-  await page.goto(BRAVES_BASE_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
-  await sleep(4000);
+  for (let p = 1; p <= TOTAL_PAGES; p++) {
+    const pageUrl = BRAVES_BASE_URL + '?primaryPage=' + p;
+    try {
+      await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 60000 });
+      await sleep(3000);
 
-  // Click "See more" up to 30 times until no more button appears
-  let clicks = 0;
-  while (clicks < 30) {
-    const clicked = await page.evaluate(() => {
-      const btn = Array.from(document.querySelectorAll('button'))
-        .find(b => b.innerText.trim() === 'See more');
-      if (btn) { btn.click(); return true; }
-      return false;
-    });
-    if (!clicked) break;
-    clicks++;
-    await sleep(2000);
-    const count = await page.evaluate(() =>
-      document.querySelectorAll('a[href*="atlanta-braves-atlanta-tickets"]').length
-    );
-    console.log('  After click ' + clicks + ': ' + count + ' Braves games loaded');
+      const urls = await page.evaluate(() =>
+        Array.from(document.querySelectorAll('a[href*="-atlanta-tickets-"]'))
+          .map(a => a.href.split('?')[0])
+          .filter(h => h.includes('stubhub.com') && /\/event\/\d+\/?$/.test(h))
+      );
+
+      urls.forEach(u => allUrls.add(u));
+      console.log('  Page ' + p + ': ' + urls.length + ' games (total so far: ' + allUrls.size + ')');
+    } catch (err) {
+      console.log('  Page ' + p + ' failed: ' + err.message);
+    }
+    await sleep(1000);
   }
 
-  // Grab all Braves game URLs
-  const urls = await page.evaluate(() =>
-    [...new Set(
-      Array.from(document.querySelectorAll('a[href*="atlanta-braves-atlanta-tickets"]'))
-        .map(a => a.href.split('?')[0])
-        .filter(h => /\/event\/\d+\/?$/.test(h))
-    )]
-  );
-
-  console.log('  Total unique Braves home games: ' + urls.length);
-  return urls;
+  const unique = [...allUrls];
+  console.log('  Total unique Atlanta home games: ' + unique.length);
+  return unique;
 }
 
 // Scrape listings for one game
@@ -124,7 +117,6 @@ async function scrapeGameListings(page, gameUrl) {
         }
 
         if (!price) continue;
-        if (row === '?') continue;
         results.push({ section, row, price });
       }
       return results;
