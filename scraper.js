@@ -9,9 +9,8 @@ const path = require('path');
 const TARGET_SECTIONS = ['13', '14', '15'];
 const OUTPUT_FILE = path.join(process.cwd(), 'data.json');
 const HTML_FILE = path.join(process.cwd(), 'index.html');
-const BRAVES_BASE_URL = 'https://www.stubhub.com/atlanta-braves-tickets/category/138303219';
-const SECTION_PARAMS = 'quantity=1&sections=1711036%2C1711037%2C1711035&ticketClasses=3824';
-const TOTAL_PAGES = 14;
+const BRAVES_BASE_URL = 'https://www.stubhub.com/atlanta-braves-tickets/category/138303219/atlanta-city/392';
+const SECTION_PARAMS = 'quantity=2&sections=1711036%2C1711037%2C1711035&ticketClasses=3824';
 
 function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
@@ -29,34 +28,50 @@ function labelFromUrl(url) {
   } catch { return url; }
 }
 
-// Hit each paginated page directly via URL
+// Load all Atlanta home games by clicking through numbered pagination
 async function getHomeGameUrls(page) {
-  console.log('Fetching upcoming Braves home games across ' + TOTAL_PAGES + ' pages...');
+  console.log('Fetching all Braves Atlanta home games...');
   const allUrls = new Set();
 
-  for (let p = 1; p <= TOTAL_PAGES; p++) {
-    const pageUrl = BRAVES_BASE_URL + '?primaryPage=' + p;
-    try {
-      await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 60000 });
+  await page.goto(BRAVES_BASE_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
+  await sleep(4000);
+
+  const totalPages = await page.evaluate(() => {
+    const btns = Array.from(document.querySelectorAll('button'));
+    const pageNums = btns
+      .map(b => parseInt(b.innerText.trim()))
+      .filter(n => !isNaN(n) && n > 0);
+    return pageNums.length > 0 ? Math.max(...pageNums) : 1;
+  });
+  console.log('  Total pages: ' + totalPages);
+
+  for (let p = 1; p <= totalPages; p++) {
+    const urls = await page.evaluate(() =>
+      Array.from(document.querySelectorAll('a[href*="atlanta-braves-atlanta-tickets"]'))
+        .map(a => a.href.split('?')[0])
+        .filter(h => /\/event\/\d+\/?$/.test(h))
+    );
+    urls.forEach(u => allUrls.add(u));
+    console.log('  Page ' + p + ': ' + urls.length + ' games (total so far: ' + allUrls.size + ')');
+
+    if (p < totalPages) {
+      const next = p + 1;
+      const clicked = await page.evaluate((nextPage) => {
+        const btn = Array.from(document.querySelectorAll('button'))
+          .find(b => b.innerText.trim() === String(nextPage));
+        if (btn) { btn.click(); return true; }
+        return false;
+      }, next);
+      if (!clicked) {
+        console.log('  Could not find button for page ' + next + ', stopping');
+        break;
+      }
       await sleep(3000);
-
-      const urls = await page.evaluate(() =>
-        Array.from(document.querySelectorAll('a[href*="-atlanta-tickets-"]'))
-          .map(a => a.href.split('?')[0])
-          .filter(h => h.includes('stubhub.com') && /\/event\/\d+\/?$/.test(h))
-      );
-
-      urls.forEach(u => allUrls.add(u));
-      console.log('  Page ' + p + ': ' + urls.length + ' games (total so far: ' + allUrls.size + ')');
-    } catch (err) {
-      console.log('  Page ' + p + ' failed: ' + err.message);
     }
-    await sleep(1000);
   }
 
-  const unique = [...allUrls];
-  console.log('  Total unique Atlanta home games: ' + unique.length);
-  return unique;
+  console.log('  Total unique Braves home games: ' + allUrls.size);
+  return [...allUrls];
 }
 
 // Scrape listings for one game
@@ -91,7 +106,9 @@ async function scrapeGameListings(page, gameUrl) {
 
     const listings = await page.evaluate((targetSections) => {
       const results = [];
-      const lines = document.body.innerText
+      const container = document.querySelector('[data-testid="listings-container"]');
+      if (!container) return results;
+      const lines = container.innerText
         .split('\n')
         .map(l => l.trim())
         .filter(Boolean);
@@ -107,16 +124,25 @@ async function scrapeGameListings(page, gameUrl) {
         const rowMatch = rowLine.match(/^Row\s+([A-Z0-9]+)/i);
         const row = rowMatch ? rowMatch[1].toUpperCase() : '?';
 
-        // Collect ALL prices in next 10 lines, take the LAST one.
-        // StubHub shows strikethrough (original) price first, sale price last.
+        // Parse price - handle "Now" sale pattern: $324 / Now / $254
+        // Skip the strikethrough price if followed by "Now", take the next price
         let price = null;
         for (let j = i + 1; j < Math.min(i + 11, lines.length); j++) {
           if (j > i + 1 && lines[j].match(/^Section\s+\d+$/)) break;
           const priceMatch = lines[j].match(/^\$(\d+(?:\.\d{2})?)$/);
-          if (priceMatch) { price = parseFloat(priceMatch[1]); }
+          if (priceMatch) {
+            const nextLine = lines[j + 1] || '';
+            if (nextLine === 'Now') {
+              // This is the strikethrough price, skip it and take the one after Now
+              continue;
+            }
+            price = parseFloat(priceMatch[1]);
+            break;
+          }
         }
 
         if (!price) continue;
+        if (row === '?') continue;
         results.push({ section, row, price });
       }
       return results;
