@@ -166,13 +166,24 @@ async function scrapeGameListings(page, gameUrl) {
   }
 }
 
-async function getGameTime(page) {
+async function getGameInfo(page) {
   try {
     return await page.evaluate(() => {
-      const m = document.body.innerText.match(/\d{1,2}:\d{2}\s*[AP]M/i);
-      return m ? m[0] : '';
+      const timeMatch = document.body.innerText.match(/\d{1,2}:\d{2}\s*[AP]M/i);
+      const time = timeMatch ? timeMatch[0] : '';
+
+      const header = document.querySelector('[data-testid="event-detail-header"]');
+      let opponent = '';
+      if (header) {
+        const lines = header.innerText.split('\n').map(l => l.trim()).filter(Boolean);
+        if (lines.length >= 3 && lines[1] === '@') {
+          opponent = lines[0];
+        }
+      }
+
+      return { time, opponent };
     });
-  } catch { return ''; }
+  } catch { return { time: '', opponent: '' }; }
 }
 
 // Inject data directly into the HTML file so it works when opened as a local file
@@ -245,9 +256,10 @@ async function main() {
     let gameId = 1;
     for (const url of upcomingUrls) {
       const listings = await scrapeGameListings(page, url);
-      const time = await getGameTime(page);
+      const { time, opponent } = await getGameInfo(page);
       const baseLabel = labelFromUrl(url);
-      const label = time ? baseLabel + ' · ' + time : baseLabel;
+      const dateTime = time ? baseLabel + ' · ' + time : baseLabel;
+      const label = opponent ? dateTime + ' · vs ' + opponent : dateTime;
       output.games[gameId] = { id: gameId, label, url, listings };
       gameId++;
       await sleep(1500);
