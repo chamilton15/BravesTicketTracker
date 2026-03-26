@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25T05:53:51.152Z",
+  "lastUpdated": "2026-03-26T06:05:18.690Z",
   "sections": [
     "13",
     "14",
@@ -13,63 +13,68 @@
       "listings": [
         {
           "section": "13",
-          "row": "13",
-          "price": 206
-        },
-        {
-          "section": "13",
-          "row": "12",
-          "price": 210
-        },
-        {
-          "section": "13",
-          "row": "8",
-          "price": 228
-        },
-        {
-          "section": "14",
-          "row": "12",
-          "price": 247
-        },
-        {
-          "section": "13",
           "row": "6",
-          "price": 256
-        },
-        {
-          "section": "14",
-          "row": "8",
-          "price": 276
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 313
-        },
-        {
-          "section": "14",
-          "row": "4",
-          "price": 321
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 330
+          "price": 215
         },
         {
           "section": "15",
           "row": "3",
-          "price": 354
+          "price": 301
+        },
+        {
+          "section": "13",
+          "row": "12",
+          "price": 176
+        },
+        {
+          "section": "13",
+          "row": "11",
+          "price": 180
+        },
+        {
+          "section": "13",
+          "row": "13",
+          "price": 172
         },
         {
           "section": "14",
+          "row": "12",
+          "price": 207
+        },
+        {
+          "section": "13",
+          "row": "4",
+          "price": 234
+        },
+        {
+          "section": "14",
+          "row": "8",
+          "price": 232
+        },
+        {
+          "section": "13",
           "row": "3",
-          "price": 373
+          "price": 247
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 265
+        },
+        {
+          "section": "14",
+          "row": "4",
+          "price": 272
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 277
         },
         {
           "section": "14",
           "row": "2",
-          "price": 374
+          "price": 315
         }
       ]
     },
@@ -79,39 +84,39 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-3-28-2026/event/159262100/",
       "listings": [
         {
-          "section": "13",
-          "row": "5",
-          "price": 193
+          "section": "15",
+          "row": "7",
+          "price": 176
         },
         {
           "section": "13",
           "row": "3",
-          "price": 210
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 220
+          "price": 173
         },
         {
           "section": "13",
           "row": "2",
-          "price": 229
+          "price": 185
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 182
         },
         {
           "section": "14",
           "row": "4",
-          "price": 232
+          "price": 193
         },
         {
           "section": "14",
           "row": "2",
-          "price": 263
+          "price": 214
         },
         {
           "section": "15",
           "row": "4",
-          "price": 317
+          "price": 313
         }
       ]
     },
@@ -121,34 +126,44 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-3-29-2026/event/159262101/",
       "listings": [
         {
-          "section": "13",
-          "row": "3",
-          "price": 168
-        },
-        {
           "section": "14",
           "row": "5",
-          "price": 183
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 183
-        },
-        {
-          "section": "15",
-          "row": "8",
-          "price": 208
+          "price": 161
         },
         {
           "section": "14",
           "row": "2",
-          "price": 210
+          "price": 189
         },
         {
           "section": "14",
           "row": "1",
-          "price": 226
+          "price": 203
+        },
+        {
+          "section": "14",
+          "row": "12",
+          "price": 123
+        },
+        {
+          "section": "13",
+          "row": "6",
+          "price": 140
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 147
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 163
+        },
+        {
+          "section": "15",
+          "row": "8",
+          "price": 192
         },
         {
           "section": "15",
@@ -165,12 +180,17 @@
         {
           "section": "13",
           "row": "3",
-          "price": 96
+          "price": 103
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 140
         },
         {
           "section": "14",
-          "row": "5",
-          "price": 122
+          "row": "2",
+          "price": 133
         },
         {
           "section": "14",
@@ -179,23 +199,13 @@
         },
         {
           "section": "14",
-          "row": "9",
-          "price": 122
+          "row": "5",
+          "price": 127
         },
         {
           "section": "14",
-          "row": "2",
-          "price": 124
-        },
-        {
-          "section": "15",
-          "row": "8",
-          "price": 126
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 140
+          "row": "9",
+          "price": 122
         }
       ]
     },
@@ -207,22 +217,27 @@
         {
           "section": "13",
           "row": "4",
-          "price": 104
+          "price": 107
         },
         {
           "section": "13",
           "row": "3",
-          "price": 111
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 144
+          "price": 113
         },
         {
           "section": "15",
           "row": "2",
-          "price": 151
+          "price": 155
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 147
+        },
+        {
+          "section": "14",
+          "row": "7",
+          "price": 146
         }
       ]
     },
@@ -232,39 +247,39 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-1-2026/event/159262104/",
       "listings": [
         {
+          "section": "15",
+          "row": "4",
+          "price": 97
+        },
+        {
           "section": "14",
           "row": "7",
-          "price": 95
+          "price": 94
         },
         {
           "section": "15",
-          "row": "5",
-          "price": 109
+          "row": "3",
+          "price": 104
         },
         {
           "section": "14",
           "row": "2",
-          "price": 117
-        },
-        {
-          "section": "15",
-          "row": "4",
-          "price": 133
-        },
-        {
-          "section": "13",
-          "row": "4",
-          "price": 186
-        },
-        {
-          "section": "13",
-          "row": "5",
-          "price": 186
+          "price": 129
         },
         {
           "section": "13",
           "row": "13",
-          "price": 186
+          "price": 187
+        },
+        {
+          "section": "13",
+          "row": "4",
+          "price": 187
+        },
+        {
+          "section": "13",
+          "row": "5",
+          "price": 187
         }
       ]
     },
@@ -274,19 +289,19 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-10-2026/event/159262105/",
       "listings": [
         {
-          "section": "13",
-          "row": "3",
-          "price": 195
-        },
-        {
           "section": "14",
           "row": "5",
-          "price": 211
+          "price": 207
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 193
         },
         {
           "section": "13",
           "row": "2",
-          "price": 215
+          "price": 212
         },
         {
           "section": "14",
@@ -296,17 +311,17 @@
         {
           "section": "15",
           "row": "6",
-          "price": 231
+          "price": 227
         },
         {
           "section": "14",
           "row": "2",
-          "price": 247
+          "price": 243
         },
         {
           "section": "15",
           "row": "2",
-          "price": 256
+          "price": 253
         }
       ]
     },
@@ -318,42 +333,37 @@
         {
           "section": "13",
           "row": "5",
-          "price": 165
+          "price": 171
         },
         {
           "section": "13",
           "row": "4",
-          "price": 169
-        },
-        {
-          "section": "14",
-          "row": "7",
-          "price": 186
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 188
+          "price": 176
         },
         {
           "section": "13",
           "row": "2",
-          "price": 191
+          "price": 198
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 200
         },
         {
           "section": "14",
           "row": "4",
-          "price": 199
+          "price": 206
         },
         {
           "section": "14",
           "row": "2",
-          "price": 220
+          "price": 227
         },
         {
           "section": "14",
           "row": "1",
-          "price": 236
+          "price": 243
         },
         {
           "section": "15",
@@ -368,34 +378,34 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-12-2026/event/159262107/",
       "listings": [
         {
-          "section": "14",
-          "row": "6",
-          "price": 116
-        },
-        {
           "section": "13",
           "row": "2",
-          "price": 117
+          "price": 118
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 114
         },
         {
           "section": "15",
           "row": "8",
-          "price": 122
+          "price": 119
         },
         {
           "section": "13",
           "row": "1",
-          "price": 127
+          "price": 128
         },
         {
           "section": "15",
           "row": "6",
-          "price": 130
+          "price": 129
         },
         {
           "section": "15",
           "row": "5",
-          "price": 134
+          "price": 133
         },
         {
           "section": "14",
@@ -405,12 +415,17 @@
         {
           "section": "15",
           "row": "2",
-          "price": 142
+          "price": 144
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 144
         },
         {
           "section": "14",
           "row": "1",
-          "price": 146
+          "price": 147
         }
       ]
     },
@@ -425,34 +440,34 @@
           "price": 92
         },
         {
-          "section": "15",
-          "row": "8",
-          "price": 96
-        },
-        {
           "section": "13",
           "row": "2",
           "price": 98
         },
         {
           "section": "15",
+          "row": "8",
+          "price": 96
+        },
+        {
+          "section": "15",
           "row": "6",
-          "price": 100
+          "price": 101
         },
         {
           "section": "13",
           "row": "1",
-          "price": 107
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 114
+          "price": 108
         },
         {
           "section": "15",
           "row": "3",
           "price": 115
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 116
         },
         {
           "section": "15",
@@ -462,7 +477,7 @@
         {
           "section": "14",
           "row": "1",
-          "price": 124
+          "price": 125
         }
       ]
     },
@@ -487,14 +502,14 @@
           "price": 115
         },
         {
-          "section": "13",
-          "row": "1",
-          "price": 127
-        },
-        {
           "section": "14",
           "row": "2",
           "price": 135
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 127
         },
         {
           "section": "15",
@@ -514,24 +529,9 @@
           "price": 78
         },
         {
-          "section": "13",
-          "row": "3",
-          "price": 92
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 97
-        },
-        {
           "section": "15",
           "row": "6",
-          "price": 101
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 107
+          "price": 100
         },
         {
           "section": "15",
@@ -539,19 +539,34 @@
           "price": 109
         },
         {
-          "section": "14",
-          "row": "2",
-          "price": 114
-        },
-        {
           "section": "15",
           "row": "2",
           "price": 119
         },
         {
+          "section": "13",
+          "row": "3",
+          "price": 91
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 97
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 106
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 113
+        },
+        {
           "section": "14",
           "row": "1",
-          "price": 124
+          "price": 123
         }
       ]
     },
@@ -561,49 +576,44 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-24-2026/event/159262111/",
       "listings": [
         {
-          "section": "15",
-          "row": "8",
-          "price": 215
-        },
-        {
-          "section": "14",
-          "row": "10",
-          "price": 218
-        },
-        {
           "section": "14",
           "row": "3",
           "price": 235
         },
         {
+          "section": "15",
+          "row": "8",
+          "price": 222
+        },
+        {
           "section": "13",
           "row": "4",
-          "price": 238
+          "price": 249
         },
         {
           "section": "13",
           "row": "3",
-          "price": 250
+          "price": 261
+        },
+        {
+          "section": "14",
+          "row": "10",
+          "price": 229
         },
         {
           "section": "13",
           "row": "2",
-          "price": 274
+          "price": 291
         },
         {
           "section": "15",
           "row": "6",
-          "price": 296
+          "price": 308
         },
         {
           "section": "14",
           "row": "2",
-          "price": 312
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 324
+          "price": 331
         }
       ]
     },
@@ -613,49 +623,54 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-25-2026/event/159262112/",
       "listings": [
         {
+          "section": "15",
+          "row": "2",
+          "price": 303
+        },
+        {
           "section": "14",
           "row": "10",
-          "price": 200
+          "price": 205
         },
         {
           "section": "13",
           "row": "4",
-          "price": 217
+          "price": 223
         },
         {
           "section": "13",
           "row": "3",
-          "price": 229
+          "price": 236
         },
         {
           "section": "14",
           "row": "6",
-          "price": 240
+          "price": 247
         },
         {
           "section": "13",
           "row": "2",
-          "price": 247
+          "price": 255
         },
         {
           "section": "15",
           "row": "5",
+          "price": 259
+        },
+        {
+          "section": "15",
+          "row": "8",
           "price": 253
         },
         {
           "section": "14",
           "row": "4",
-          "price": 254
+          "price": 260
         },
         {
           "section": "14",
           "row": "2",
-          "price": 282
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 293
+          "price": 291
         }
       ]
     },
@@ -667,32 +682,32 @@
         {
           "section": "13",
           "row": "3",
-          "price": 184
-        },
-        {
-          "section": "15",
-          "row": "8",
           "price": 190
         },
         {
-          "section": "14",
-          "row": "6",
-          "price": 194
-        },
-        {
           "section": "15",
           "row": "6",
-          "price": 198
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 201
+          "price": 205
         },
         {
           "section": "15",
           "row": "5",
-          "price": 204
+          "price": 211
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 200
+        },
+        {
+          "section": "15",
+          "row": "8",
+          "price": 202
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 209
         },
         {
           "section": "14",
@@ -702,27 +717,27 @@
         {
           "section": "13",
           "row": "1",
-          "price": 217
+          "price": 226
         },
         {
           "section": "15",
           "row": "3",
-          "price": 227
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 232
-        },
-        {
-          "section": "15",
-          "row": "2",
           "price": 240
         },
         {
           "section": "14",
+          "row": "2",
+          "price": 239
+        },
+        {
+          "section": "15",
+          "row": "2",
+          "price": 249
+        },
+        {
+          "section": "14",
           "row": "1",
-          "price": 248
+          "price": 256
         }
       ]
     },
@@ -731,6 +746,11 @@
       "label": "Tue, Apr 28, 2026 · 7:15 PM · vs Tigers",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-28-2026/event/159262114/",
       "listings": [
+        {
+          "section": "14",
+          "row": "2",
+          "price": 160
+        },
         {
           "section": "14",
           "row": "7",
@@ -757,19 +777,14 @@
           "price": 151
         },
         {
-          "section": "14",
+          "section": "15",
           "row": "2",
-          "price": 160
+          "price": 167
         },
         {
           "section": "15",
           "row": "3",
           "price": 166
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 167
         },
         {
           "section": "14",
@@ -841,39 +856,39 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-30-2026/event/159262116/",
       "listings": [
         {
+          "section": "15",
+          "row": "3",
+          "price": 177
+        },
+        {
           "section": "13",
           "row": "3",
-          "price": 134
+          "price": 131
         },
         {
           "section": "14",
           "row": "6",
-          "price": 141
+          "price": 139
         },
         {
           "section": "13",
           "row": "2",
-          "price": 144
+          "price": 145
         },
         {
           "section": "14",
           "row": "5",
-          "price": 146
+          "price": 144
         },
         {
           "section": "13",
           "row": "1",
-          "price": 156
+          "price": 157
         },
         {
           "section": "14",
           "row": "2",
-          "price": 166
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 173
+          "price": 167
         },
         {
           "section": "14",
@@ -893,14 +908,14 @@
           "price": 162
         },
         {
-          "section": "14",
-          "row": "6",
-          "price": 172
-        },
-        {
           "section": "15",
           "row": "5",
           "price": 180
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 172
         },
         {
           "section": "13",
@@ -937,12 +952,12 @@
         {
           "section": "13",
           "row": "3",
-          "price": 176
+          "price": 177
         },
         {
           "section": "14",
           "row": "6",
-          "price": 184
+          "price": 185
         },
         {
           "section": "13",
@@ -951,13 +966,13 @@
         },
         {
           "section": "15",
-          "row": "8",
-          "price": 207
+          "row": "5",
+          "price": 215
         },
         {
           "section": "15",
-          "row": "5",
-          "price": 214
+          "row": "8",
+          "price": 207
         },
         {
           "section": "15",
@@ -979,7 +994,17 @@
         {
           "section": "13",
           "row": "3",
-          "price": 177
+          "price": 176
+        },
+        {
+          "section": "15",
+          "row": "5",
+          "price": 195
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 190
         },
         {
           "section": "14",
@@ -987,24 +1012,9 @@
           "price": 185
         },
         {
-          "section": "14",
-          "row": "5",
-          "price": 191
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 196
-        },
-        {
           "section": "13",
           "row": "2",
           "price": 201
-        },
-        {
-          "section": "14",
-          "row": "3",
-          "price": 217
         },
         {
           "section": "15",
@@ -1013,13 +1023,18 @@
         },
         {
           "section": "14",
-          "row": "2",
-          "price": 231
+          "row": "3",
+          "price": 217
         },
         {
           "section": "15",
           "row": "2",
-          "price": 240
+          "price": 242
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 232
         }
       ]
     },
@@ -1029,14 +1044,19 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-15-2026/event/159262120/",
       "listings": [
         {
+          "section": "14",
+          "row": "6",
+          "price": 281
+        },
+        {
           "section": "13",
           "row": "10",
-          "price": 204
+          "price": 201
         },
         {
           "section": "13",
           "row": "3",
-          "price": 271
+          "price": 267
         },
         {
           "section": "15",
@@ -1044,19 +1064,14 @@
           "price": 283
         },
         {
-          "section": "14",
-          "row": "6",
-          "price": 285
-        },
-        {
           "section": "15",
           "row": "5",
-          "price": 298
+          "price": 294
         },
         {
           "section": "13",
           "row": "2",
-          "price": 299
+          "price": 298
         },
         {
           "section": "14",
@@ -1071,12 +1086,12 @@
         {
           "section": "14",
           "row": "2",
-          "price": 340
+          "price": 339
         },
         {
           "section": "14",
           "row": "1",
-          "price": 363
+          "price": 361
         }
       ]
     },
@@ -1086,19 +1101,24 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-16-2026/event/159262121/",
       "listings": [
         {
+          "section": "15",
+          "row": "2",
+          "price": 418
+        },
+        {
           "section": "13",
           "row": "10",
-          "price": 255
+          "price": 250
         },
         {
           "section": "14",
           "row": "10",
-          "price": 297
+          "price": 291
         },
         {
           "section": "13",
           "row": "5",
-          "price": 313
+          "price": 307
         },
         {
           "section": "15",
@@ -1108,7 +1128,7 @@
         {
           "section": "13",
           "row": "3",
-          "price": 337
+          "price": 330
         },
         {
           "section": "14",
@@ -1116,9 +1136,9 @@
           "price": 349
         },
         {
-          "section": "13",
-          "row": "2",
-          "price": 363
+          "section": "14",
+          "row": "6",
+          "price": 346
         },
         {
           "section": "15",
@@ -1126,19 +1146,19 @@
           "price": 365
         },
         {
-          "section": "14",
+          "section": "13",
           "row": "2",
-          "price": 411
+          "price": 356
         },
         {
-          "section": "15",
+          "section": "14",
           "row": "2",
-          "price": 426
+          "price": 403
         },
         {
           "section": "14",
           "row": "1",
-          "price": 437
+          "price": 428
         }
       ]
     },
@@ -1168,14 +1188,14 @@
           "price": 252
         },
         {
-          "section": "15",
-          "row": "6",
-          "price": 283
-        },
-        {
           "section": "13",
           "row": "1",
           "price": 285
+        },
+        {
+          "section": "15",
+          "row": "6",
+          "price": 283
         },
         {
           "section": "15",
@@ -1205,34 +1225,24 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-22-2026/event/159262123/",
       "listings": [
         {
-          "section": "13",
-          "row": "10",
-          "price": 144
-        },
-        {
           "section": "14",
           "row": "10",
-          "price": 169
+          "price": 178
+        },
+        {
+          "section": "13",
+          "row": "10",
+          "price": 151
         },
         {
           "section": "13",
           "row": "3",
-          "price": 195
+          "price": 204
         },
         {
           "section": "15",
           "row": "8",
           "price": 203
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 211
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 211
         },
         {
           "section": "15",
@@ -1241,23 +1251,33 @@
         },
         {
           "section": "13",
-          "row": "1",
-          "price": 228
+          "row": "2",
+          "price": 220
         },
         {
           "section": "14",
-          "row": "2",
-          "price": 242
+          "row": "5",
+          "price": 221
         },
         {
-          "section": "15",
+          "section": "13",
+          "row": "1",
+          "price": 237
+        },
+        {
+          "section": "14",
           "row": "2",
           "price": 252
         },
         {
+          "section": "15",
+          "row": "2",
+          "price": 261
+        },
+        {
           "section": "14",
           "row": "1",
-          "price": 259
+          "price": 269
         }
       ]
     },
@@ -1269,17 +1289,22 @@
         {
           "section": "13",
           "row": "5",
-          "price": 206
+          "price": 205
         },
         {
           "section": "13",
           "row": "3",
-          "price": 225
+          "price": 222
         },
         {
           "section": "14",
           "row": "6",
-          "price": 236
+          "price": 233
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 243
         },
         {
           "section": "15",
@@ -1287,24 +1312,14 @@
           "price": 240
         },
         {
-          "section": "13",
-          "row": "2",
-          "price": 245
-        },
-        {
           "section": "15",
           "row": "6",
-          "price": 265
+          "price": 263
         },
         {
           "section": "15",
           "row": "5",
-          "price": 271
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 280
+          "price": 270
         },
         {
           "section": "15",
@@ -1312,14 +1327,19 @@
           "price": 280
         },
         {
+          "section": "14",
+          "row": "2",
+          "price": 277
+        },
+        {
           "section": "15",
           "row": "2",
-          "price": 291
+          "price": 288
         },
         {
           "section": "14",
           "row": "1",
-          "price": 299
+          "price": 297
         }
       ]
     },
@@ -1339,6 +1359,11 @@
           "price": 196
         },
         {
+          "section": "13",
+          "row": "2",
+          "price": 210
+        },
+        {
           "section": "14",
           "row": "6",
           "price": 207
@@ -1349,34 +1374,29 @@
           "price": 208
         },
         {
-          "section": "13",
-          "row": "2",
-          "price": 211
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 228
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 230
         },
         {
+          "section": "13",
+          "row": "1",
+          "price": 227
+        },
+        {
           "section": "14",
           "row": "2",
-          "price": 242
+          "price": 240
         },
         {
           "section": "15",
           "row": "2",
-          "price": 252
+          "price": 250
         },
         {
           "section": "14",
           "row": "1",
-          "price": 259
+          "price": 258
         }
       ]
     },
@@ -1450,7 +1470,7 @@
         {
           "section": "13",
           "row": "2",
-          "price": 198
+          "price": 199
         },
         {
           "section": "14",
@@ -1460,22 +1480,22 @@
         {
           "section": "13",
           "row": "1",
-          "price": 214
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 227
+          "price": 215
         },
         {
           "section": "15",
           "row": "2",
-          "price": 237
+          "price": 238
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 228
         },
         {
           "section": "14",
           "row": "1",
-          "price": 243
+          "price": 244
         }
       ]
     },
@@ -1505,14 +1525,14 @@
           "price": 214
         },
         {
-          "section": "14",
-          "row": "2",
-          "price": 227
-        },
-        {
           "section": "15",
           "row": "2",
           "price": 237
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 227
         },
         {
           "section": "14",
@@ -1529,22 +1549,12 @@
         {
           "section": "13",
           "row": "10",
-          "price": 146
+          "price": 153
         },
         {
           "section": "14",
           "row": "10",
-          "price": 173
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 199
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 209
+          "price": 180
         },
         {
           "section": "14",
@@ -1552,14 +1562,19 @@
           "price": 212
         },
         {
+          "section": "13",
+          "row": "3",
+          "price": 207
+        },
+        {
           "section": "15",
           "row": "5",
-          "price": 220
+          "price": 229
         },
         {
           "section": "13",
           "row": "2",
-          "price": 222
+          "price": 232
         },
         {
           "section": "15",
@@ -1567,24 +1582,24 @@
           "price": 244
         },
         {
-          "section": "14",
-          "row": "2",
-          "price": 254
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 255
         },
         {
-          "section": "15",
+          "section": "14",
           "row": "2",
           "price": 265
         },
         {
+          "section": "15",
+          "row": "2",
+          "price": 275
+        },
+        {
           "section": "14",
           "row": "1",
-          "price": 272
+          "price": 283
         }
       ]
     },
@@ -1609,14 +1624,14 @@
           "price": 247
         },
         {
-          "section": "14",
-          "row": "6",
-          "price": 259
-        },
-        {
           "section": "13",
           "row": "2",
           "price": 260
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 259
         },
         {
           "section": "13",
@@ -1708,9 +1723,9 @@
           "price": 174
         },
         {
-          "section": "14",
-          "row": "6",
-          "price": 183
+          "section": "15",
+          "row": "3",
+          "price": 194
         },
         {
           "section": "13",
@@ -1718,9 +1733,9 @@
           "price": 185
         },
         {
-          "section": "15",
-          "row": "3",
-          "price": 194
+          "section": "14",
+          "row": "6",
+          "price": 183
         },
         {
           "section": "13",
@@ -1755,6 +1770,11 @@
           "price": 162
         },
         {
+          "section": "15",
+          "row": "3",
+          "price": 190
+        },
+        {
           "section": "14",
           "row": "6",
           "price": 171
@@ -1763,11 +1783,6 @@
           "section": "13",
           "row": "2",
           "price": 178
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 190
         },
         {
           "section": "13",
@@ -1846,12 +1861,7 @@
         {
           "section": "13",
           "row": "10",
-          "price": 177
-        },
-        {
-          "section": "14",
-          "row": "10",
-          "price": 206
+          "price": 180
         },
         {
           "section": "14",
@@ -1864,34 +1874,39 @@
           "price": 228
         },
         {
+          "section": "14",
+          "row": "10",
+          "price": 211
+        },
+        {
           "section": "13",
           "row": "3",
-          "price": 237
+          "price": 242
         },
         {
           "section": "13",
           "row": "2",
-          "price": 245
+          "price": 250
         },
         {
           "section": "13",
           "row": "1",
-          "price": 265
+          "price": 270
         },
         {
           "section": "14",
           "row": "2",
-          "price": 280
+          "price": 286
         },
         {
           "section": "15",
           "row": "2",
-          "price": 292
+          "price": 297
         },
         {
           "section": "14",
           "row": "1",
-          "price": 299
+          "price": 304
         }
       ]
     },
@@ -1911,9 +1926,9 @@
           "price": 227
         },
         {
-          "section": "14",
-          "row": "6",
-          "price": 250
+          "section": "15",
+          "row": "3",
+          "price": 259
         },
         {
           "section": "13",
@@ -1921,9 +1936,9 @@
           "price": 255
         },
         {
-          "section": "15",
-          "row": "3",
-          "price": 259
+          "section": "14",
+          "row": "6",
+          "price": 250
         },
         {
           "section": "13",
@@ -1954,21 +1969,6 @@
       "listings": [
         {
           "section": "13",
-          "row": "4",
-          "price": 239
-        },
-        {
-          "section": "13",
-          "row": "5",
-          "price": 239
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 239
-        },
-        {
-          "section": "13",
           "row": "3",
           "price": 240
         },
@@ -1993,6 +1993,11 @@
           "price": 283
         },
         {
+          "section": "15",
+          "row": "2",
+          "price": 292
+        },
+        {
           "section": "14",
           "row": "3",
           "price": 286
@@ -2003,11 +2008,6 @@
           "price": 291
         },
         {
-          "section": "15",
-          "row": "2",
-          "price": 292
-        },
-        {
           "section": "14",
           "row": "2",
           "price": 299
@@ -2016,6 +2016,21 @@
           "section": "14",
           "row": "1",
           "price": 319
+        },
+        {
+          "section": "13",
+          "row": "4",
+          "price": 239
+        },
+        {
+          "section": "13",
+          "row": "5",
+          "price": 239
+        },
+        {
+          "section": "13",
+          "row": "13",
+          "price": 239
         }
       ]
     },
@@ -2030,14 +2045,14 @@
           "price": 184
         },
         {
-          "section": "14",
-          "row": "6",
-          "price": 194
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 198
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 194
         },
         {
           "section": "13",
@@ -2077,14 +2092,14 @@
           "price": 190
         },
         {
-          "section": "14",
-          "row": "6",
-          "price": 200
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 205
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 200
         },
         {
           "section": "13",
@@ -2119,54 +2134,54 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-2-2026/event/159262140/",
       "listings": [
         {
-          "section": "13",
-          "row": "10",
-          "price": 176
-        },
-        {
-          "section": "14",
-          "row": "10",
-          "price": 205
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 208
         },
         {
           "section": "13",
+          "row": "10",
+          "price": 177
+        },
+        {
+          "section": "14",
+          "row": "10",
+          "price": 207
+        },
+        {
+          "section": "13",
           "row": "3",
-          "price": 236
+          "price": 238
         },
         {
           "section": "14",
           "row": "6",
-          "price": 247
+          "price": 249
         },
         {
           "section": "13",
           "row": "2",
-          "price": 263
+          "price": 264
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 285
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 302
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 321
         },
         {
           "section": "14",
           "row": "5",
           "price": 276
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 282
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 299
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 319
         }
       ]
     },
@@ -2179,21 +2194,6 @@
           "section": "13",
           "row": "10",
           "price": 259
-        },
-        {
-          "section": "13",
-          "row": "6",
-          "price": 299
-        },
-        {
-          "section": "13",
-          "row": "7",
-          "price": 299
-        },
-        {
-          "section": "13",
-          "row": "8",
-          "price": 299
         },
         {
           "section": "14",
@@ -2211,14 +2211,14 @@
           "price": 330
         },
         {
-          "section": "13",
-          "row": "3",
-          "price": 340
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 345
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 340
         },
         {
           "section": "14",
@@ -2234,6 +2234,21 @@
           "section": "14",
           "row": "1",
           "price": 461
+        },
+        {
+          "section": "13",
+          "row": "6",
+          "price": 299
+        },
+        {
+          "section": "13",
+          "row": "7",
+          "price": 299
+        },
+        {
+          "section": "13",
+          "row": "8",
+          "price": 299
         }
       ]
     },
@@ -2253,14 +2268,14 @@
           "price": 304
         },
         {
-          "section": "13",
-          "row": "4",
-          "price": 330
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 342
+        },
+        {
+          "section": "13",
+          "row": "4",
+          "price": 330
         },
         {
           "section": "14",
@@ -2310,39 +2325,14 @@
           "price": 228
         },
         {
-          "section": "13",
-          "row": "3",
-          "price": 260
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 272
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 274
-        },
-        {
-          "section": "14",
-          "row": "4",
-          "price": 286
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 294
-        },
-        {
           "section": "15",
           "row": "6",
           "price": 307
         },
         {
-          "section": "14",
-          "row": "2",
-          "price": 312
+          "section": "13",
+          "row": "3",
+          "price": 260
         },
         {
           "section": "15",
@@ -2355,9 +2345,34 @@
           "price": 324
         },
         {
+          "section": "13",
+          "row": "2",
+          "price": 274
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 272
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 294
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 312
+        },
+        {
           "section": "14",
           "row": "1",
           "price": 332
+        },
+        {
+          "section": "14",
+          "row": "4",
+          "price": 286
         }
       ]
     },
@@ -2367,14 +2382,14 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-6-2026/event/159262144/",
       "listings": [
         {
-          "section": "13",
-          "row": "3",
-          "price": 210
-        },
-        {
           "section": "14",
           "row": "3",
           "price": 212
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 210
         },
         {
           "section": "15",
@@ -2419,9 +2434,19 @@
           "price": 179
         },
         {
+          "section": "15",
+          "row": "5",
+          "price": 265
+        },
+        {
           "section": "14",
           "row": "10",
           "price": 210
+        },
+        {
+          "section": "15",
+          "row": "2",
+          "price": 302
         },
         {
           "section": "13",
@@ -2429,19 +2454,14 @@
           "price": 240
         },
         {
-          "section": "14",
-          "row": "6",
-          "price": 252
-        },
-        {
           "section": "13",
           "row": "2",
           "price": 255
         },
         {
-          "section": "15",
-          "row": "5",
-          "price": 265
+          "section": "14",
+          "row": "6",
+          "price": 252
         },
         {
           "section": "13",
@@ -2452,11 +2472,6 @@
           "section": "14",
           "row": "2",
           "price": 291
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 302
         },
         {
           "section": "14",
@@ -2533,29 +2548,14 @@
           "price": 215
         },
         {
-          "section": "13",
-          "row": "2",
-          "price": 223
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 231
         },
         {
-          "section": "15",
+          "section": "13",
           "row": "2",
-          "price": 239
-        },
-        {
-          "section": "14",
-          "row": "4",
-          "price": 239
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 239
+          "price": 223
         },
         {
           "section": "13",
@@ -2571,6 +2571,21 @@
           "section": "14",
           "row": "1",
           "price": 274
+        },
+        {
+          "section": "15",
+          "row": "2",
+          "price": 239
+        },
+        {
+          "section": "14",
+          "row": "4",
+          "price": 239
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 239
         }
       ]
     },
@@ -2582,47 +2597,47 @@
         {
           "section": "13",
           "row": "3",
-          "price": 188
+          "price": 182
         },
         {
           "section": "14",
           "row": "6",
-          "price": 198
+          "price": 190
         },
         {
           "section": "13",
           "row": "2",
-          "price": 205
-        },
-        {
-          "section": "15",
-          "row": "6",
-          "price": 222
+          "price": 200
         },
         {
           "section": "13",
           "row": "1",
-          "price": 222
+          "price": 216
+        },
+        {
+          "section": "15",
+          "row": "6",
+          "price": 215
         },
         {
           "section": "15",
           "row": "5",
-          "price": 228
+          "price": 221
         },
         {
           "section": "14",
           "row": "2",
-          "price": 236
+          "price": 229
         },
         {
           "section": "15",
           "row": "2",
-          "price": 245
+          "price": 239
         },
         {
           "section": "14",
           "row": "1",
-          "price": 253
+          "price": 247
         }
       ]
     },
@@ -2647,13 +2662,13 @@
           "price": 187
         },
         {
-          "section": "15",
-          "row": "6",
+          "section": "13",
+          "row": "1",
           "price": 201
         },
         {
-          "section": "13",
-          "row": "1",
+          "section": "15",
+          "row": "6",
           "price": 201
         },
         {
@@ -2731,44 +2746,44 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-23-2026/event/159262151/",
       "listings": [
         {
-          "section": "13",
-          "row": "3",
-          "price": 179
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 189
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 190
         },
         {
           "section": "13",
+          "row": "3",
+          "price": 176
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 184
+        },
+        {
+          "section": "13",
           "row": "2",
-          "price": 196
+          "price": 193
         },
         {
           "section": "13",
           "row": "1",
-          "price": 212
+          "price": 209
         },
         {
           "section": "14",
           "row": "2",
-          "price": 226
+          "price": 221
         },
         {
           "section": "15",
           "row": "2",
-          "price": 236
+          "price": 231
         },
         {
           "section": "14",
           "row": "1",
-          "price": 242
+          "price": 237
         }
       ]
     },
@@ -2778,44 +2793,44 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-30-2026/event/159262152/",
       "listings": [
         {
-          "section": "13",
-          "row": "3",
-          "price": 173
-        },
-        {
           "section": "14",
           "row": "2",
           "price": 174
         },
         {
           "section": "13",
+          "row": "3",
+          "price": 174
+        },
+        {
+          "section": "13",
           "row": "2",
-          "price": 191
+          "price": 193
         },
         {
           "section": "15",
           "row": "6",
-          "price": 205
+          "price": 206
         },
         {
           "section": "13",
           "row": "1",
-          "price": 207
+          "price": 209
         },
         {
           "section": "15",
           "row": "5",
-          "price": 211
+          "price": 212
         },
         {
           "section": "15",
           "row": "2",
-          "price": 229
+          "price": 231
         },
         {
           "section": "14",
           "row": "1",
-          "price": 236
+          "price": 237
         }
       ]
     },
@@ -2824,6 +2839,11 @@
       "label": "Fri, Jul 31, 2026 · 7:15 PM · vs Nationals",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-31-2026/event/159262153/",
       "listings": [
+        {
+          "section": "15",
+          "row": "3",
+          "price": 223
+        },
         {
           "section": "13",
           "row": "10",
@@ -2838,11 +2858,6 @@
           "section": "13",
           "row": "3",
           "price": 215
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 223
         },
         {
           "section": "14",
@@ -2944,14 +2959,14 @@
           "price": 183
         },
         {
-          "section": "14",
-          "row": "6",
-          "price": 193
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 194
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 193
         },
         {
           "section": "13",
@@ -2969,14 +2984,14 @@
           "price": 232
         },
         {
-          "section": "15",
-          "row": "2",
-          "price": 239
-        },
-        {
           "section": "14",
           "row": "1",
           "price": 248
+        },
+        {
+          "section": "15",
+          "row": "2",
+          "price": 239
         }
       ]
     },
@@ -2993,32 +3008,32 @@
         {
           "section": "13",
           "row": "3",
-          "price": 141
+          "price": 140
         },
         {
           "section": "13",
           "row": "2",
-          "price": 156
+          "price": 153
         },
         {
           "section": "13",
           "row": "1",
-          "price": 168
+          "price": 167
         },
         {
           "section": "14",
           "row": "2",
-          "price": 179
+          "price": 178
         },
         {
           "section": "15",
           "row": "2",
-          "price": 188
+          "price": 185
         },
         {
           "section": "14",
           "row": "1",
-          "price": 193
+          "price": 191
         }
       ]
     },
@@ -3077,32 +3092,32 @@
         {
           "section": "13",
           "row": "3",
-          "price": 140
+          "price": 139
         },
         {
           "section": "13",
           "row": "2",
-          "price": 155
+          "price": 153
         },
         {
           "section": "13",
           "row": "1",
-          "price": 167
+          "price": 166
         },
         {
           "section": "14",
           "row": "2",
-          "price": 178
+          "price": 177
         },
         {
           "section": "15",
           "row": "2",
-          "price": 187
+          "price": 185
         },
         {
           "section": "14",
           "row": "1",
-          "price": 191
+          "price": 190
         }
       ]
     },
@@ -3117,13 +3132,13 @@
           "price": 191
         },
         {
-          "section": "14",
-          "row": "6",
+          "section": "15",
+          "row": "3",
           "price": 201
         },
         {
-          "section": "15",
-          "row": "3",
+          "section": "14",
+          "row": "6",
           "price": 201
         },
         {
@@ -3135,11 +3150,6 @@
           "section": "13",
           "row": "1",
           "price": 226
-        },
-        {
-          "section": "14",
-          "row": "4",
-          "price": 239
         },
         {
           "section": "14",
@@ -3155,6 +3165,11 @@
           "section": "14",
           "row": "1",
           "price": 256
+        },
+        {
+          "section": "14",
+          "row": "4",
+          "price": 239
         }
       ]
     },
@@ -3169,14 +3184,14 @@
           "price": 187
         },
         {
-          "section": "14",
-          "row": "6",
-          "price": 196
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 198
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 196
         },
         {
           "section": "13",
@@ -3221,14 +3236,14 @@
           "price": 198
         },
         {
-          "section": "13",
-          "row": "2",
-          "price": 206
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 209
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 206
         },
         {
           "section": "13",
@@ -3263,14 +3278,14 @@
           "price": 182
         },
         {
-          "section": "14",
-          "row": "6",
-          "price": 191
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 198
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 191
         },
         {
           "section": "13",
@@ -3315,14 +3330,14 @@
           "price": 194
         },
         {
-          "section": "13",
-          "row": "3",
-          "price": 222
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 227
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 222
         },
         {
           "section": "14",
@@ -3341,16 +3356,6 @@
         },
         {
           "section": "14",
-          "row": "4",
-          "price": 268
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 268
-        },
-        {
-          "section": "14",
           "row": "2",
           "price": 283
         },
@@ -3363,6 +3368,16 @@
           "section": "14",
           "row": "1",
           "price": 303
+        },
+        {
+          "section": "14",
+          "row": "4",
+          "price": 268
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 268
         }
       ]
     },
@@ -3387,21 +3402,6 @@
           "price": 220
         },
         {
-          "section": "15",
-          "row": "2",
-          "price": 221
-        },
-        {
-          "section": "14",
-          "row": "4",
-          "price": 221
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 221
-        },
-        {
           "section": "13",
           "row": "1",
           "price": 237
@@ -3415,6 +3415,21 @@
           "section": "14",
           "row": "1",
           "price": 269
+        },
+        {
+          "section": "15",
+          "row": "2",
+          "price": 221
+        },
+        {
+          "section": "14",
+          "row": "4",
+          "price": 221
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 221
         }
       ]
     },
@@ -3429,11 +3444,6 @@
           "price": 231
         },
         {
-          "section": "13",
-          "row": "5",
-          "price": 260
-        },
-        {
           "section": "14",
           "row": "3",
           "price": 268
@@ -3442,6 +3452,11 @@
           "section": "15",
           "row": "3",
           "price": 275
+        },
+        {
+          "section": "13",
+          "row": "5",
+          "price": 260
         },
         {
           "section": "13",
@@ -3478,7 +3493,12 @@
         {
           "section": "13",
           "row": "10",
-          "price": 232
+          "price": 227
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 271
         },
         {
           "section": "13",
@@ -3487,43 +3507,38 @@
         },
         {
           "section": "14",
-          "row": "10",
-          "price": 270
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 271
-        },
-        {
-          "section": "14",
           "row": "2",
           "price": 285
         },
         {
+          "section": "14",
+          "row": "10",
+          "price": 264
+        },
+        {
           "section": "13",
           "row": "3",
-          "price": 307
+          "price": 301
         },
         {
           "section": "13",
           "row": "2",
-          "price": 324
+          "price": 318
         },
         {
           "section": "13",
           "row": "1",
-          "price": 348
+          "price": 341
         },
         {
           "section": "15",
           "row": "2",
-          "price": 381
+          "price": 374
         },
         {
           "section": "14",
           "row": "1",
-          "price": 391
+          "price": 384
         }
       ]
     },
@@ -3533,14 +3548,49 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-27-2026/event/159262167/",
       "listings": [
         {
-          "section": "13",
-          "row": "10",
-          "price": 266
-        },
-        {
           "section": "14",
           "row": "3",
           "price": 278
+        },
+        {
+          "section": "13",
+          "row": "10",
+          "price": 259
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 341
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 385
+        },
+        {
+          "section": "15",
+          "row": "6",
+          "price": 401
+        },
+        {
+          "section": "15",
+          "row": "5",
+          "price": 411
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 412
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 435
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 462
         },
         {
           "section": "13",
@@ -3556,41 +3606,6 @@
           "section": "13",
           "row": "8",
           "price": 299
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 350
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 395
-        },
-        {
-          "section": "15",
-          "row": "6",
-          "price": 411
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 421
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 422
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 445
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 473
         }
       ]
     },
@@ -3605,39 +3620,39 @@
           "price": 181
         },
         {
-          "section": "13",
-          "row": "3",
-          "price": 189
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 190
         },
         {
           "section": "13",
+          "row": "3",
+          "price": 185
+        },
+        {
+          "section": "13",
           "row": "2",
-          "price": 207
+          "price": 203
         },
         {
           "section": "13",
           "row": "1",
-          "price": 225
+          "price": 218
         },
         {
           "section": "14",
           "row": "2",
-          "price": 238
+          "price": 233
         },
         {
           "section": "15",
           "row": "2",
-          "price": 248
+          "price": 242
         },
         {
           "section": "14",
           "row": "1",
-          "price": 255
+          "price": 249
         }
       ]
     },
@@ -3647,14 +3662,14 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-29-2026/event/159262169/",
       "listings": [
         {
-          "section": "13",
-          "row": "3",
-          "price": 216
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 223
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 216
         },
         {
           "section": "14",
@@ -3665,11 +3680,6 @@
           "section": "13",
           "row": "2",
           "price": 236
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 245
         },
         {
           "section": "13",
@@ -3690,6 +3700,11 @@
           "section": "14",
           "row": "1",
           "price": 288
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 245
         }
       ]
     },
@@ -3719,21 +3734,6 @@
           "price": 211
         },
         {
-          "section": "14",
-          "row": "4",
-          "price": 221
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 221
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 226
-        },
-        {
           "section": "13",
           "row": "1",
           "price": 227
@@ -3747,6 +3747,21 @@
           "section": "14",
           "row": "1",
           "price": 259
+        },
+        {
+          "section": "15",
+          "row": "2",
+          "price": 221
+        },
+        {
+          "section": "14",
+          "row": "4",
+          "price": 221
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 221
         }
       ]
     },
@@ -3847,32 +3862,32 @@
         {
           "section": "13",
           "row": "3",
-          "price": 163
+          "price": 162
         },
         {
           "section": "13",
           "row": "2",
-          "price": 179
+          "price": 178
         },
         {
           "section": "13",
           "row": "1",
-          "price": 194
+          "price": 193
         },
         {
           "section": "14",
           "row": "2",
-          "price": 206
+          "price": 205
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 221
         },
         {
           "section": "15",
           "row": "2",
           "price": 212
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 222
         }
       ]
     },
@@ -3949,14 +3964,14 @@
           "price": 233
         },
         {
-          "section": "14",
-          "row": "6",
-          "price": 278
-        },
-        {
           "section": "13",
           "row": "2",
           "price": 280
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 278
         },
         {
           "section": "13",
@@ -4002,33 +4017,8 @@
         },
         {
           "section": "13",
-          "row": "4",
-          "price": 239
-        },
-        {
-          "section": "13",
-          "row": "5",
-          "price": 239
-        },
-        {
-          "section": "14",
-          "row": "10",
-          "price": 239
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 239
-        },
-        {
-          "section": "13",
           "row": "3",
           "price": 242
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 245
         },
         {
           "section": "13",
@@ -4054,6 +4044,31 @@
           "section": "14",
           "row": "1",
           "price": 321
+        },
+        {
+          "section": "13",
+          "row": "4",
+          "price": 239
+        },
+        {
+          "section": "13",
+          "row": "5",
+          "price": 239
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 245
+        },
+        {
+          "section": "14",
+          "row": "10",
+          "price": 239
+        },
+        {
+          "section": "13",
+          "row": "13",
+          "price": 239
         }
       ]
     },
@@ -4063,14 +4078,14 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-22-2026/event/159262177/",
       "listings": [
         {
-          "section": "13",
-          "row": "3",
-          "price": 156
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 162
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 156
         },
         {
           "section": "14",
@@ -4125,13 +4140,13 @@
           "price": 176
         },
         {
-          "section": "15",
-          "row": "6",
+          "section": "13",
+          "row": "1",
           "price": 190
         },
         {
-          "section": "13",
-          "row": "1",
+          "section": "15",
+          "row": "6",
           "price": 190
         },
         {
@@ -4162,14 +4177,14 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-24-2026/event/159262179/",
       "listings": [
         {
-          "section": "13",
-          "row": "3",
-          "price": 163
-        },
-        {
           "section": "15",
           "row": "3",
           "price": 170
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 165
         },
         {
           "section": "14",
