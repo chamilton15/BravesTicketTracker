@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T06:13:21.584Z",
+  "lastUpdated": "2026-04-10T06:24:45.118Z",
   "sections": [
     "13",
     "14",
@@ -12,39 +12,29 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-4-10-2026/event/159262105/",
       "listings": [
         {
-          "section": "14",
-          "row": "3",
-          "price": 222
+          "section": "13",
+          "row": "9",
+          "price": 227
         },
         {
           "section": "13",
           "row": "4",
-          "price": 259
+          "price": 279
         },
         {
-          "section": "13",
+          "section": "14",
           "row": "5",
-          "price": 259
-        },
-        {
-          "section": "13",
-          "row": "9",
-          "price": 259
-        },
-        {
-          "section": "13",
-          "row": "10",
-          "price": 259
+          "price": 325
         },
         {
           "section": "13",
           "row": "2",
-          "price": 361
+          "price": 336
         },
         {
           "section": "14",
           "row": "2",
-          "price": 402
+          "price": 352
         }
       ]
     },
@@ -55,58 +45,53 @@
       "listings": [
         {
           "section": "13",
-          "row": "12",
-          "price": 181
+          "row": "9",
+          "price": 162
         },
         {
           "section": "14",
           "row": "6",
-          "price": 221
+          "price": 197
+        },
+        {
+          "section": "13",
+          "row": "5",
+          "price": 199
         },
         {
           "section": "14",
           "row": "5",
-          "price": 250
+          "price": 233
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 259
         },
         {
           "section": "14",
           "row": "3",
-          "price": 290
+          "price": 259
         },
         {
-          "section": "13",
-          "row": "5",
-          "price": 290
-        },
-        {
-          "section": "13",
+          "section": "15",
           "row": "9",
-          "price": 290
-        },
-        {
-          "section": "13",
-          "row": "11",
-          "price": 290
+          "price": 259
         },
         {
           "section": "14",
           "row": "2",
-          "price": 290
+          "price": 262
         },
         {
           "section": "13",
           "row": "4",
-          "price": 307
-        },
-        {
-          "section": "15",
-          "row": "4",
-          "price": 441
+          "price": 275
         },
         {
           "section": "14",
           "row": "1",
-          "price": 691
+          "price": 558
         }
       ]
     },
@@ -118,27 +103,42 @@
         {
           "section": "14",
           "row": "6",
-          "price": 133
+          "price": 116
         },
         {
           "section": "14",
           "row": "5",
-          "price": 137
+          "price": 119
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 120
         },
         {
           "section": "15",
           "row": "5",
-          "price": 141
+          "price": 122
+        },
+        {
+          "section": "14",
+          "row": "3",
+          "price": 136
+        },
+        {
+          "section": "15",
+          "row": "4",
+          "price": 137
         },
         {
           "section": "14",
           "row": "2",
-          "price": 158
+          "price": 140
         },
         {
           "section": "15",
-          "row": "3",
-          "price": 165
+          "row": "2",
+          "price": 145
         }
       ]
     },
@@ -150,27 +150,27 @@
         {
           "section": "13",
           "row": "3",
-          "price": 106
+          "price": 102
         },
         {
           "section": "15",
           "row": "4",
-          "price": 112
+          "price": 109
         },
         {
           "section": "13",
           "row": "2",
-          "price": 117
+          "price": 112
         },
         {
           "section": "14",
           "row": "2",
-          "price": 136
+          "price": 130
         },
         {
           "section": "14",
           "row": "1",
-          "price": 148
+          "price": 140
         }
       ]
     },
@@ -182,22 +182,22 @@
         {
           "section": "13",
           "row": "3",
-          "price": 117
+          "price": 112
         },
         {
           "section": "13",
           "row": "2",
-          "price": 128
+          "price": 123
         },
         {
           "section": "14",
           "row": "2",
-          "price": 149
+          "price": 144
         },
         {
           "section": "15",
           "row": "4",
-          "price": 161
+          "price": 176
         },
         {
           "section": "15",
@@ -214,27 +214,27 @@
         {
           "section": "13",
           "row": "3",
-          "price": 97
+          "price": 94
         },
         {
           "section": "13",
           "row": "2",
-          "price": 104
+          "price": 99
         },
         {
           "section": "13",
           "row": "1",
-          "price": 113
+          "price": 109
         },
         {
           "section": "14",
           "row": "2",
-          "price": 122
+          "price": 118
         },
         {
           "section": "15",
           "row": "2",
-          "price": 133
+          "price": 128
         }
       ]
     },
@@ -246,52 +246,32 @@
         {
           "section": "14",
           "row": "6",
-          "price": 157
-        },
-        {
-          "section": "13",
-          "row": "7",
-          "price": 327
-        },
-        {
-          "section": "13",
-          "row": "8",
-          "price": 327
-        },
-        {
-          "section": "13",
-          "row": "9",
-          "price": 327
+          "price": 148
         },
         {
           "section": "13",
           "row": "4",
-          "price": 340
+          "price": 311
         },
         {
           "section": "13",
           "row": "3",
-          "price": 369
+          "price": 337
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 344
         },
         {
           "section": "15",
           "row": "6",
-          "price": 409
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 410
+          "price": 375
         },
         {
           "section": "13",
           "row": "2",
-          "price": 418
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 484
+          "price": 388
         }
       ]
     },
@@ -302,48 +282,43 @@
       "listings": [
         {
           "section": "13",
-          "row": "9",
-          "price": 273
+          "row": "10",
+          "price": 261
         },
         {
           "section": "13",
-          "row": "10",
-          "price": 273
+          "row": "9",
+          "price": 261
         },
         {
           "section": "13",
           "row": "5",
-          "price": 297
+          "price": 280
         },
         {
           "section": "14",
           "row": "7",
-          "price": 309
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 358
+          "price": 295
         },
         {
           "section": "14",
           "row": "3",
-          "price": 368
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 373
+          "price": 351
         },
         {
           "section": "15",
           "row": "4",
-          "price": 389
+          "price": 371
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 400
         },
         {
           "section": "14",
           "row": "2",
-          "price": 442
+          "price": 464
         }
       ]
     },
@@ -354,48 +329,58 @@
       "listings": [
         {
           "section": "15",
+          "row": "13",
+          "price": 150
+        },
+        {
+          "section": "15",
           "row": "8",
-          "price": 204
+          "price": 195
         },
         {
           "section": "14",
           "row": "7",
+          "price": 202
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 209
+        },
+        {
+          "section": "14",
+          "row": "3",
           "price": 212
         },
         {
-          "section": "14",
-          "row": "3",
-          "price": 222
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 222
+          "section": "15",
+          "row": "6",
+          "price": 234
         },
         {
           "section": "15",
           "row": "3",
-          "price": 245
+          "price": 234
         },
         {
           "section": "13",
           "row": "1",
-          "price": 299
+          "price": 274
         },
         {
           "section": "14",
           "row": "2",
-          "price": 324
+          "price": 296
         },
         {
           "section": "15",
           "row": "2",
-          "price": 340
+          "price": 312
         },
         {
           "section": "14",
           "row": "1",
-          "price": 350
+          "price": 321
         }
       ]
     },
@@ -407,47 +392,47 @@
         {
           "section": "14",
           "row": "7",
-          "price": 124
+          "price": 121
         },
         {
           "section": "13",
           "row": "3",
-          "price": 147
+          "price": 144
         },
         {
           "section": "13",
           "row": "2",
-          "price": 154
+          "price": 151
         },
         {
           "section": "15",
           "row": "5",
-          "price": 163
+          "price": 160
         },
         {
           "section": "13",
           "row": "1",
-          "price": 168
+          "price": 165
         },
         {
           "section": "15",
           "row": "3",
-          "price": 170
+          "price": 166
         },
         {
           "section": "14",
           "row": "2",
-          "price": 180
+          "price": 176
         },
         {
           "section": "15",
           "row": "2",
-          "price": 187
+          "price": 183
         },
         {
           "section": "14",
           "row": "1",
-          "price": 192
+          "price": 188
         }
       ]
     },
@@ -459,57 +444,57 @@
         {
           "section": "14",
           "row": "9",
-          "price": 119
+          "price": 117
         },
         {
           "section": "13",
           "row": "3",
-          "price": 131
+          "price": 128
         },
         {
           "section": "14",
           "row": "6",
-          "price": 138
+          "price": 135
         },
         {
           "section": "15",
           "row": "6",
-          "price": 142
+          "price": 139
         },
         {
           "section": "13",
           "row": "2",
-          "price": 142
+          "price": 139
         },
         {
           "section": "15",
           "row": "5",
-          "price": 146
+          "price": 142
         },
         {
           "section": "13",
           "row": "1",
-          "price": 154
+          "price": 151
         },
         {
           "section": "15",
           "row": "3",
-          "price": 162
+          "price": 159
         },
         {
           "section": "14",
           "row": "2",
-          "price": 165
+          "price": 161
         },
         {
           "section": "15",
           "row": "2",
-          "price": 172
+          "price": 168
         },
         {
           "section": "14",
           "row": "1",
-          "price": 177
+          "price": 173
         }
       ]
     },
@@ -521,47 +506,47 @@
         {
           "section": "13",
           "row": "3",
-          "price": 143
+          "price": 140
         },
         {
           "section": "14",
           "row": "6",
-          "price": 151
+          "price": 147
         },
         {
           "section": "13",
           "row": "2",
-          "price": 154
+          "price": 151
         },
         {
           "section": "14",
           "row": "5",
-          "price": 156
+          "price": 152
         },
         {
           "section": "13",
           "row": "1",
-          "price": 168
+          "price": 165
         },
         {
           "section": "14",
           "row": "2",
-          "price": 180
+          "price": 176
         },
         {
           "section": "14",
           "row": "1",
-          "price": 193
+          "price": 189
         },
         {
           "section": "15",
           "row": "4",
-          "price": 199
+          "price": 195
         },
         {
           "section": "15",
           "row": "3",
-          "price": 344
+          "price": 337
         }
       ]
     },
@@ -573,47 +558,47 @@
         {
           "section": "13",
           "row": "3",
-          "price": 192
+          "price": 188
         },
         {
           "section": "14",
           "row": "6",
-          "price": 202
+          "price": 198
         },
         {
           "section": "13",
           "row": "2",
-          "price": 203
+          "price": 199
         },
         {
           "section": "15",
           "row": "5",
-          "price": 212
+          "price": 208
         },
         {
           "section": "13",
           "row": "1",
-          "price": 220
+          "price": 215
         },
         {
           "section": "15",
           "row": "3",
-          "price": 232
+          "price": 229
         },
         {
           "section": "14",
           "row": "2",
-          "price": 233
+          "price": 229
         },
         {
           "section": "15",
           "row": "2",
-          "price": 244
+          "price": 239
         },
         {
           "section": "14",
           "row": "1",
-          "price": 250
+          "price": 245
         }
       ]
     },
@@ -625,12 +610,59 @@
         {
           "section": "13",
           "row": "3",
+          "price": 198
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 208
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 220
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 220
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 252
+        }
+      ]
+    },
+    "15": {
+      "id": 15,
+      "label": "Thu, May 14, 2026 · 7:15 PM · vs Cubs",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-14-2026/event/159262119/",
+      "listings": [
+        {
+          "section": "13",
+          "row": "3",
           "price": 200
         },
         {
           "section": "14",
           "row": "6",
           "price": 210
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 216
+        },
+        {
+          "section": "14",
+          "row": "3",
+          "price": 218
+        },
+        {
+          "section": "15",
+          "row": "5",
+          "price": 221
         },
         {
           "section": "13",
@@ -645,59 +677,12 @@
         {
           "section": "14",
           "row": "2",
-          "price": 254
-        }
-      ]
-    },
-    "15": {
-      "id": 15,
-      "label": "Thu, May 14, 2026 · 7:15 PM · vs Cubs",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-14-2026/event/159262119/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "3",
-          "price": 203
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 213
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 220
-        },
-        {
-          "section": "14",
-          "row": "3",
-          "price": 222
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 225
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 225
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 227
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 257
+          "price": 253
         },
         {
           "section": "15",
           "row": "2",
-          "price": 267
+          "price": 263
         }
       ]
     },
@@ -709,57 +694,47 @@
         {
           "section": "14",
           "row": "3",
-          "price": 241
+          "price": 234
+        },
+        {
+          "section": "13",
+          "row": "10",
+          "price": 264
         },
         {
           "section": "15",
           "row": "4",
-          "price": 273
+          "price": 265
         },
         {
           "section": "15",
           "row": "3",
-          "price": 280
+          "price": 271
         },
         {
           "section": "13",
           "row": "5",
-          "price": 342
-        },
-        {
-          "section": "13",
-          "row": "6",
-          "price": 342
-        },
-        {
-          "section": "13",
-          "row": "7",
-          "price": 342
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 342
+          "price": 320
         },
         {
           "section": "13",
           "row": "3",
-          "price": 371
+          "price": 343
         },
         {
           "section": "13",
           "row": "2",
-          "price": 379
+          "price": 370
         },
         {
           "section": "14",
           "row": "2",
-          "price": 399
+          "price": 406
         },
         {
           "section": "14",
           "row": "1",
-          "price": 419
+          "price": 428
         }
       ]
     },
@@ -771,57 +746,47 @@
         {
           "section": "14",
           "row": "3",
-          "price": 357
+          "price": 347
         },
         {
           "section": "15",
           "row": "3",
-          "price": 365
-        },
-        {
-          "section": "13",
-          "row": "5",
-          "price": 371
+          "price": 354
         },
         {
           "section": "13",
           "row": "6",
-          "price": 371
+          "price": 358
         },
         {
           "section": "13",
-          "row": "7",
-          "price": 371
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 371
+          "row": "5",
+          "price": 374
         },
         {
           "section": "13",
           "row": "3",
-          "price": 408
+          "price": 513
         },
         {
           "section": "13",
           "row": "2",
-          "price": 420
+          "price": 533
         },
         {
           "section": "14",
           "row": "2",
-          "price": 457
+          "price": 549
         },
         {
           "section": "15",
           "row": "2",
-          "price": 472
+          "price": 550
         },
         {
           "section": "14",
           "row": "1",
-          "price": 483
+          "price": 551
         }
       ]
     },
@@ -833,62 +798,62 @@
         {
           "section": "13",
           "row": "10",
-          "price": 188
+          "price": 183
         },
         {
           "section": "14",
           "row": "10",
-          "price": 221
+          "price": 214
         },
         {
           "section": "13",
           "row": "3",
-          "price": 254
+          "price": 246
         },
         {
           "section": "14",
           "row": "6",
-          "price": 265
+          "price": 257
         },
         {
           "section": "13",
           "row": "2",
-          "price": 282
+          "price": 274
         },
         {
           "section": "15",
           "row": "6",
-          "price": 299
+          "price": 290
         },
         {
           "section": "13",
           "row": "1",
-          "price": 304
+          "price": 295
         },
         {
           "section": "15",
           "row": "5",
-          "price": 306
+          "price": 297
         },
         {
           "section": "14",
           "row": "2",
-          "price": 321
+          "price": 312
         },
         {
           "section": "15",
           "row": "3",
-          "price": 326
+          "price": 316
         },
         {
           "section": "15",
           "row": "2",
-          "price": 334
+          "price": 324
         },
         {
           "section": "14",
           "row": "1",
-          "price": 343
+          "price": 332
         }
       ]
     },
@@ -900,77 +865,77 @@
         {
           "section": "14",
           "row": "10",
-          "price": 215
+          "price": 212
         },
         {
           "section": "15",
           "row": "3",
-          "price": 222
-        },
-        {
-          "section": "14",
-          "row": "8",
-          "price": 232
-        },
-        {
-          "section": "13",
-          "row": "6",
-          "price": 232
+          "price": 215
         },
         {
           "section": "13",
           "row": "13",
-          "price": 232
+          "price": 225
+        },
+        {
+          "section": "14",
+          "row": "8",
+          "price": 225
+        },
+        {
+          "section": "13",
+          "row": "6",
+          "price": 225
         },
         {
           "section": "14",
           "row": "7",
-          "price": 235
+          "price": 228
         },
         {
           "section": "13",
           "row": "5",
-          "price": 237
+          "price": 230
         },
         {
           "section": "13",
           "row": "3",
-          "price": 242
+          "price": 246
         },
         {
           "section": "14",
           "row": "6",
-          "price": 256
+          "price": 261
         },
         {
           "section": "13",
           "row": "2",
-          "price": 261
+          "price": 265
         },
         {
           "section": "14",
           "row": "5",
-          "price": 264
+          "price": 268
         },
         {
           "section": "13",
           "row": "1",
-          "price": 285
+          "price": 290
         },
         {
           "section": "14",
           "row": "2",
-          "price": 307
+          "price": 310
         },
         {
           "section": "15",
           "row": "2",
-          "price": 323
+          "price": 325
         },
         {
           "section": "14",
           "row": "1",
-          "price": 334
+          "price": 336
         }
       ]
     },
@@ -982,42 +947,42 @@
         {
           "section": "14",
           "row": "7",
-          "price": 271
+          "price": 262
         },
         {
           "section": "13",
           "row": "5",
-          "price": 284
+          "price": 274
         },
         {
           "section": "15",
           "row": "3",
-          "price": 286
+          "price": 278
         },
         {
           "section": "14",
           "row": "3",
-          "price": 287
+          "price": 279
         },
         {
           "section": "13",
           "row": "3",
-          "price": 312
+          "price": 303
         },
         {
           "section": "14",
           "row": "2",
-          "price": 326
+          "price": 316
         },
         {
           "section": "13",
           "row": "2",
-          "price": 349
+          "price": 340
         },
         {
           "section": "15",
           "row": "2",
-          "price": 383
+          "price": 372
         }
       ]
     },
@@ -1029,62 +994,62 @@
         {
           "section": "14",
           "row": "10",
-          "price": 166
+          "price": 160
         },
         {
           "section": "13",
           "row": "3",
-          "price": 192
+          "price": 184
         },
         {
           "section": "15",
           "row": "8",
-          "price": 194
+          "price": 188
         },
         {
           "section": "14",
           "row": "6",
-          "price": 201
+          "price": 194
         },
         {
           "section": "13",
           "row": "2",
-          "price": 207
+          "price": 200
         },
         {
           "section": "13",
           "row": "1",
-          "price": 223
+          "price": 216
         },
         {
           "section": "15",
           "row": "6",
-          "price": 227
+          "price": 218
         },
         {
           "section": "15",
           "row": "5",
-          "price": 232
+          "price": 224
         },
         {
           "section": "15",
           "row": "3",
-          "price": 235
+          "price": 228
         },
         {
           "section": "14",
           "row": "2",
-          "price": 237
+          "price": 229
         },
         {
           "section": "15",
           "row": "2",
-          "price": 247
+          "price": 239
         },
         {
           "section": "14",
           "row": "1",
-          "price": 255
+          "price": 245
         }
       ]
     },
@@ -1096,52 +1061,52 @@
         {
           "section": "14",
           "row": "6",
-          "price": 166
+          "price": 158
         },
         {
           "section": "13",
           "row": "2",
-          "price": 171
+          "price": 163
         },
         {
           "section": "13",
           "row": "1",
-          "price": 185
+          "price": 177
         },
         {
           "section": "15",
           "row": "6",
-          "price": 187
-        },
-        {
-          "section": "14",
-          "row": "3",
-          "price": 189
+          "price": 179
         },
         {
           "section": "15",
           "row": "5",
-          "price": 192
+          "price": 184
+        },
+        {
+          "section": "14",
+          "row": "3",
+          "price": 186
         },
         {
           "section": "14",
           "row": "2",
-          "price": 197
+          "price": 189
         },
         {
           "section": "15",
           "row": "3",
-          "price": 198
+          "price": 195
         },
         {
           "section": "15",
           "row": "2",
-          "price": 205
+          "price": 197
         },
         {
           "section": "14",
           "row": "1",
-          "price": 211
+          "price": 203
         }
       ]
     },
@@ -1153,37 +1118,37 @@
         {
           "section": "13",
           "row": "3",
-          "price": 202
+          "price": 198
         },
         {
           "section": "14",
           "row": "6",
-          "price": 213
+          "price": 209
         },
         {
           "section": "13",
           "row": "2",
-          "price": 215
+          "price": 210
         },
         {
           "section": "13",
           "row": "1",
-          "price": 231
+          "price": 226
         },
         {
           "section": "14",
           "row": "2",
-          "price": 246
+          "price": 241
         },
         {
           "section": "14",
           "row": "1",
-          "price": 262
+          "price": 257
         },
         {
           "section": "15",
           "row": "4",
-          "price": 497
+          "price": 489
         }
       ]
     },
@@ -1195,37 +1160,37 @@
         {
           "section": "13",
           "row": "3",
-          "price": 192
+          "price": 187
         },
         {
           "section": "13",
           "row": "2",
-          "price": 198
+          "price": 194
         },
         {
           "section": "14",
           "row": "5",
-          "price": 207
+          "price": 202
         },
         {
           "section": "13",
           "row": "1",
-          "price": 215
+          "price": 210
         },
         {
           "section": "14",
           "row": "2",
-          "price": 227
+          "price": 223
         },
         {
           "section": "15",
           "row": "2",
-          "price": 237
+          "price": 232
         },
         {
           "section": "14",
           "row": "1",
-          "price": 244
+          "price": 239
         }
       ]
     },
@@ -1236,48 +1201,48 @@
       "listings": [
         {
           "section": "14",
+          "row": "10",
+          "price": 200
+        },
+        {
+          "section": "14",
           "row": "3",
-          "price": 217
+          "price": 210
         },
         {
           "section": "13",
           "row": "4",
-          "price": 240
-        },
-        {
-          "section": "15",
-          "row": "4",
-          "price": 250
+          "price": 218
         },
         {
           "section": "13",
           "row": "3",
-          "price": 252
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 261
+          "price": 229
         },
         {
           "section": "13",
           "row": "2",
-          "price": 276
+          "price": 251
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 253
         },
         {
           "section": "14",
           "row": "2",
-          "price": 315
+          "price": 286
         },
         {
           "section": "15",
           "row": "2",
-          "price": 328
+          "price": 297
         },
         {
           "section": "14",
           "row": "1",
-          "price": 336
+          "price": 306
         }
       ]
     },
@@ -1289,52 +1254,47 @@
         {
           "section": "14",
           "row": "10",
-          "price": 255
+          "price": 259
         },
         {
           "section": "13",
           "row": "5",
-          "price": 269
+          "price": 273
         },
         {
           "section": "14",
           "row": "8",
-          "price": 289
+          "price": 281
         },
         {
           "section": "13",
           "row": "3",
-          "price": 291
+          "price": 295
         },
         {
           "section": "14",
           "row": "6",
-          "price": 305
+          "price": 309
         },
         {
           "section": "13",
           "row": "2",
-          "price": 305
-        },
-        {
-          "section": "15",
-          "row": "6",
-          "price": 311
+          "price": 313
         },
         {
           "section": "14",
           "row": "2",
-          "price": 346
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 360
+          "price": 355
         },
         {
           "section": "14",
           "row": "1",
-          "price": 369
+          "price": 378
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 775
         }
       ]
     },
@@ -1346,47 +1306,52 @@
         {
           "section": "13",
           "row": "3",
-          "price": 180
+          "price": 174
         },
         {
           "section": "14",
           "row": "6",
-          "price": 190
+          "price": 184
         },
         {
           "section": "13",
           "row": "2",
-          "price": 200
+          "price": 194
         },
         {
           "section": "15",
           "row": "6",
-          "price": 213
+          "price": 207
         },
         {
           "section": "13",
           "row": "1",
-          "price": 216
+          "price": 209
         },
         {
           "section": "15",
           "row": "3",
-          "price": 217
+          "price": 210
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 213
         },
         {
           "section": "14",
           "row": "2",
-          "price": 228
+          "price": 222
         },
         {
           "section": "15",
           "row": "2",
-          "price": 238
+          "price": 231
         },
         {
           "section": "14",
           "row": "1",
-          "price": 245
+          "price": 237
         }
       ]
     },
@@ -1398,101 +1363,12 @@
         {
           "section": "13",
           "row": "3",
-          "price": 178
+          "price": 176
         },
         {
           "section": "14",
           "row": "6",
-          "price": 187
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 191
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 198
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 207
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 220
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 230
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 236
-        }
-      ]
-    },
-    "29": {
-      "id": 29,
-      "label": "Wed, Jun 17, 2026 · 7:15 PM · vs Giants",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-17-2026/event/159262133/",
-      "listings": [
-        {
-          "section": "14",
-          "row": "6",
-          "price": 185
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 187
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 194
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 203
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 216
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 225
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 231
-        }
-      ]
-    },
-    "30": {
-      "id": 30,
-      "label": "Thu, Jun 18, 2026 · 7:15 PM · vs Giants",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-18-2026/event/159262134/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "3",
-          "price": 168
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 177
+          "price": 184
         },
         {
           "section": "13",
@@ -1502,17 +1378,17 @@
         {
           "section": "15",
           "row": "3",
-          "price": 190
+          "price": 195
         },
         {
           "section": "13",
           "row": "1",
-          "price": 205
+          "price": 204
         },
         {
           "section": "14",
           "row": "2",
-          "price": 217
+          "price": 216
         },
         {
           "section": "15",
@@ -1526,6 +1402,95 @@
         }
       ]
     },
+    "29": {
+      "id": 29,
+      "label": "Wed, Jun 17, 2026 · 7:15 PM · vs Giants",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-17-2026/event/159262133/",
+      "listings": [
+        {
+          "section": "14",
+          "row": "6",
+          "price": 182
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 184
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 191
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 200
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 213
+        },
+        {
+          "section": "15",
+          "row": "2",
+          "price": 221
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 228
+        }
+      ]
+    },
+    "30": {
+      "id": 30,
+      "label": "Thu, Jun 18, 2026 · 7:15 PM · vs Giants",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-18-2026/event/159262134/",
+      "listings": [
+        {
+          "section": "13",
+          "row": "3",
+          "price": 167
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 176
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 187
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 187
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 203
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 215
+        },
+        {
+          "section": "15",
+          "row": "2",
+          "price": 224
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 230
+        }
+      ]
+    },
     "31": {
       "id": 31,
       "label": "Fri, Jun 19, 2026 · 7:15 PM · vs Brewers",
@@ -1534,42 +1499,47 @@
         {
           "section": "13",
           "row": "10",
-          "price": 197
+          "price": 177
+        },
+        {
+          "section": "14",
+          "row": "10",
+          "price": 207
         },
         {
           "section": "14",
           "row": "3",
-          "price": 224
+          "price": 219
         },
         {
           "section": "15",
           "row": "3",
-          "price": 234
+          "price": 228
         },
         {
           "section": "13",
           "row": "3",
-          "price": 262
+          "price": 238
         },
         {
           "section": "13",
           "row": "2",
-          "price": 282
+          "price": 256
         },
         {
           "section": "13",
           "row": "1",
-          "price": 304
+          "price": 276
         },
         {
           "section": "14",
           "row": "2",
-          "price": 323
+          "price": 292
         },
         {
           "section": "14",
           "row": "1",
-          "price": 344
+          "price": 312
         }
       ]
     },
@@ -1581,52 +1551,52 @@
         {
           "section": "14",
           "row": "10",
-          "price": 208
+          "price": 205
         },
         {
           "section": "13",
           "row": "4",
-          "price": 227
+          "price": 223
         },
         {
           "section": "14",
           "row": "6",
-          "price": 251
+          "price": 247
         },
         {
           "section": "13",
           "row": "2",
-          "price": 257
+          "price": 255
         },
         {
           "section": "13",
           "row": "1",
-          "price": 276
+          "price": 275
         },
         {
           "section": "15",
           "row": "6",
-          "price": 281
+          "price": 277
         },
         {
           "section": "15",
           "row": "5",
-          "price": 289
+          "price": 285
         },
         {
           "section": "14",
           "row": "2",
-          "price": 294
+          "price": 291
         },
         {
           "section": "15",
           "row": "2",
-          "price": 305
+          "price": 302
         },
         {
           "section": "14",
           "row": "1",
-          "price": 314
+          "price": 310
         }
       ]
     },
@@ -1638,57 +1608,57 @@
         {
           "section": "13",
           "row": "3",
-          "price": 244
+          "price": 238
         },
         {
           "section": "14",
           "row": "8",
-          "price": 244
+          "price": 239
         },
         {
           "section": "14",
           "row": "6",
-          "price": 256
+          "price": 250
         },
         {
           "section": "13",
           "row": "2",
-          "price": 266
+          "price": 260
         },
         {
           "section": "13",
           "row": "1",
-          "price": 286
+          "price": 280
         },
         {
           "section": "15",
           "row": "6",
-          "price": 287
+          "price": 281
         },
         {
           "section": "14",
           "row": "3",
-          "price": 293
+          "price": 286
         },
         {
           "section": "15",
           "row": "5",
-          "price": 295
+          "price": 288
         },
         {
           "section": "15",
           "row": "2",
-          "price": 299
+          "price": 292
         },
         {
           "section": "14",
           "row": "2",
-          "price": 304
+          "price": 297
         },
         {
           "section": "14",
           "row": "1",
-          "price": 324
+          "price": 316
         }
       ]
     },
@@ -1700,47 +1670,47 @@
         {
           "section": "13",
           "row": "3",
-          "price": 190
+          "price": 187
         },
         {
           "section": "14",
           "row": "6",
-          "price": 200
+          "price": 197
         },
         {
           "section": "15",
           "row": "3",
-          "price": 202
+          "price": 199
         },
         {
           "section": "13",
           "row": "2",
-          "price": 213
+          "price": 210
         },
         {
           "section": "13",
           "row": "1",
-          "price": 230
+          "price": 226
         },
         {
           "section": "14",
           "row": "4",
-          "price": 244
+          "price": 240
         },
         {
           "section": "14",
           "row": "2",
-          "price": 245
+          "price": 241
         },
         {
           "section": "15",
           "row": "2",
-          "price": 254
+          "price": 250
         },
         {
           "section": "14",
           "row": "1",
-          "price": 261
+          "price": 257
         }
       ]
     },
@@ -1752,42 +1722,42 @@
         {
           "section": "13",
           "row": "3",
-          "price": 195
+          "price": 192
         },
         {
           "section": "14",
           "row": "6",
-          "price": 205
+          "price": 202
         },
         {
           "section": "15",
           "row": "3",
-          "price": 210
+          "price": 207
         },
         {
           "section": "13",
           "row": "2",
-          "price": 212
+          "price": 209
         },
         {
           "section": "13",
           "row": "1",
-          "price": 230
+          "price": 226
         },
         {
           "section": "14",
           "row": "2",
-          "price": 244
+          "price": 240
         },
         {
           "section": "15",
           "row": "2",
-          "price": 254
+          "price": 250
         },
         {
           "section": "14",
           "row": "1",
-          "price": 261
+          "price": 257
         }
       ]
     },
@@ -1799,52 +1769,52 @@
         {
           "section": "13",
           "row": "10",
-          "price": 185
+          "price": 188
         },
         {
           "section": "15",
           "row": "3",
-          "price": 213
+          "price": 209
         },
         {
           "section": "14",
           "row": "10",
-          "price": 216
+          "price": 220
         },
         {
           "section": "13",
           "row": "3",
-          "price": 247
+          "price": 252
         },
         {
           "section": "14",
           "row": "6",
-          "price": 257
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 272
+          "price": 265
         },
         {
           "section": "14",
           "row": "5",
-          "price": 282
+          "price": 278
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 278
         },
         {
           "section": "13",
           "row": "1",
-          "price": 294
+          "price": 300
         },
         {
           "section": "14",
           "row": "2",
-          "price": 310
+          "price": 318
         },
         {
           "section": "14",
           "row": "1",
-          "price": 331
+          "price": 339
         }
       ]
     },
@@ -1856,52 +1826,52 @@
         {
           "section": "13",
           "row": "10",
-          "price": 266
-        },
-        {
-          "section": "14",
-          "row": "8",
-          "price": 306
-        },
-        {
-          "section": "13",
-          "row": "5",
-          "price": 306
+          "price": 260
         },
         {
           "section": "13",
           "row": "6",
-          "price": 306
+          "price": 299
+        },
+        {
+          "section": "14",
+          "row": "8",
+          "price": 299
+        },
+        {
+          "section": "13",
+          "row": "5",
+          "price": 299
         },
         {
           "section": "14",
           "row": "3",
-          "price": 338
+          "price": 330
         },
         {
           "section": "13",
           "row": "3",
-          "price": 350
+          "price": 342
         },
         {
           "section": "15",
           "row": "3",
-          "price": 353
+          "price": 345
         },
         {
           "section": "14",
           "row": "2",
-          "price": 447
+          "price": 439
         },
         {
           "section": "15",
           "row": "2",
-          "price": 463
+          "price": 455
         },
         {
           "section": "14",
           "row": "1",
-          "price": 474
+          "price": 467
         }
       ]
     },
@@ -1913,67 +1883,67 @@
         {
           "section": "13",
           "row": "10",
-          "price": 277
+          "price": 271
         },
         {
           "section": "14",
           "row": "10",
-          "price": 321
+          "price": 314
         },
         {
           "section": "14",
           "row": "8",
-          "price": 346
-        },
-        {
-          "section": "13",
-          "row": "6",
-          "price": 346
+          "price": 338
         },
         {
           "section": "13",
           "row": "7",
-          "price": 346
+          "price": 338
+        },
+        {
+          "section": "13",
+          "row": "6",
+          "price": 338
         },
         {
           "section": "15",
           "row": "3",
-          "price": 347
+          "price": 339
         },
         {
           "section": "14",
           "row": "3",
-          "price": 347
+          "price": 339
         },
         {
           "section": "13",
           "row": "4",
-          "price": 349
+          "price": 341
         },
         {
           "section": "13",
           "row": "2",
-          "price": 393
+          "price": 384
         },
         {
           "section": "13",
           "row": "1",
-          "price": 420
+          "price": 411
         },
         {
           "section": "14",
           "row": "2",
-          "price": 444
+          "price": 434
         },
         {
           "section": "15",
           "row": "2",
-          "price": 460
+          "price": 450
         },
         {
           "section": "14",
           "row": "1",
-          "price": 472
+          "price": 461
         }
       ]
     },
@@ -1985,67 +1955,67 @@
         {
           "section": "13",
           "row": "10",
-          "price": 200
+          "price": 195
         },
         {
           "section": "14",
           "row": "10",
-          "price": 233
+          "price": 228
         },
         {
           "section": "13",
           "row": "3",
-          "price": 266
+          "price": 260
         },
         {
           "section": "14",
           "row": "8",
-          "price": 274
+          "price": 268
         },
         {
           "section": "14",
           "row": "6",
-          "price": 279
+          "price": 272
         },
         {
           "section": "13",
           "row": "2",
-          "price": 282
+          "price": 276
         },
         {
           "section": "14",
           "row": "4",
-          "price": 293
+          "price": 286
         },
         {
           "section": "13",
           "row": "1",
-          "price": 304
+          "price": 297
         },
         {
           "section": "15",
           "row": "6",
-          "price": 314
+          "price": 307
         },
         {
           "section": "15",
           "row": "5",
-          "price": 321
+          "price": 314
         },
         {
           "section": "14",
           "row": "2",
-          "price": 321
+          "price": 314
         },
         {
           "section": "15",
           "row": "2",
-          "price": 334
+          "price": 326
         },
         {
           "section": "14",
           "row": "1",
-          "price": 343
+          "price": 335
         }
       ]
     },
@@ -2057,42 +2027,42 @@
         {
           "section": "13",
           "row": "3",
-          "price": 215
+          "price": 211
         },
         {
           "section": "14",
           "row": "3",
-          "price": 217
+          "price": 214
         },
         {
           "section": "15",
           "row": "3",
-          "price": 232
+          "price": 229
         },
         {
           "section": "13",
           "row": "2",
-          "price": 240
+          "price": 236
         },
         {
           "section": "13",
           "row": "1",
-          "price": 259
+          "price": 255
         },
         {
           "section": "14",
           "row": "2",
-          "price": 275
+          "price": 271
         },
         {
           "section": "15",
           "row": "2",
-          "price": 286
+          "price": 282
         },
         {
           "section": "14",
           "row": "1",
-          "price": 294
+          "price": 289
         }
       ]
     },
@@ -2104,47 +2074,47 @@
         {
           "section": "13",
           "row": "10",
-          "price": 187
+          "price": 190
         },
         {
           "section": "14",
           "row": "10",
-          "price": 218
+          "price": 222
         },
         {
           "section": "13",
           "row": "3",
-          "price": 251
+          "price": 254
         },
         {
           "section": "14",
           "row": "6",
-          "price": 262
+          "price": 266
         },
         {
           "section": "13",
           "row": "2",
-          "price": 274
+          "price": 277
         },
         {
           "section": "15",
           "row": "5",
-          "price": 276
+          "price": 280
         },
         {
           "section": "13",
           "row": "1",
-          "price": 295
+          "price": 298
         },
         {
           "section": "14",
           "row": "2",
-          "price": 311
+          "price": 315
         },
         {
           "section": "15",
           "row": "2",
-          "price": 324
+          "price": 328
         }
       ]
     },
@@ -2156,47 +2126,47 @@
         {
           "section": "13",
           "row": "10",
-          "price": 221
+          "price": 217
         },
         {
           "section": "14",
           "row": "10",
-          "price": 257
+          "price": 254
         },
         {
           "section": "13",
           "row": "4",
-          "price": 280
+          "price": 275
         },
         {
           "section": "14",
           "row": "6",
-          "price": 307
+          "price": 303
         },
         {
           "section": "15",
           "row": "6",
-          "price": 315
-        },
-        {
-          "section": "14",
-          "row": "4",
-          "price": 324
+          "price": 309
         },
         {
           "section": "13",
           "row": "2",
-          "price": 324
+          "price": 316
+        },
+        {
+          "section": "14",
+          "row": "4",
+          "price": 318
         },
         {
           "section": "14",
           "row": "2",
-          "price": 368
+          "price": 359
         },
         {
           "section": "15",
           "row": "2",
-          "price": 381
+          "price": 373
         }
       ]
     },
@@ -2208,52 +2178,52 @@
         {
           "section": "13",
           "row": "3",
-          "price": 208
+          "price": 204
         },
         {
           "section": "14",
           "row": "6",
-          "price": 220
+          "price": 215
         },
         {
           "section": "13",
           "row": "2",
-          "price": 228
+          "price": 223
         },
         {
           "section": "15",
           "row": "3",
-          "price": 236
+          "price": 231
         },
         {
           "section": "15",
           "row": "2",
-          "price": 244
-        },
-        {
-          "section": "14",
-          "row": "4",
-          "price": 244
+          "price": 239
         },
         {
           "section": "14",
           "row": "5",
-          "price": 244
+          "price": 239
+        },
+        {
+          "section": "14",
+          "row": "4",
+          "price": 239
         },
         {
           "section": "13",
           "row": "1",
-          "price": 246
+          "price": 240
         },
         {
           "section": "14",
           "row": "2",
-          "price": 261
+          "price": 255
         },
         {
           "section": "14",
           "row": "1",
-          "price": 280
+          "price": 274
         }
       ]
     },
@@ -2265,47 +2235,47 @@
         {
           "section": "13",
           "row": "3",
-          "price": 183
+          "price": 173
         },
         {
           "section": "14",
           "row": "6",
-          "price": 193
+          "price": 183
         },
         {
           "section": "13",
           "row": "2",
-          "price": 201
+          "price": 190
         },
         {
           "section": "15",
           "row": "6",
-          "price": 217
+          "price": 207
         },
         {
           "section": "13",
           "row": "1",
-          "price": 217
+          "price": 207
         },
         {
           "section": "15",
           "row": "5",
-          "price": 223
+          "price": 211
         },
         {
           "section": "14",
           "row": "2",
-          "price": 231
+          "price": 219
         },
         {
           "section": "15",
           "row": "2",
-          "price": 241
+          "price": 229
         },
         {
           "section": "14",
           "row": "1",
-          "price": 247
+          "price": 235
         }
       ]
     },
@@ -2317,7 +2287,106 @@
         {
           "section": "13",
           "row": "3",
-          "price": 176
+          "price": 173
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 183
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 194
+        },
+        {
+          "section": "15",
+          "row": "6",
+          "price": 205
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 210
+        },
+        {
+          "section": "15",
+          "row": "5",
+          "price": 211
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 224
+        },
+        {
+          "section": "15",
+          "row": "2",
+          "price": 232
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 240
+        }
+      ]
+    },
+    "46": {
+      "id": 46,
+      "label": "Wed, Jul 22, 2026 · 7:15 PM · vs Padres",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-22-2026/event/159262150/",
+      "listings": [
+        {
+          "section": "13",
+          "row": "3",
+          "price": 181
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 190
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 207
+        },
+        {
+          "section": "15",
+          "row": "6",
+          "price": 214
+        },
+        {
+          "section": "15",
+          "row": "5",
+          "price": 220
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 237
+        },
+        {
+          "section": "15",
+          "row": "2",
+          "price": 247
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 253
+        }
+      ]
+    },
+    "47": {
+      "id": 47,
+      "label": "Thu, Jul 23, 2026 · 12:15 PM · vs Padres",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-23-2026/event/159262151/",
+      "listings": [
+        {
+          "section": "13",
+          "row": "3",
+          "price": 177
         },
         {
           "section": "14",
@@ -2325,29 +2394,24 @@
           "price": 186
         },
         {
-          "section": "13",
-          "row": "2",
-          "price": 197
+          "section": "15",
+          "row": "3",
+          "price": 191
         },
         {
-          "section": "15",
-          "row": "6",
-          "price": 208
+          "section": "13",
+          "row": "2",
+          "price": 198
         },
         {
           "section": "13",
           "row": "1",
-          "price": 213
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 215
+          "price": 214
         },
         {
           "section": "14",
           "row": "2",
-          "price": 227
+          "price": 228
         },
         {
           "section": "15",
@@ -2361,100 +2425,6 @@
         }
       ]
     },
-    "46": {
-      "id": 46,
-      "label": "Wed, Jul 22, 2026 · 7:15 PM · vs Padres",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-22-2026/event/159262150/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "3",
-          "price": 183
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 193
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 210
-        },
-        {
-          "section": "15",
-          "row": "6",
-          "price": 217
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 223
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 241
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 251
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 257
-        }
-      ]
-    },
-    "47": {
-      "id": 47,
-      "label": "Thu, Jul 23, 2026 · 12:15 PM · vs Padres",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-23-2026/event/159262151/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "3",
-          "price": 180
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 188
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 194
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 201
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 217
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 231
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 240
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 247
-        }
-      ]
-    },
     "48": {
       "id": 48,
       "label": "Thu, Jul 30, 2026 · 7:15 PM · vs Nationals",
@@ -2463,7 +2433,7 @@
         {
           "section": "13",
           "row": "3",
-          "price": 163
+          "price": 162
         },
         {
           "section": "14",
@@ -2473,27 +2443,27 @@
         {
           "section": "14",
           "row": "2",
-          "price": 178
+          "price": 176
         },
         {
           "section": "13",
           "row": "2",
-          "price": 178
+          "price": 179
         },
         {
           "section": "15",
           "row": "6",
-          "price": 193
+          "price": 192
         },
         {
           "section": "13",
           "row": "1",
-          "price": 193
+          "price": 194
         },
         {
           "section": "15",
           "row": "5",
-          "price": 198
+          "price": 197
         },
         {
           "section": "15",
@@ -2515,52 +2485,52 @@
         {
           "section": "13",
           "row": "10",
-          "price": 165
+          "price": 161
         },
         {
           "section": "14",
           "row": "10",
-          "price": 192
+          "price": 188
         },
         {
           "section": "13",
           "row": "3",
-          "price": 221
+          "price": 216
         },
         {
           "section": "15",
           "row": "3",
-          "price": 228
+          "price": 223
         },
         {
           "section": "14",
           "row": "6",
-          "price": 232
+          "price": 227
         },
         {
           "section": "13",
           "row": "2",
-          "price": 238
+          "price": 233
         },
         {
           "section": "13",
           "row": "1",
-          "price": 257
+          "price": 252
         },
         {
           "section": "14",
           "row": "2",
-          "price": 272
+          "price": 266
         },
         {
           "section": "15",
           "row": "2",
-          "price": 284
+          "price": 277
         },
         {
           "section": "14",
           "row": "1",
-          "price": 291
+          "price": 285
         }
       ]
     },
@@ -2572,57 +2542,57 @@
         {
           "section": "13",
           "row": "10",
-          "price": 176
+          "price": 172
         },
         {
           "section": "14",
           "row": "10",
-          "price": 206
+          "price": 201
         },
         {
           "section": "14",
           "row": "3",
-          "price": 232
+          "price": 227
         },
         {
           "section": "13",
           "row": "3",
-          "price": 236
+          "price": 231
         },
         {
           "section": "13",
           "row": "2",
-          "price": 255
+          "price": 249
         },
         {
           "section": "13",
           "row": "1",
-          "price": 274
+          "price": 267
         },
         {
           "section": "15",
           "row": "6",
-          "price": 279
+          "price": 272
         },
         {
           "section": "15",
           "row": "5",
-          "price": 286
+          "price": 280
         },
         {
           "section": "14",
           "row": "2",
-          "price": 290
+          "price": 283
         },
         {
           "section": "15",
           "row": "2",
-          "price": 302
+          "price": 296
         },
         {
           "section": "14",
           "row": "1",
-          "price": 310
+          "price": 303
         }
       ]
     },
@@ -2634,42 +2604,42 @@
         {
           "section": "13",
           "row": "3",
-          "price": 188
+          "price": 184
         },
         {
           "section": "15",
           "row": "3",
-          "price": 198
+          "price": 194
         },
         {
           "section": "14",
           "row": "6",
-          "price": 198
+          "price": 194
         },
         {
           "section": "13",
           "row": "2",
-          "price": 207
+          "price": 203
         },
         {
           "section": "13",
           "row": "1",
-          "price": 223
+          "price": 218
         },
         {
           "section": "14",
           "row": "2",
-          "price": 237
+          "price": 232
         },
         {
           "section": "15",
           "row": "2",
-          "price": 244
+          "price": 239
         },
         {
           "section": "14",
           "row": "1",
-          "price": 254
+          "price": 248
         }
       ]
     },
@@ -2681,96 +2651,12 @@
         {
           "section": "13",
           "row": "3",
-          "price": 138
+          "price": 134
         },
         {
           "section": "15",
           "row": "3",
-          "price": 141
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 153
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 166
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 177
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 185
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 190
-        }
-      ]
-    },
-    "53": {
-      "id": 53,
-      "label": "Wed, Aug 5, 2026 · 7:15 PM · vs Marlins",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-5-2026/event/159262157/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "3",
-          "price": 136
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 149
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 162
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 166
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 173
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 181
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 186
-        }
-      ]
-    },
-    "54": {
-      "id": 54,
-      "label": "Thu, Aug 6, 2026 · 7:15 PM · vs Marlins",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-6-2026/event/159262158/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "3",
-          "price": 133
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 141
+          "price": 139
         },
         {
           "section": "13",
@@ -2799,6 +2685,90 @@
         }
       ]
     },
+    "53": {
+      "id": 53,
+      "label": "Wed, Aug 5, 2026 · 7:15 PM · vs Marlins",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-5-2026/event/159262157/",
+      "listings": [
+        {
+          "section": "13",
+          "row": "3",
+          "price": 135
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 148
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 161
+        },
+        {
+          "section": "15",
+          "row": "5",
+          "price": 165
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 172
+        },
+        {
+          "section": "15",
+          "row": "2",
+          "price": 179
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 184
+        }
+      ]
+    },
+    "54": {
+      "id": 54,
+      "label": "Thu, Aug 6, 2026 · 7:15 PM · vs Marlins",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-6-2026/event/159262158/",
+      "listings": [
+        {
+          "section": "13",
+          "row": "3",
+          "price": 131
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 139
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 145
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 158
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 168
+        },
+        {
+          "section": "15",
+          "row": "2",
+          "price": 176
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 181
+        }
+      ]
+    },
     "55": {
       "id": 55,
       "label": "Mon, Aug 10, 2026 · 7:15 PM · vs Mets",
@@ -2807,47 +2777,47 @@
         {
           "section": "13",
           "row": "3",
-          "price": 196
+          "price": 193
         },
         {
           "section": "14",
           "row": "6",
-          "price": 206
+          "price": 203
         },
         {
           "section": "15",
           "row": "3",
-          "price": 206
+          "price": 203
         },
         {
           "section": "13",
           "row": "2",
-          "price": 216
+          "price": 213
         },
         {
           "section": "13",
           "row": "1",
-          "price": 232
+          "price": 229
         },
         {
           "section": "14",
           "row": "4",
-          "price": 244
+          "price": 240
         },
         {
           "section": "14",
           "row": "2",
-          "price": 247
+          "price": 244
         },
         {
           "section": "15",
           "row": "2",
-          "price": 257
+          "price": 253
         },
         {
           "section": "14",
           "row": "1",
-          "price": 265
+          "price": 261
         }
       ]
     },
@@ -2859,42 +2829,42 @@
         {
           "section": "13",
           "row": "3",
-          "price": 191
+          "price": 188
         },
         {
           "section": "14",
           "row": "6",
-          "price": 201
+          "price": 198
         },
         {
           "section": "15",
           "row": "3",
-          "price": 202
+          "price": 199
         },
         {
           "section": "13",
           "row": "2",
-          "price": 210
+          "price": 207
         },
         {
           "section": "13",
           "row": "1",
-          "price": 226
+          "price": 223
         },
         {
           "section": "14",
           "row": "2",
-          "price": 241
+          "price": 237
         },
         {
           "section": "15",
           "row": "2",
-          "price": 251
+          "price": 247
         },
         {
           "section": "14",
           "row": "1",
-          "price": 257
+          "price": 253
         }
       ]
     },
@@ -2906,42 +2876,42 @@
         {
           "section": "13",
           "row": "3",
-          "price": 193
+          "price": 190
         },
         {
           "section": "14",
           "row": "6",
-          "price": 202
+          "price": 199
         },
         {
           "section": "13",
           "row": "2",
-          "price": 211
+          "price": 208
         },
         {
           "section": "15",
           "row": "3",
-          "price": 214
+          "price": 211
         },
         {
           "section": "13",
           "row": "1",
-          "price": 228
+          "price": 225
         },
         {
           "section": "14",
           "row": "2",
-          "price": 242
+          "price": 239
         },
         {
           "section": "15",
           "row": "2",
-          "price": 252
+          "price": 249
         },
         {
           "section": "14",
           "row": "1",
-          "price": 260
+          "price": 256
         }
       ]
     },
@@ -2951,11 +2921,6 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-14-2026/event/159262162/",
       "listings": [
         {
-          "section": "13",
-          "row": "3",
-          "price": 186
-        },
-        {
           "section": "14",
           "row": "6",
           "price": 196
@@ -2963,32 +2928,32 @@
         {
           "section": "15",
           "row": "3",
-          "price": 202
+          "price": 198
         },
         {
           "section": "13",
           "row": "2",
-          "price": 203
+          "price": 204
         },
         {
           "section": "13",
           "row": "1",
-          "price": 221
+          "price": 220
         },
         {
           "section": "14",
           "row": "2",
-          "price": 235
+          "price": 234
         },
         {
           "section": "15",
           "row": "2",
-          "price": 244
+          "price": 243
         },
         {
           "section": "14",
           "row": "1",
-          "price": 251
+          "price": 250
         }
       ]
     },
@@ -3000,62 +2965,62 @@
         {
           "section": "13",
           "row": "10",
-          "price": 170
+          "price": 166
         },
         {
           "section": "14",
           "row": "10",
-          "price": 198
+          "price": 194
         },
         {
           "section": "13",
+          "row": "3",
+          "price": 222
+        },
+        {
+          "section": "15",
           "row": "3",
           "price": 227
         },
         {
-          "section": "15",
-          "row": "3",
-          "price": 232
-        },
-        {
           "section": "14",
           "row": "6",
-          "price": 240
+          "price": 234
         },
         {
           "section": "13",
           "row": "2",
-          "price": 256
+          "price": 250
         },
         {
           "section": "14",
           "row": "4",
-          "price": 274
+          "price": 268
         },
         {
           "section": "14",
           "row": "5",
-          "price": 274
+          "price": 268
         },
         {
           "section": "13",
           "row": "1",
-          "price": 276
+          "price": 270
         },
         {
           "section": "14",
           "row": "2",
-          "price": 292
+          "price": 286
         },
         {
           "section": "15",
           "row": "2",
-          "price": 304
+          "price": 297
         },
         {
           "section": "14",
           "row": "1",
-          "price": 312
+          "price": 305
         }
       ]
     },
@@ -3067,47 +3032,47 @@
         {
           "section": "13",
           "row": "3",
-          "price": 205
+          "price": 200
         },
         {
           "section": "14",
           "row": "6",
-          "price": 215
+          "price": 210
         },
         {
           "section": "13",
           "row": "2",
-          "price": 225
+          "price": 220
         },
         {
           "section": "15",
           "row": "2",
-          "price": 226
+          "price": 221
         },
         {
           "section": "14",
           "row": "4",
-          "price": 226
+          "price": 221
         },
         {
           "section": "14",
           "row": "5",
-          "price": 226
+          "price": 221
         },
         {
           "section": "13",
           "row": "1",
-          "price": 242
+          "price": 237
         },
         {
           "section": "14",
           "row": "2",
-          "price": 257
+          "price": 252
         },
         {
           "section": "14",
           "row": "1",
-          "price": 275
+          "price": 269
         }
       ]
     },
@@ -3119,47 +3084,47 @@
         {
           "section": "13",
           "row": "10",
-          "price": 247
+          "price": 244
         },
         {
           "section": "13",
           "row": "5",
-          "price": 266
+          "price": 262
         },
         {
           "section": "14",
           "row": "3",
-          "price": 274
+          "price": 270
         },
         {
           "section": "15",
           "row": "3",
-          "price": 281
+          "price": 277
         },
         {
           "section": "13",
           "row": "3",
-          "price": 326
+          "price": 321
         },
         {
           "section": "13",
           "row": "2",
-          "price": 371
+          "price": 367
         },
         {
           "section": "13",
           "row": "1",
-          "price": 398
+          "price": 393
         },
         {
           "section": "14",
           "row": "2",
-          "price": 420
+          "price": 415
         },
         {
           "section": "15",
           "row": "2",
-          "price": 435
+          "price": 430
         }
       ]
     },
@@ -3171,52 +3136,52 @@
         {
           "section": "13",
           "row": "10",
-          "price": 247
+          "price": 239
         },
         {
           "section": "13",
           "row": "5",
-          "price": 260
+          "price": 256
         },
         {
           "section": "15",
           "row": "3",
-          "price": 277
+          "price": 273
         },
         {
           "section": "14",
           "row": "10",
-          "price": 287
+          "price": 277
         },
         {
           "section": "14",
           "row": "2",
-          "price": 292
+          "price": 288
         },
         {
           "section": "13",
           "row": "3",
-          "price": 328
+          "price": 315
         },
         {
           "section": "13",
           "row": "2",
-          "price": 345
+          "price": 332
         },
         {
           "section": "13",
           "row": "1",
-          "price": 370
+          "price": 357
         },
         {
           "section": "15",
           "row": "2",
-          "price": 407
+          "price": 392
         },
         {
           "section": "14",
           "row": "1",
-          "price": 417
+          "price": 402
         }
       ]
     },
@@ -3228,62 +3193,62 @@
         {
           "section": "14",
           "row": "3",
-          "price": 284
-        },
-        {
-          "section": "13",
-          "row": "6",
-          "price": 306
+          "price": 280
         },
         {
           "section": "13",
           "row": "7",
-          "price": 306
+          "price": 301
+        },
+        {
+          "section": "13",
+          "row": "6",
+          "price": 301
         },
         {
           "section": "13",
           "row": "8",
-          "price": 306
+          "price": 301
         },
         {
           "section": "13",
           "row": "5",
-          "price": 315
+          "price": 310
         },
         {
           "section": "13",
           "row": "3",
-          "price": 402
+          "price": 395
         },
         {
           "section": "13",
           "row": "2",
-          "price": 452
+          "price": 445
         },
         {
           "section": "15",
           "row": "6",
-          "price": 470
+          "price": 465
         },
         {
           "section": "15",
           "row": "5",
-          "price": 482
+          "price": 475
         },
         {
           "section": "13",
           "row": "1",
-          "price": 483
+          "price": 476
         },
         {
           "section": "14",
           "row": "2",
-          "price": 509
+          "price": 502
         },
         {
           "section": "14",
           "row": "1",
-          "price": 539
+          "price": 531
         }
       ]
     },
@@ -3295,42 +3260,42 @@
         {
           "section": "13",
           "row": "3",
-          "price": 183
+          "price": 178
         },
         {
           "section": "14",
           "row": "3",
-          "price": 185
+          "price": 181
         },
         {
           "section": "15",
           "row": "3",
-          "price": 194
+          "price": 190
         },
         {
           "section": "13",
           "row": "2",
-          "price": 202
+          "price": 198
         },
         {
           "section": "13",
           "row": "1",
-          "price": 218
+          "price": 214
         },
         {
           "section": "14",
           "row": "2",
-          "price": 232
+          "price": 227
         },
         {
           "section": "15",
           "row": "2",
-          "price": 242
+          "price": 236
         },
         {
           "section": "14",
           "row": "1",
-          "price": 249
+          "price": 243
         }
       ]
     },
@@ -3342,47 +3307,47 @@
         {
           "section": "13",
           "row": "3",
-          "price": 221
+          "price": 216
         },
         {
           "section": "15",
           "row": "3",
-          "price": 228
+          "price": 223
         },
         {
           "section": "14",
           "row": "6",
-          "price": 231
+          "price": 226
         },
         {
           "section": "13",
           "row": "2",
-          "price": 241
+          "price": 236
         },
         {
           "section": "14",
           "row": "5",
-          "price": 251
+          "price": 245
         },
         {
           "section": "13",
           "row": "1",
-          "price": 260
+          "price": 254
         },
         {
           "section": "14",
           "row": "2",
-          "price": 276
+          "price": 270
         },
         {
           "section": "15",
           "row": "2",
-          "price": 286
+          "price": 280
         },
         {
           "section": "14",
           "row": "1",
-          "price": 295
+          "price": 288
         }
       ]
     },
@@ -3394,52 +3359,52 @@
         {
           "section": "15",
           "row": "3",
-          "price": 194
+          "price": 190
         },
         {
           "section": "13",
           "row": "3",
-          "price": 197
+          "price": 193
         },
         {
           "section": "14",
           "row": "6",
-          "price": 207
+          "price": 203
         },
         {
           "section": "13",
           "row": "2",
-          "price": 216
+          "price": 211
         },
         {
           "section": "15",
           "row": "2",
-          "price": 226
-        },
-        {
-          "section": "14",
-          "row": "4",
-          "price": 226
+          "price": 221
         },
         {
           "section": "14",
           "row": "5",
-          "price": 226
+          "price": 221
+        },
+        {
+          "section": "14",
+          "row": "4",
+          "price": 221
         },
         {
           "section": "13",
           "row": "1",
-          "price": 232
+          "price": 227
         },
         {
           "section": "14",
           "row": "2",
-          "price": 247
+          "price": 242
         },
         {
           "section": "14",
           "row": "1",
-          "price": 265
+          "price": 259
         }
       ]
     },
@@ -3451,37 +3416,37 @@
         {
           "section": "15",
           "row": "3",
-          "price": 162
+          "price": 159
         },
         {
           "section": "13",
           "row": "3",
-          "price": 165
+          "price": 162
         },
         {
           "section": "13",
           "row": "2",
-          "price": 180
+          "price": 177
         },
         {
           "section": "13",
           "row": "1",
-          "price": 195
+          "price": 192
         },
         {
           "section": "14",
           "row": "2",
-          "price": 207
+          "price": 204
         },
         {
           "section": "15",
           "row": "2",
-          "price": 216
+          "price": 213
         },
         {
           "section": "14",
           "row": "1",
-          "price": 222
+          "price": 219
         }
       ]
     },
@@ -3493,42 +3458,42 @@
         {
           "section": "13",
           "row": "3",
-          "price": 165
+          "price": 162
         },
         {
           "section": "13",
           "row": "2",
-          "price": 180
+          "price": 177
         },
         {
           "section": "15",
           "row": "6",
-          "price": 195
+          "price": 192
         },
         {
           "section": "13",
           "row": "1",
-          "price": 195
+          "price": 192
         },
         {
           "section": "15",
           "row": "5",
-          "price": 200
+          "price": 197
         },
         {
           "section": "14",
           "row": "2",
-          "price": 207
+          "price": 204
         },
         {
           "section": "15",
           "row": "2",
-          "price": 216
+          "price": 213
         },
         {
           "section": "14",
           "row": "1",
-          "price": 222
+          "price": 219
         }
       ]
     },
@@ -3540,32 +3505,32 @@
         {
           "section": "13",
           "row": "3",
-          "price": 157
+          "price": 156
         },
         {
           "section": "15",
           "row": "3",
-          "price": 162
+          "price": 159
         },
         {
           "section": "13",
           "row": "2",
-          "price": 173
+          "price": 172
         },
         {
           "section": "13",
           "row": "1",
-          "price": 187
+          "price": 186
         },
         {
           "section": "14",
           "row": "2",
-          "price": 200
+          "price": 198
         },
         {
           "section": "15",
           "row": "2",
-          "price": 208
+          "price": 207
         },
         {
           "section": "14",
@@ -3582,47 +3547,47 @@
         {
           "section": "13",
           "row": "10",
-          "price": 183
+          "price": 178
         },
         {
           "section": "14",
           "row": "3",
-          "price": 236
+          "price": 231
         },
         {
           "section": "13",
           "row": "3",
-          "price": 246
+          "price": 238
         },
         {
           "section": "15",
           "row": "3",
-          "price": 247
+          "price": 241
         },
         {
           "section": "13",
           "row": "2",
-          "price": 261
+          "price": 255
         },
         {
           "section": "13",
           "row": "1",
-          "price": 281
+          "price": 275
         },
         {
           "section": "14",
           "row": "2",
-          "price": 297
+          "price": 291
         },
         {
           "section": "15",
           "row": "2",
+          "price": 302
+        },
+        {
+          "section": "14",
+          "row": "1",
           "price": 310
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 318
         }
       ]
     },
@@ -3634,52 +3599,52 @@
         {
           "section": "13",
           "row": "10",
-          "price": 205
+          "price": 200
         },
         {
           "section": "14",
           "row": "10",
-          "price": 240
+          "price": 234
         },
         {
           "section": "14",
           "row": "6",
-          "price": 287
+          "price": 281
         },
         {
           "section": "13",
           "row": "2",
-          "price": 289
+          "price": 282
         },
         {
           "section": "13",
           "row": "1",
-          "price": 310
+          "price": 303
         },
         {
           "section": "15",
           "row": "6",
-          "price": 323
+          "price": 315
         },
         {
           "section": "14",
           "row": "2",
-          "price": 328
+          "price": 320
         },
         {
           "section": "15",
           "row": "5",
-          "price": 331
+          "price": 324
         },
         {
           "section": "15",
           "row": "2",
-          "price": 341
+          "price": 334
         },
         {
           "section": "14",
           "row": "1",
-          "price": 350
+          "price": 342
         }
       ]
     },
@@ -3691,62 +3656,62 @@
         {
           "section": "15",
           "row": "3",
-          "price": 244
-        },
-        {
-          "section": "13",
-          "row": "4",
-          "price": 244
-        },
-        {
-          "section": "13",
-          "row": "5",
-          "price": 244
+          "price": 238
         },
         {
           "section": "14",
           "row": "10",
-          "price": 244
+          "price": 239
+        },
+        {
+          "section": "13",
+          "row": "5",
+          "price": 239
+        },
+        {
+          "section": "13",
+          "row": "4",
+          "price": 239
         },
         {
           "section": "13",
           "row": "13",
-          "price": 244
+          "price": 239
         },
         {
           "section": "13",
           "row": "3",
-          "price": 247
+          "price": 242
         },
         {
           "section": "14",
           "row": "5",
-          "price": 251
+          "price": 245
         },
         {
           "section": "13",
           "row": "2",
-          "price": 270
+          "price": 264
         },
         {
           "section": "13",
           "row": "1",
-          "price": 291
+          "price": 285
         },
         {
           "section": "14",
           "row": "2",
-          "price": 307
+          "price": 301
         },
         {
           "section": "15",
           "row": "2",
-          "price": 320
+          "price": 313
         },
         {
           "section": "14",
           "row": "1",
-          "price": 329
+          "price": 321
         }
       ]
     },
@@ -3758,42 +3723,42 @@
         {
           "section": "13",
           "row": "3",
-          "price": 160
+          "price": 157
         },
         {
           "section": "15",
           "row": "3",
-          "price": 166
+          "price": 163
         },
         {
           "section": "14",
           "row": "6",
-          "price": 168
+          "price": 166
         },
         {
           "section": "13",
           "row": "2",
-          "price": 176
+          "price": 173
         },
         {
           "section": "13",
           "row": "1",
-          "price": 190
+          "price": 187
         },
         {
           "section": "14",
           "row": "2",
-          "price": 202
+          "price": 199
         },
         {
           "section": "15",
           "row": "2",
-          "price": 211
+          "price": 208
         },
         {
           "section": "14",
           "row": "1",
-          "price": 217
+          "price": 214
         }
       ]
     },
@@ -3805,47 +3770,47 @@
         {
           "section": "13",
           "row": "3",
-          "price": 165
+          "price": 162
         },
         {
           "section": "14",
           "row": "6",
-          "price": 172
+          "price": 169
         },
         {
           "section": "13",
           "row": "2",
-          "price": 180
+          "price": 177
         },
         {
           "section": "15",
           "row": "6",
-          "price": 195
+          "price": 192
         },
         {
           "section": "13",
           "row": "1",
-          "price": 195
+          "price": 192
         },
         {
           "section": "15",
           "row": "5",
-          "price": 200
+          "price": 197
         },
         {
           "section": "14",
           "row": "2",
-          "price": 207
+          "price": 204
         },
         {
           "section": "15",
           "row": "2",
-          "price": 216
+          "price": 213
         },
         {
           "section": "14",
           "row": "1",
-          "price": 222
+          "price": 219
         }
       ]
     },
@@ -3857,17 +3822,17 @@
         {
           "section": "15",
           "row": "3",
-          "price": 174
+          "price": 171
         },
         {
           "section": "13",
           "row": "3",
-          "price": 182
+          "price": 183
         },
         {
           "section": "14",
           "row": "6",
-          "price": 192
+          "price": 193
         },
         {
           "section": "13",
@@ -3877,12 +3842,12 @@
         {
           "section": "13",
           "row": "1",
-          "price": 216
+          "price": 218
         },
         {
           "section": "14",
           "row": "2",
-          "price": 230
+          "price": 231
         },
         {
           "section": "15",
@@ -3892,7 +3857,7 @@
         {
           "section": "14",
           "row": "1",
-          "price": 246
+          "price": 247
         }
       ]
     }
