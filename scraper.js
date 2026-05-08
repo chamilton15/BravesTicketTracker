@@ -38,14 +38,9 @@ async function getParkingUrls(page) {
   await page.goto(PARKING_BASE_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
   await sleep(4000);
 
-  // Click through pages same as game URLs
-  const totalPages = await page.evaluate(() => {
-    const btns = Array.from(document.querySelectorAll('button'));
-    const pageNums = btns.map(b => parseInt(b.innerText.trim())).filter(n => !isNaN(n) && n > 0);
-    return pageNums.length > 0 ? Math.max(...pageNums) : 1;
-  });
-
-  for (let p = 1; p <= totalPages; p++) {
+  // Click through pages using next-button loop
+  let pageNum = 1;
+  while (true) {
     const urls = await page.evaluate(() =>
       Array.from(document.querySelectorAll('a[href*="parking-passes-only-atlanta-braves-atlanta-tickets"]'))
         .map(a => a.href.split('?')[0])
@@ -56,43 +51,66 @@ async function getParkingUrls(page) {
       if (m) parkingUrls.set(m[0], u);
     });
 
-    if (p < totalPages) {
-      const next = p + 1;
-      const clicked = await page.evaluate((nextPage) => {
-        const btn = Array.from(document.querySelectorAll('button'))
-          .find(b => b.innerText.trim() === String(nextPage));
-        if (btn) { btn.click(); return true; }
-        return false;
-      }, next);
-      if (!clicked) break;
-      await sleep(3000);
-    }
+    const next = pageNum + 1;
+    const clicked = await page.evaluate((nextPage) => {
+      const btn = Array.from(document.querySelectorAll('button'))
+        .find(b => b.innerText.trim() === String(nextPage));
+      if (btn) { btn.click(); return true; }
+      return false;
+    }, next);
+    if (!clicked) break;
+    pageNum++;
+    await sleep(3000);
   }
 
   console.log('  Found parking URLs for ' + parkingUrls.size + ' games');
   return parkingUrls;
 }
 
-// Scrape lowest Section 29 parking price for a game
+// Scrape all Lot 29 parking listings for a game
 async function scrapeParking(page, parkingUrl) {
-  if (!parkingUrl) return null;
+  if (!parkingUrl) return [];
   try {
     await page.goto(parkingUrl + '?' + PARKING_PARAMS, { waitUntil: 'domcontentloaded', timeout: 60000 });
     await sleep(3000);
 
-    const price = await page.evaluate(() => {
+    let clicks = 0;
+    while (clicks < 20) {
+      const clicked = await page.evaluate(() => {
+        const btn = Array.from(document.querySelectorAll('button'))
+          .find(b => /show more/i.test(b.innerText));
+        if (btn) { btn.click(); return true; }
+        return false;
+      });
+      if (!clicked) break;
+      clicks++;
+      await sleep(800);
+    }
+
+    const listings = await page.evaluate(() => {
       const container = document.querySelector('[data-testid="listings-container"]');
-      if (!container) return null;
+      if (!container) return [];
       const lines = container.innerText.split('\n').map(l => l.trim()).filter(Boolean);
-      // Find all prices, take the lowest
-      const prices = lines
-        .filter(l => /^\$\d+$/.test(l))
-        .map(l => parseFloat(l.replace('$', '')));
-      return prices.length > 0 ? Math.min(...prices) : null;
+      const results = [];
+      for (let i = 0; i < lines.length; i++) {
+        if (lines[i] !== '29') continue;
+        let price = null;
+        for (let j = i + 1; j < Math.min(i + 10, lines.length); j++) {
+          const m = lines[j].match(/^\$(\d+(?:\.\d{2})?)$/);
+          if (m) {
+            const nextLine = lines[j + 1] || '';
+            if (nextLine === 'Now' || /\d+%\s*off/i.test(nextLine) || /^\$\d+/.test(nextLine)) { continue; }
+            price = parseFloat(m[1]);
+            break;
+          }
+        }
+        if (price) results.push({ lot: '29', price });
+      }
+      return results;
     });
 
-    return price;
-  } catch { return null; }
+    return listings;
+  } catch { return []; }
 }
 
 // Load all Atlanta home games by clicking through numbered pagination
@@ -188,8 +206,7 @@ async function scrapeGameListings(page, gameUrl) {
           const priceMatch = lines[j].match(/^\$(\d+(?:\.\d{2})?)$/);
           if (priceMatch) {
             const nextLine = lines[j + 1] || '';
-            if (nextLine === 'Now') {
-              // This is the strikethrough price, skip it and take the one after Now
+            if (nextLine === 'Now' || /\d+%\s*off/i.test(nextLine) || /^\$\d+/.test(nextLine)) {
               continue;
             }
             price = parseFloat(priceMatch[1]);
@@ -323,9 +340,10 @@ async function main() {
       // Match parking URL by date
       const dateMatch = url.match(/(\d{1,2}-\d{1,2}-\d{4})/);
       const parkingUrl = dateMatch ? parkingUrls.get(dateMatch[1]) : null;
-      const parkingPrice = await scrapeParking(page, parkingUrl);
+      const parkingListings = await scrapeParking(page, parkingUrl);
+      const parkingPrice = parkingListings.length > 0 ? Math.min(...parkingListings.map(l => l.price)) : null;
 
-      output.games[gameId] = { id: gameId, label, url, listings, parkingPrice };
+      output.games[gameId] = { id: gameId, label, url, listings, parkingListings, parkingPrice };
       gameId++;
       await sleep(1500);
     }
