@@ -4,7 +4,7 @@ A web dashboard that scrapes StubHub for ticket listings in Sections 13, 14, and
 
 ## What It Does
 
-- Scrapes all 81 Braves home games from StubHub nightly at midnight
+- Scrapes all upcoming Braves home games from StubHub nightly at midnight
 - Filters to listings with **2 tickets together** in Sections 13, 14, and 15
 - Displays listings sorted highest to lowest price with section/row breakdown
 - Shows lowest, average, and highest price stats per game
