@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "lastUpdated": "2026-05-08T06:25:39.110Z",
-=======
-  "lastUpdated": "2026-05-08T19:13:44.811Z",
->>>>>>> Stashed changes
+  "lastUpdated": "2026-05-09T07:01:52.931Z",
   "sections": [
     "13",
     "14",
@@ -18,56 +14,71 @@
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 188
-=======
-          "price": 186
->>>>>>> Stashed changes
+          "price": 182
         },
         {
           "section": "14",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 198
-=======
-          "price": 194
->>>>>>> Stashed changes
-        },
-        {
-          "section": "14",
-          "row": "5",
-<<<<<<< Updated upstream
-          "price": 203
-=======
-          "price": 200
->>>>>>> Stashed changes
+          "price": 192
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 203
-=======
-          "price": 200
->>>>>>> Stashed changes
+          "price": 195
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 197
         },
         {
           "section": "14",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 214
-=======
           "price": 212
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 227
-=======
           "price": 225
->>>>>>> Stashed changes
+        }
+      ],
+      "parkingListings": [
+        {
+          "lot": "29",
+          "price": 99
+        }
+      ],
+      "parkingPrice": 99
+    },
+    "2": {
+      "id": 2,
+      "label": "Wed, May 13, 2026 · 7:15 PM · vs Cubs",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-13-2026/event/159262118/",
+      "listings": [
+        {
+          "section": "13",
+          "row": "13",
+          "price": 130
+        },
+        {
+          "section": "13",
+          "row": "4",
+          "price": 179
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 204
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 205
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 234
         }
       ],
       "parkingListings": [
@@ -78,61 +89,6 @@
       ],
       "parkingPrice": 54
     },
-    "2": {
-      "id": 2,
-      "label": "Wed, May 13, 2026 · 7:15 PM · vs Cubs",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-5-13-2026/event/159262118/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "13",
-          "price": 126
-        },
-        {
-          "section": "13",
-          "row": "4",
-<<<<<<< Updated upstream
-          "price": 173
-=======
-          "price": 181
->>>>>>> Stashed changes
-        },
-        {
-          "section": "14",
-          "row": "5",
-<<<<<<< Updated upstream
-          "price": 198
-=======
-          "price": 205
->>>>>>> Stashed changes
-        },
-        {
-          "section": "13",
-          "row": "2",
-<<<<<<< Updated upstream
-          "price": 202
-=======
-          "price": 205
->>>>>>> Stashed changes
-        },
-        {
-          "section": "14",
-          "row": "2",
-<<<<<<< Updated upstream
-          "price": 233
-=======
-          "price": 235
-        }
-      ],
-      "parkingListings": [
-        {
-          "lot": "29",
-          "price": 67
->>>>>>> Stashed changes
-        }
-      ],
-      "parkingPrice": 67
-    },
     "3": {
       "id": 3,
       "label": "Thu, May 14, 2026 · 7:15 PM · vs Cubs",
@@ -140,12 +96,12 @@
       "listings": [
         {
           "section": "13",
-          "row": "10",
-          "price": 180
+          "row": "6",
+          "price": 183
         },
         {
           "section": "13",
-          "row": "6",
+          "row": "10",
           "price": 183
         },
         {
@@ -156,34 +112,22 @@
         {
           "section": "13",
           "row": "5",
-          "price": 190
+          "price": 192
         },
         {
           "section": "14",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 213
-=======
           "price": 211
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 229
-=======
           "price": 223
->>>>>>> Stashed changes
         },
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 509
-=======
-          "price": 672
->>>>>>> Stashed changes
+          "price": 678
         }
       ],
       "parkingListings": [
@@ -193,7 +137,7 @@
         },
         {
           "lot": "29",
-          "price": 52
+          "price": 57
         }
       ],
       "parkingPrice": 51
@@ -206,56 +150,41 @@
         {
           "section": "13",
           "row": "5",
-          "price": 274
-        },
-        {
-<<<<<<< Updated upstream
-          "section": "13",
-          "row": "5",
-          "price": 442
-=======
-          "section": "14",
-          "row": "5",
-          "price": 277
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 282
->>>>>>> Stashed changes
+          "price": 248
         },
         {
           "section": "13",
           "row": "3",
-          "price": 294
+          "price": 260
         },
         {
           "section": "14",
           "row": "6",
-          "price": 422
+          "price": 267
         },
         {
           "section": "14",
-          "row": "2",
-          "price": 284
+          "row": "5",
+          "price": 270
         },
         {
           "section": "15",
           "row": "6",
-          "price": 312
+          "price": 270
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 273
         }
       ],
-<<<<<<< Updated upstream
-      "parkingPrice": 53
-=======
       "parkingListings": [
         {
           "lot": "29",
-          "price": 45
+          "price": 50
         }
       ],
-      "parkingPrice": 45
->>>>>>> Stashed changes
+      "parkingPrice": 50
     },
     "5": {
       "id": 5,
@@ -265,45 +194,32 @@
         {
           "section": "13",
           "row": "5",
-          "price": 307
+          "price": 319
         },
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 346
-=======
-          "price": 326
->>>>>>> Stashed changes
+          "price": 339
         },
         {
           "section": "14",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 372
-=======
-          "price": 347
+          "price": 361
         },
         {
           "section": "15",
           "row": "5",
-          "price": 354
+          "price": 370
         },
         {
           "section": "14",
           "row": "4",
-          "price": 355
->>>>>>> Stashed changes
+          "price": 370
         },
         {
           "section": "14",
           "row": "3",
           "price": 375
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 622
         },
         {
           "section": "15",
@@ -313,17 +229,12 @@
         {
           "section": "14",
           "row": "2",
-          "price": 407
+          "price": 414
         },
         {
           "section": "15",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 455
-        }
-      ],
-=======
-          "price": 426
+          "price": 433
         }
       ],
       "parkingListings": [
@@ -332,7 +243,6 @@
           "price": 36
         }
       ],
->>>>>>> Stashed changes
       "parkingPrice": 36
     },
     "6": {
@@ -342,90 +252,49 @@
       "listings": [
         {
           "section": "14",
-          "row": "10",
-<<<<<<< Updated upstream
-          "price": 192
-=======
-          "price": 191
->>>>>>> Stashed changes
-        },
-        {
-          "section": "14",
           "row": "6",
-<<<<<<< Updated upstream
           "price": 231
-=======
-          "price": 230
->>>>>>> Stashed changes
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 248
-=======
-          "price": 246
->>>>>>> Stashed changes
+          "price": 244
         },
         {
           "section": "15",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 261
-=======
-          "price": 259
->>>>>>> Stashed changes
-        },
-        {
-          "section": "15",
-          "row": "5",
-<<<<<<< Updated upstream
-          "price": 267
-=======
-          "price": 265
->>>>>>> Stashed changes
+          "price": 260
         },
         {
           "section": "13",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 268
-=======
+          "price": 262
+        },
+        {
+          "section": "15",
+          "row": "5",
           "price": 266
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 284
-=======
-          "price": 281
->>>>>>> Stashed changes
+          "price": 278
         },
         {
           "section": "15",
           "row": "4",
-<<<<<<< Updated upstream
-          "price": 421
-=======
           "price": 288
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 295
-=======
-          "price": 292
+          "price": 289
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
           "price": 42
->>>>>>> Stashed changes
         }
       ],
       "parkingPrice": 42
@@ -437,97 +306,58 @@
       "listings": [
         {
           "section": "13",
-          "row": "12",
-<<<<<<< Updated upstream
-          "price": 221
+          "row": "4",
+          "price": 223
+        },
+        {
+          "section": "13",
+          "row": "10",
+          "price": 223
         },
         {
           "section": "13",
           "row": "13",
-          "price": 221
-        },
-        {
-          "section": "13",
-          "row": "9",
-          "price": 225
-        },
-        {
-          "section": "13",
-          "row": "10",
-          "price": 225
-        },
-        {
-          "section": "14",
-          "row": "10",
-          "price": 312
-        },
-        {
-          "section": "14",
-          "row": "3",
-          "price": 404
-=======
-          "price": 219
-        },
-        {
-          "section": "14",
-          "row": "2",
           "price": 223
->>>>>>> Stashed changes
         },
         {
-          "section": "13",
+          "section": "14",
           "row": "4",
-<<<<<<< Updated upstream
-          "price": 344
-=======
-          "price": 223
+          "price": 226
         },
         {
-          "section": "13",
-          "row": "10",
-          "price": 223
->>>>>>> Stashed changes
+          "section": "14",
+          "row": "3",
+          "price": 251
         },
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 361
-=======
-          "price": 281
->>>>>>> Stashed changes
+          "price": 287
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 407
-=======
-          "price": 300
->>>>>>> Stashed changes
+          "price": 313
         },
         {
           "section": "15",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 413
+          "price": 315
         },
         {
           "section": "14",
           "row": "2",
-          "price": 479
-=======
-          "price": 303
->>>>>>> Stashed changes
+          "price": 349
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 356
         },
         {
           "section": "15",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 500
-=======
-          "price": 335
->>>>>>> Stashed changes
+          "price": 360
         }
       ],
       "parkingListings": [
@@ -545,111 +375,63 @@
       "listings": [
         {
           "section": "13",
-          "row": "9",
-          "price": 277
-        },
-        {
-          "section": "13",
-          "row": "11",
-          "price": 277
-        },
-        {
-          "section": "13",
-          "row": "12",
-          "price": 277
-        },
-        {
-          "section": "13",
           "row": "13",
-<<<<<<< Updated upstream
-          "price": 277
-=======
-          "price": 257
+          "price": 242
         },
         {
-          "section": "13",
+          "section": "14",
           "row": "9",
-          "price": 275
-        },
-        {
-          "section": "13",
-          "row": "11",
-          "price": 275
-        },
-        {
-          "section": "13",
-          "row": "12",
-          "price": 275
->>>>>>> Stashed changes
+          "price": 266
         },
         {
           "section": "15",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 282
+          "price": 276
         },
         {
           "section": "13",
-          "row": "7",
-          "price": 284
-        },
-        {
-          "section": "13",
-          "row": "8",
-          "price": 284
-=======
-          "price": 280
->>>>>>> Stashed changes
-        },
-        {
-          "section": "14",
           "row": "9",
-          "price": 286
+          "price": 277
         },
         {
           "section": "13",
-          "row": "5",
-<<<<<<< Updated upstream
-          "price": 309
-=======
-          "price": 286
->>>>>>> Stashed changes
+          "row": "11",
+          "price": 277
+        },
+        {
+          "section": "13",
+          "row": "12",
+          "price": 277
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 287
         },
         {
           "section": "14",
           "row": "8",
-          "price": 300
-        },
-        {
-          "section": "13",
-          "row": "3",
-<<<<<<< Updated upstream
-          "price": 330
-=======
-          "price": 307
+          "price": 296
         },
         {
           "section": "14",
-          "row": "3",
-          "price": 315
->>>>>>> Stashed changes
+          "row": "6",
+          "price": 301
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 342
-=======
-          "price": 321
->>>>>>> Stashed changes
+          "price": 304
+        },
+        {
+          "section": "14",
+          "row": "3",
+          "price": 310
         },
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 362
-=======
-          "price": 346
+          "price": 339
         }
       ],
       "parkingListings": [
@@ -660,7 +442,6 @@
         {
           "lot": "29",
           "price": 85
->>>>>>> Stashed changes
         }
       ],
       "parkingPrice": 50
@@ -673,65 +454,42 @@
         {
           "section": "14",
           "row": "10",
-<<<<<<< Updated upstream
-          "price": 249
-=======
-          "price": 169
->>>>>>> Stashed changes
+          "price": 178
         },
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 291
-=======
-          "price": 195
->>>>>>> Stashed changes
+          "price": 206
         },
         {
           "section": "14",
           "row": "6",
-          "price": 204
+          "price": 217
         },
         {
           "section": "13",
           "row": "2",
-          "price": 212
-        },
-        {
-          "section": "15",
-          "row": "6",
-          "price": 348
+          "price": 218
         },
         {
           "section": "13",
           "row": "1",
-          "price": 228
+          "price": 238
         },
         {
           "section": "15",
-<<<<<<< Updated upstream
-          "row": "5",
-          "price": 360
-=======
-          "row": "6",
-          "price": 229
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 236
->>>>>>> Stashed changes
+          "row": "3",
+          "price": 242
         },
         {
           "section": "14",
           "row": "2",
-          "price": 242
+          "price": 253
         },
         {
           "section": "15",
           "row": "2",
-          "price": 252
+          "price": 265
         }
       ],
       "parkingListings": [
@@ -754,12 +512,12 @@
         {
           "section": "13",
           "row": "13",
-          "price": 130
+          "price": 129
         },
         {
           "section": "13",
           "row": "12",
-          "price": 146
+          "price": 144
         },
         {
           "section": "13",
@@ -769,39 +527,27 @@
         {
           "section": "14",
           "row": "6",
-          "price": 199
+          "price": 197
         },
         {
           "section": "15",
           "row": "6",
-          "price": 204
+          "price": 202
         },
         {
           "section": "14",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 205
-=======
           "price": 203
->>>>>>> Stashed changes
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 210
-=======
-          "price": 208
->>>>>>> Stashed changes
+          "price": 207
         },
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 242
-=======
-          "price": 240
->>>>>>> Stashed changes
+          "price": 238
         },
         {
           "section": "15",
@@ -872,36 +618,6 @@
       "listings": [
         {
           "section": "13",
-<<<<<<< Updated upstream
-          "row": "11",
-          "price": 176
-        },
-        {
-          "section": "13",
-          "row": "12",
-          "price": 176
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 176
-        },
-        {
-          "section": "13",
-          "row": "7",
-          "price": 178
-=======
-          "row": "12",
-          "price": 175
->>>>>>> Stashed changes
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 175
-        },
-        {
-          "section": "13",
           "row": "4",
           "price": 177
         },
@@ -922,42 +638,43 @@
         },
         {
           "section": "13",
-          "row": "8",
+          "row": "13",
           "price": 177
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 182
         },
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 195
-=======
           "price": 193
->>>>>>> Stashed changes
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 208
         },
         {
           "section": "13",
           "row": "2",
-          "price": 207
+          "price": 208
         },
         {
           "section": "13",
           "row": "1",
-          "price": 223
+          "price": 225
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 238
         },
         {
           "section": "15",
           "row": "2",
-          "price": 247
+          "price": 249
         },
         {
           "section": "14",
           "row": "1",
-          "price": 254
+          "price": 256
         }
       ],
       "parkingListings": [
@@ -976,55 +693,17 @@
         {
           "section": "14",
           "row": "10",
-<<<<<<< Updated upstream
-          "price": 302
+          "price": 232
         },
         {
           "section": "14",
           "row": "3",
-          "price": 312
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 257
-        },
-        {
-          "section": "13",
-          "row": "7",
-          "price": 258
-        },
-        {
-          "section": "13",
-          "row": "11",
-          "price": 258
-        },
-        {
-          "section": "13",
-          "row": "12",
-          "price": 258
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 258
+          "price": 237
         },
         {
           "section": "13",
           "row": "4",
-          "price": 260
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 272
-=======
-          "price": 237
-        },
-        {
-          "section": "14",
-          "row": "3",
-          "price": 237
+          "price": 252
         },
         {
           "section": "15",
@@ -1033,69 +712,28 @@
         },
         {
           "section": "13",
-          "row": "7",
-          "price": 256
-        },
-        {
-          "section": "13",
-          "row": "11",
-          "price": 256
-        },
-        {
-          "section": "13",
-          "row": "12",
-          "price": 256
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 256
-        },
-        {
-          "section": "13",
-          "row": "4",
-          "price": 258
-        },
-        {
-          "section": "13",
           "row": "3",
-          "price": 270
->>>>>>> Stashed changes
+          "price": 265
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 294
-=======
-          "price": 292
->>>>>>> Stashed changes
+          "price": 286
         },
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 335
-=======
-          "price": 332
->>>>>>> Stashed changes
+          "price": 326
         },
         {
           "section": "15",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 349
-=======
-          "price": 346
->>>>>>> Stashed changes
+          "price": 339
         },
         {
           "section": "14",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 357
-=======
-          "price": 354
+          "price": 347
         }
       ],
       "parkingListings": [
@@ -1106,7 +744,6 @@
         {
           "lot": "29",
           "price": 70
->>>>>>> Stashed changes
         }
       ],
       "parkingPrice": 61
@@ -1119,52 +756,32 @@
         {
           "section": "14",
           "row": "10",
-<<<<<<< Updated upstream
-          "price": 256
-=======
-          "price": 253
->>>>>>> Stashed changes
+          "price": 247
         },
         {
           "section": "13",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 270
-=======
-          "price": 266
->>>>>>> Stashed changes
+          "price": 260
         },
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 292
-=======
-          "price": 287
->>>>>>> Stashed changes
+          "price": 282
         },
         {
           "section": "14",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 305
-=======
-          "price": 301
->>>>>>> Stashed changes
+          "price": 294
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 313
-=======
-          "price": 309
+          "price": 303
         },
         {
           "section": "14",
           "row": "4",
-          "price": 316
->>>>>>> Stashed changes
+          "price": 310
         },
         {
           "section": "14",
@@ -1174,7 +791,7 @@
         {
           "section": "14",
           "row": "2",
-          "price": 356
+          "price": 345
         },
         {
           "section": "15",
@@ -1182,8 +799,6 @@
           "price": 499
         }
       ],
-<<<<<<< Updated upstream
-=======
       "parkingListings": [
         {
           "lot": "29",
@@ -1194,7 +809,6 @@
           "price": 74
         }
       ],
->>>>>>> Stashed changes
       "parkingPrice": 68
     },
     "15": {
@@ -1205,68 +819,47 @@
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 171
-=======
-          "price": 169
->>>>>>> Stashed changes
+          "price": 163
         },
         {
           "section": "13",
           "row": "2",
-          "price": 181
+          "price": 173
         },
         {
           "section": "14",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 182
-=======
-          "price": 181
->>>>>>> Stashed changes
-        },
-        {
-          "section": "14",
-          "row": "8",
-<<<<<<< Updated upstream
-          "price": 182
-=======
-          "price": 181
->>>>>>> Stashed changes
+          "price": 177
         },
         {
           "section": "13",
           "row": "1",
-          "price": 195
+          "price": 188
         },
         {
           "section": "14",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 317
-=======
           "price": 200
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "5",
-          "price": 209
+          "price": 200
         },
         {
           "section": "14",
           "row": "2",
-          "price": 209
+          "price": 200
         },
         {
           "section": "15",
           "row": "2",
-          "price": 218
+          "price": 209
         },
         {
           "section": "14",
           "row": "1",
-          "price": 224
+          "price": 214
         }
       ],
       "parkingListings": [
@@ -1285,61 +878,37 @@
         {
           "section": "13",
           "row": "3",
-          "price": 176
+          "price": 177
         },
         {
           "section": "14",
           "row": "6",
-          "price": 186
+          "price": 187
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 191
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 206
-=======
-          "price": 192
->>>>>>> Stashed changes
+          "price": 195
         },
         {
           "section": "15",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 209
-=======
-          "price": 208
->>>>>>> Stashed changes
+          "price": 210
         },
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 219
-=======
-          "price": 221
->>>>>>> Stashed changes
+          "price": 223
         },
         {
           "section": "15",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 229
-=======
-          "price": 230
->>>>>>> Stashed changes
+          "price": 233
         },
         {
           "section": "14",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 235
-=======
-          "price": 236
+          "price": 240
         }
       ],
       "parkingListings": [
@@ -1350,7 +919,6 @@
         {
           "lot": "29",
           "price": 71
->>>>>>> Stashed changes
         }
       ],
       "parkingPrice": 67
@@ -1368,29 +936,17 @@
         {
           "section": "14",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 181
-=======
           "price": 180
->>>>>>> Stashed changes
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 182
-=======
           "price": 181
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 185
-=======
           "price": 183
->>>>>>> Stashed changes
         },
         {
           "section": "14",
@@ -1400,11 +956,7 @@
         {
           "section": "13",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 197
-=======
           "price": 196
->>>>>>> Stashed changes
         },
         {
           "section": "15",
@@ -1419,27 +971,16 @@
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 210
-=======
           "price": 208
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 219
-=======
           "price": 217
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 225
-=======
           "price": 223
         }
       ],
@@ -1447,7 +988,6 @@
         {
           "lot": "29",
           "price": 45
->>>>>>> Stashed changes
         }
       ],
       "parkingPrice": 45
@@ -1458,42 +998,6 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-18-2026/event/159262134/",
       "listings": [
         {
-          "section": "14",
-          "row": "8",
-<<<<<<< Updated upstream
-          "price": 184
-=======
-          "price": 182
->>>>>>> Stashed changes
-        },
-        {
-          "section": "13",
-          "row": "11",
-<<<<<<< Updated upstream
-          "price": 184
-=======
-          "price": 182
->>>>>>> Stashed changes
-        },
-        {
-          "section": "13",
-          "row": "12",
-<<<<<<< Updated upstream
-          "price": 184
-=======
-          "price": 182
->>>>>>> Stashed changes
-        },
-        {
-          "section": "13",
-          "row": "13",
-<<<<<<< Updated upstream
-          "price": 184
-=======
-          "price": 182
->>>>>>> Stashed changes
-        },
-        {
           "section": "13",
           "row": "8",
           "price": 185
@@ -1506,11 +1010,12 @@
         {
           "section": "14",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 258
-=======
           "price": 185
->>>>>>> Stashed changes
+        },
+        {
+          "section": "14",
+          "row": "8",
+          "price": 185
         },
         {
           "section": "13",
@@ -1520,11 +1025,7 @@
         {
           "section": "13",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 186
-=======
           "price": 185
->>>>>>> Stashed changes
         },
         {
           "section": "13",
@@ -1568,48 +1069,27 @@
         {
           "section": "13",
           "row": "10",
-<<<<<<< Updated upstream
-          "price": 223
-=======
-          "price": 221
->>>>>>> Stashed changes
+          "price": 213
         },
         {
           "section": "14",
           "row": "10",
-<<<<<<< Updated upstream
-          "price": 260
-=======
-          "price": 258
->>>>>>> Stashed changes
+          "price": 247
         },
         {
           "section": "13",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 274
+          "price": 261
         },
         {
           "section": "13",
           "row": "3",
-          "price": 296
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 298
+          "price": 283
         },
         {
           "section": "13",
           "row": "2",
-          "price": 313
-=======
-          "price": 272
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 294
+          "price": 298
         },
         {
           "section": "14",
@@ -1617,46 +1097,24 @@
           "price": 301
         },
         {
-          "section": "13",
-          "row": "2",
-          "price": 310
->>>>>>> Stashed changes
-        },
-        {
           "section": "15",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 318
-=======
-          "price": 315
->>>>>>> Stashed changes
+          "price": 303
         },
         {
           "section": "13",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 336
-=======
-          "price": 334
->>>>>>> Stashed changes
+          "price": 320
         },
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 355
-=======
-          "price": 352
->>>>>>> Stashed changes
+          "price": 339
         },
         {
           "section": "14",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 379
-=======
-          "price": 376
->>>>>>> Stashed changes
+          "price": 361
         },
         {
           "section": "15",
@@ -1684,32 +1142,32 @@
         {
           "section": "14",
           "row": "10",
-          "price": 235
+          "price": 234
         },
         {
           "section": "13",
           "row": "4",
-          "price": 256
+          "price": 253
         },
         {
           "section": "14",
           "row": "6",
-          "price": 282
+          "price": 279
         },
         {
           "section": "14",
           "row": "4",
-          "price": 297
+          "price": 294
         },
         {
           "section": "13",
           "row": "2",
-          "price": 303
+          "price": 300
         },
         {
           "section": "15",
           "row": "6",
-          "price": 316
+          "price": 314
         },
         {
           "section": "15",
@@ -1719,12 +1177,12 @@
         {
           "section": "13",
           "row": "1",
-          "price": 325
+          "price": 323
         },
         {
           "section": "14",
           "row": "2",
-          "price": 344
+          "price": 341
         }
       ],
       "parkingListings": [
@@ -1839,6 +1297,11 @@
           "price": 217
         },
         {
+          "section": "14",
+          "row": "5",
+          "price": 219
+        },
+        {
           "section": "15",
           "row": "6",
           "price": 223
@@ -1847,11 +1310,6 @@
           "section": "15",
           "row": "5",
           "price": 230
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 235
         },
         {
           "section": "14",
@@ -1895,12 +1353,7 @@
         {
           "section": "13",
           "row": "2",
-          "price": 208
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 216
+          "price": 206
         },
         {
           "section": "14",
@@ -1920,7 +1373,7 @@
         {
           "section": "13",
           "row": "1",
-          "price": 225
+          "price": 223
         },
         {
           "section": "15",
@@ -1935,17 +1388,17 @@
         {
           "section": "14",
           "row": "2",
-          "price": 238
+          "price": 237
         },
         {
           "section": "15",
           "row": "2",
-          "price": 249
+          "price": 247
         },
         {
           "section": "14",
           "row": "1",
-          "price": 256
+          "price": 254
         }
       ],
       "parkingListings": [
@@ -1964,29 +1417,17 @@
         {
           "section": "13",
           "row": "10",
-<<<<<<< Updated upstream
-          "price": 166
-=======
           "price": 165
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "10",
-<<<<<<< Updated upstream
-          "price": 195
-=======
-          "price": 193
->>>>>>> Stashed changes
+          "price": 192
         },
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 224
-=======
-          "price": 222
->>>>>>> Stashed changes
+          "price": 221
         },
         {
           "section": "14",
@@ -2001,11 +1442,7 @@
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 248
-=======
           "price": 246
->>>>>>> Stashed changes
         },
         {
           "section": "15",
@@ -2015,27 +1452,16 @@
         {
           "section": "13",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 268
-=======
           "price": 266
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 283
-=======
-          "price": 281
->>>>>>> Stashed changes
+          "price": 282
         },
         {
           "section": "14",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 303
-=======
           "price": 301
         }
       ],
@@ -2043,7 +1469,6 @@
         {
           "lot": "29",
           "price": 42
->>>>>>> Stashed changes
         }
       ],
       "parkingPrice": 42
@@ -2066,26 +1491,6 @@
         {
           "section": "13",
           "row": "7",
-<<<<<<< Updated upstream
-          "price": 302
-        },
-        {
-          "section": "13",
-          "row": "4",
-          "price": 304
-        },
-        {
-          "section": "13",
-          "row": "5",
-          "price": 304
-        },
-        {
-          "section": "13",
-          "row": "6",
-          "price": 304
-        },
-        {
-=======
           "price": 300
         },
         {
@@ -2104,7 +1509,6 @@
           "price": 301
         },
         {
->>>>>>> Stashed changes
           "section": "14",
           "row": "8",
           "price": 310
@@ -2161,43 +1565,27 @@
         {
           "section": "13",
           "row": "10",
-<<<<<<< Updated upstream
-          "price": 325
-=======
-          "price": 323
->>>>>>> Stashed changes
+          "price": 330
         },
         {
           "section": "14",
           "row": "10",
-<<<<<<< Updated upstream
-          "price": 375
-=======
-          "price": 372
->>>>>>> Stashed changes
+          "price": 379
         },
         {
           "section": "13",
           "row": "7",
-<<<<<<< Updated upstream
-          "price": 390
+          "price": 397
         },
         {
           "section": "13",
           "row": "6",
-          "price": 393
-=======
-          "price": 388
->>>>>>> Stashed changes
+          "price": 402
         },
         {
           "section": "13",
           "row": "4",
-<<<<<<< Updated upstream
-          "price": 405
-=======
-          "price": 402
->>>>>>> Stashed changes
+          "price": 410
         },
         {
           "section": "14",
@@ -2207,49 +1595,32 @@
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 423
-=======
-          "price": 420
->>>>>>> Stashed changes
+          "price": 429
         },
         {
           "section": "15",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 451
-=======
-          "price": 447
->>>>>>> Stashed changes
+          "price": 457
         },
         {
           "section": "13",
           "row": "2",
-          "price": 457
-        },
-        {
-          "section": "15",
-          "row": "5",
-<<<<<<< Updated upstream
-          "price": 508
-=======
-          "price": 504
->>>>>>> Stashed changes
+          "price": 461
         },
         {
           "section": "14",
           "row": "2",
-          "price": 515
+          "price": 519
         },
         {
           "section": "15",
           "row": "2",
-          "price": 533
+          "price": 536
         },
         {
           "section": "14",
           "row": "1",
-          "price": 546
+          "price": 550
         }
       ],
       "parkingListings": [
@@ -2419,74 +1790,42 @@
         {
           "section": "13",
           "row": "10",
-<<<<<<< Updated upstream
-          "price": 187
-=======
           "price": 186
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "10",
-<<<<<<< Updated upstream
-          "price": 218
-=======
           "price": 217
->>>>>>> Stashed changes
         },
         {
           "section": "13",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 231
-=======
           "price": 229
->>>>>>> Stashed changes
         },
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 251
-=======
           "price": 249
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 262
-=======
           "price": 260
->>>>>>> Stashed changes
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 271
-=======
           "price": 269
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 276
-=======
           "price": 274
->>>>>>> Stashed changes
         },
         {
           "section": "13",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 292
-=======
           "price": 290
->>>>>>> Stashed changes
         },
         {
           "section": "14",
@@ -2501,18 +1840,11 @@
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 310
-=======
           "price": 308
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 321
-=======
           "price": 319
         }
       ],
@@ -2520,7 +1852,6 @@
         {
           "lot": "29",
           "price": 49
->>>>>>> Stashed changes
         }
       ],
       "parkingPrice": 49
@@ -2612,11 +1943,6 @@
           "section": "13",
           "row": "2",
           "price": 223
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 226
         },
         {
           "section": "14",
@@ -2726,10 +2052,6 @@
         {
           "lot": "29",
           "price": 59
-        },
-        {
-          "lot": "29",
-          "price": 65
         }
       ],
       "parkingPrice": 59
@@ -2742,83 +2064,47 @@
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 180
-=======
           "price": 178
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 190
-=======
           "price": 188
->>>>>>> Stashed changes
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 204
-=======
           "price": 202
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 213
-=======
           "price": 211
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 219
-=======
           "price": 218
->>>>>>> Stashed changes
         },
         {
           "section": "13",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 222
-=======
           "price": 220
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 234
-=======
           "price": 233
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 251
-=======
           "price": 249
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "4",
-<<<<<<< Updated upstream
-          "price": 605
-=======
           "price": 600
->>>>>>> Stashed changes
         }
       ],
       "parkingListings": [
@@ -2872,7 +2158,7 @@
         {
           "section": "15",
           "row": "3",
-          "price": 253
+          "price": 251
         },
         {
           "section": "15",
@@ -2901,127 +2187,46 @@
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 184
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 192
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 208
-        },
-        {
-          "section": "15",
-          "row": "6",
-          "price": 217
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 223
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 224
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 238
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 248
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 256
-        }
-      ],
-      "parkingPrice": 90
-    },
-    "36": {
-      "id": 36,
-      "label": "Thu, Jul 30, 2026 · 7:15 PM · vs Nationals",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-30-2026/event/159262152/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "3",
-          "price": 178
-=======
           "price": 182
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "6",
-          "price": 189
+          "price": 191
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 190
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 205
-=======
           "price": 206
         },
         {
           "section": "15",
           "row": "6",
           "price": 215
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 218
-=======
           "price": 221
         },
         {
           "section": "13",
           "row": "1",
           "price": 223
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 218
-=======
           "price": 236
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 227
-=======
           "price": 247
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 233
-=======
           "price": 254
         }
       ],
@@ -3045,12 +2250,12 @@
         {
           "section": "13",
           "row": "3",
-          "price": 177
+          "price": 178
         },
         {
           "section": "14",
           "row": "6",
-          "price": 187
+          "price": 188
         },
         {
           "section": "13",
@@ -3063,14 +2268,14 @@
           "price": 204
         },
         {
-          "section": "15",
-          "row": "5",
-          "price": 216
-        },
-        {
           "section": "14",
           "row": "2",
           "price": 216
+        },
+        {
+          "section": "15",
+          "row": "5",
+          "price": 218
         },
         {
           "section": "15",
@@ -3087,7 +2292,6 @@
         {
           "lot": "29",
           "price": 67
->>>>>>> Stashed changes
         }
       ],
       "parkingPrice": 67
@@ -3242,56 +2446,32 @@
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 190
-=======
           "price": 188
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 200
-=======
           "price": 198
->>>>>>> Stashed changes
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 213
-=======
           "price": 212
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 225
-=======
           "price": 223
->>>>>>> Stashed changes
         },
         {
           "section": "13",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 230
-=======
           "price": 228
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 231
-=======
           "price": 229
->>>>>>> Stashed changes
         },
         {
           "section": "15",
@@ -3305,19 +2485,17 @@
         },
         {
           "section": "14",
+          "row": "5",
+          "price": 242
+        },
+        {
+          "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 245
-=======
           "price": 243
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 261
-=======
           "price": 259
         }
       ],
@@ -3329,7 +2507,6 @@
         {
           "lot": "29",
           "price": 97
->>>>>>> Stashed changes
         }
       ],
       "parkingPrice": 61
@@ -3342,7 +2519,7 @@
         {
           "section": "13",
           "row": "3",
-          "price": 135
+          "price": 134
         },
         {
           "section": "13",
@@ -3352,7 +2529,7 @@
         {
           "section": "15",
           "row": "6",
-          "price": 162
+          "price": 161
         },
         {
           "section": "13",
@@ -3362,7 +2539,7 @@
         {
           "section": "15",
           "row": "5",
-          "price": 166
+          "price": 164
         },
         {
           "section": "14",
@@ -3504,11 +2681,7 @@
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 228
-=======
           "price": 226
->>>>>>> Stashed changes
         },
         {
           "section": "15",
@@ -3516,41 +2689,8 @@
           "price": 238
         },
         {
-          "section": "14",
-          "row": "5",
-          "price": 241
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 243
-        },
-        {
           "section": "15",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 246
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 247
-        },
-        {
-          "section": "14",
-          "row": "3",
-          "price": 248
-        },
-        {
-          "section": "14",
-          "row": "4",
-          "price": 248
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 261
-=======
           "price": 244
         },
         {
@@ -3572,14 +2712,10 @@
           "section": "14",
           "row": "2",
           "price": 259
->>>>>>> Stashed changes
         },
         {
           "section": "15",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 273
-=======
           "price": 271
         }
       ],
@@ -3587,7 +2723,6 @@
         {
           "lot": "29",
           "price": 60
->>>>>>> Stashed changes
         }
       ],
       "parkingPrice": 60
@@ -3680,16 +2815,6 @@
           "section": "13",
           "row": "1",
           "price": 235
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 244
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 243
         },
         {
           "section": "15",
@@ -3811,39 +2936,9 @@
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 265
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 268
-        },
-        {
-          "section": "15",
-          "row": "6",
-          "price": 270
-        },
-        {
-          "section": "14",
-          "row": "3",
-          "price": 274
-        },
-        {
-          "section": "14",
-          "row": "4",
-          "price": 274
-        },
-        {
-=======
           "price": 263
         },
         {
-          "section": "14",
-          "row": "5",
-          "price": 266
-        },
-        {
           "section": "15",
           "row": "6",
           "price": 268
@@ -3859,7 +2954,11 @@
           "price": 272
         },
         {
->>>>>>> Stashed changes
+          "section": "14",
+          "row": "5",
+          "price": 272
+        },
+        {
           "section": "13",
           "row": "1",
           "price": 284
@@ -3911,16 +3010,6 @@
           "section": "13",
           "row": "2",
           "price": 208
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 220
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 222
         },
         {
           "section": "15",
@@ -3983,97 +3072,58 @@
       "listings": [
         {
           "section": "13",
+          "row": "10",
+          "price": 262
+        },
+        {
+          "section": "13",
           "row": "5",
           "price": 268
         },
         {
-          "section": "13",
-          "row": "10",
-<<<<<<< Updated upstream
-          "price": 270
-=======
-          "price": 268
->>>>>>> Stashed changes
-        },
-        {
           "section": "14",
           "row": "10",
-<<<<<<< Updated upstream
-          "price": 313
-=======
-          "price": 311
->>>>>>> Stashed changes
+          "price": 303
         },
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 357
-=======
-          "price": 354
->>>>>>> Stashed changes
+          "price": 344
         },
         {
           "section": "14",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 372
-=======
-          "price": 369
->>>>>>> Stashed changes
+          "price": 360
         },
         {
           "section": "14",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 382
-=======
-          "price": 379
->>>>>>> Stashed changes
+          "price": 369
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 399
-=======
-          "price": 396
->>>>>>> Stashed changes
+          "price": 387
         },
         {
           "section": "15",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 418
-=======
-          "price": 415
->>>>>>> Stashed changes
+          "price": 405
         },
         {
           "section": "13",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 428
-=======
-          "price": 425
->>>>>>> Stashed changes
+          "price": 413
         },
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 451
-=======
-          "price": 448
->>>>>>> Stashed changes
+          "price": 437
         },
         {
           "section": "15",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 467
-=======
-          "price": 464
+          "price": 453
         }
       ],
       "parkingListings": [
@@ -4084,7 +3134,6 @@
         {
           "lot": "29",
           "price": 66
->>>>>>> Stashed changes
         }
       ],
       "parkingPrice": 54
@@ -4096,80 +3145,53 @@
       "listings": [
         {
           "section": "13",
+          "row": "10",
+          "price": 254
+        },
+        {
+          "section": "13",
           "row": "5",
           "price": 261
         },
         {
           "section": "14",
           "row": "10",
-<<<<<<< Updated upstream
-          "price": 308
-=======
-          "price": 306
->>>>>>> Stashed changes
+          "price": 295
         },
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 349
-=======
-          "price": 346
->>>>>>> Stashed changes
+          "price": 335
         },
         {
           "section": "14",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 366
-=======
-          "price": 363
->>>>>>> Stashed changes
+          "price": 350
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 387
-=======
-          "price": 384
->>>>>>> Stashed changes
+          "price": 372
         },
         {
           "section": "15",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 411
-=======
-          "price": 408
->>>>>>> Stashed changes
+          "price": 394
         },
         {
           "section": "13",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 415
-=======
-          "price": 412
->>>>>>> Stashed changes
+          "price": 398
         },
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 438
-=======
-          "price": 435
->>>>>>> Stashed changes
+          "price": 421
         },
         {
           "section": "14",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 466
-=======
-          "price": 463
->>>>>>> Stashed changes
+          "price": 446
         },
         {
           "section": "15",
@@ -4192,21 +3214,13 @@
       "listings": [
         {
           "section": "13",
-          "row": "11",
-<<<<<<< Updated upstream
-          "price": 303
-=======
-          "price": 301
->>>>>>> Stashed changes
+          "row": "12",
+          "price": 307
         },
         {
           "section": "13",
-          "row": "13",
-<<<<<<< Updated upstream
-          "price": 303
-=======
-          "price": 301
->>>>>>> Stashed changes
+          "row": "5",
+          "price": 308
         },
         {
           "section": "13",
@@ -4220,107 +3234,53 @@
         },
         {
           "section": "13",
-<<<<<<< Updated upstream
-          "row": "9",
-          "price": 311
-        },
-        {
-          "section": "13",
-          "row": "10",
-          "price": 311
-=======
           "row": "10",
           "price": 308
->>>>>>> Stashed changes
-        },
-        {
-          "section": "13",
-          "row": "5",
-<<<<<<< Updated upstream
-          "price": 331
-=======
-          "price": 322
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "10",
-<<<<<<< Updated upstream
-          "price": 381
-=======
-          "price": 378
->>>>>>> Stashed changes
+          "price": 379
         },
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 430
-=======
-          "price": 427
->>>>>>> Stashed changes
+          "price": 429
         },
         {
           "section": "14",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 450
-=======
-          "price": 446
->>>>>>> Stashed changes
+          "price": 448
         },
         {
           "section": "13",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 470
-=======
-          "price": 466
->>>>>>> Stashed changes
+          "price": 468
         },
         {
           "section": "13",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 502
-=======
-          "price": 498
->>>>>>> Stashed changes
+          "price": 499
         },
         {
           "section": "15",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 506
-=======
-          "price": 502
->>>>>>> Stashed changes
+          "price": 503
         },
         {
           "section": "15",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 517
-=======
-          "price": 513
->>>>>>> Stashed changes
+          "price": 514
         },
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 528
-=======
-          "price": 525
->>>>>>> Stashed changes
+          "price": 527
         },
         {
           "section": "14",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 560
-=======
-          "price": 556
+          "price": 559
         }
       ],
       "parkingListings": [
@@ -4331,7 +3291,6 @@
         {
           "lot": "29",
           "price": 135
->>>>>>> Stashed changes
         }
       ],
       "parkingPrice": 50
@@ -4344,20 +3303,12 @@
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 172
-=======
           "price": 171
->>>>>>> Stashed changes
         },
         {
           "section": "14",
           "row": "6",
-<<<<<<< Updated upstream
-          "price": 182
-=======
           "price": 181
->>>>>>> Stashed changes
         },
         {
           "section": "13",
@@ -4420,18 +3371,8 @@
         },
         {
           "section": "14",
-<<<<<<< Updated upstream
-          "row": "3",
-          "price": 244
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 244
-=======
           "row": "5",
           "price": 242
->>>>>>> Stashed changes
         },
         {
           "section": "13",
@@ -4446,11 +3387,7 @@
         {
           "section": "15",
           "row": "5",
-<<<<<<< Updated upstream
-          "price": 280
-=======
           "price": 278
->>>>>>> Stashed changes
         },
         {
           "section": "14",
@@ -4507,16 +3444,6 @@
           "price": 216
         },
         {
-          "section": "14",
-          "row": "5",
-          "price": 220
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 222
-        },
-        {
           "section": "15",
           "row": "2",
           "price": 224
@@ -4528,18 +3455,8 @@
         },
         {
           "section": "14",
-<<<<<<< Updated upstream
-          "row": "3",
-          "price": 226
-        },
-        {
-          "section": "14",
-          "row": "4",
-          "price": 226
-=======
           "row": "4",
           "price": 224
->>>>>>> Stashed changes
         },
         {
           "section": "14",
@@ -4568,395 +3485,6 @@
         {
           "section": "13",
           "row": "3",
-<<<<<<< Updated upstream
-          "price": 159
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 160
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 175
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 190
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 201
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 210
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 217
-        }
-      ],
-      "parkingPrice": 68
-    },
-    "56": {
-      "id": 56,
-      "label": "Wed, Sep 9, 2026 · 7:15 PM · vs Rays",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-9-2026/event/159262172/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "3",
-          "price": 167
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 182
-        },
-        {
-          "section": "15",
-          "row": "6",
-          "price": 198
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 198
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 203
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 210
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 219
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 226
-        }
-      ],
-      "parkingPrice": 54
-    },
-    "57": {
-      "id": 57,
-      "label": "Thu, Sep 10, 2026 · 12:15 PM · vs Rays",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-10-2026/event/159262173/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "3",
-          "price": 159
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 164
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 175
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 190
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 201
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 210
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 217
-        }
-      ],
-      "parkingPrice": 57
-    },
-    "58": {
-      "id": 58,
-      "label": "Fri, Sep 11, 2026 · 7:15 PM · vs Phillies",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-11-2026/event/159262174/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "10",
-          "price": 187
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 251
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 262
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 265
-        },
-        {
-          "section": "14",
-          "row": "3",
-          "price": 274
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 274
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 285
-        },
-        {
-          "section": "15",
-          "row": "6",
-          "price": 296
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 301
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 304
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 314
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 321
-        }
-      ],
-      "parkingPrice": 81
-    },
-    "59": {
-      "id": 59,
-      "label": "Sat, Sep 12, 2026 · 7:15 PM · vs Phillies",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-12-2026/event/159262175/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "10",
-          "price": 206
-        },
-        {
-          "section": "14",
-          "row": "10",
-          "price": 242
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 290
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 302
-        },
-        {
-          "section": "14",
-          "row": "3",
-          "price": 308
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 308
-        },
-        {
-          "section": "15",
-          "row": "6",
-          "price": 325
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 325
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 334
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 344
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 358
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 358
-        }
-      ],
-      "parkingPrice": 71
-    },
-    "60": {
-      "id": 60,
-      "label": "Sun, Sep 13, 2026 · 1:30 PM · vs Phillies",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-13-2026/event/159262176/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "13",
-          "price": 241
-        },
-        {
-          "section": "13",
-          "row": "12",
-          "price": 241
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 244
-        },
-        {
-          "section": "14",
-          "row": "10",
-          "price": 246
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 255
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 261
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 266
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 428
-        },
-        {
-          "section": "14",
-          "row": "3",
-          "price": 366
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 286
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 303
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 315
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 324
-        }
-      ],
-      "parkingPrice": 60
-    },
-    "61": {
-      "id": 61,
-      "label": "Tue, Sep 22, 2026 · 7:15 PM · vs Reds",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-22-2026/event/159262177/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "3",
-          "price": 167
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 168
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 176
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 189
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 205
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 218
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 227
-        }
-      ],
-      "parkingPrice": 58
-    },
-    "62": {
-      "id": 62,
-      "label": "Wed, Sep 23, 2026 · 7:15 PM · vs Reds",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-23-2026/event/159262178/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "3",
-=======
->>>>>>> Stashed changes
           "price": 158
         },
         {
@@ -5131,19 +3659,14 @@
           "price": 263
         },
         {
-          "section": "14",
-          "row": "3",
-          "price": 272
+          "section": "13",
+          "row": "1",
+          "price": 283
         },
         {
           "section": "14",
           "row": "5",
-          "price": 272
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 283
+          "price": 290
         },
         {
           "section": "15",
@@ -5191,62 +3714,67 @@
         {
           "section": "13",
           "row": "10",
-          "price": 205
+          "price": 216
         },
         {
           "section": "14",
           "row": "10",
-          "price": 240
+          "price": 250
         },
         {
           "section": "14",
           "row": "6",
-          "price": 287
-        },
-        {
-          "section": "13",
-          "row": "2",
           "price": 300
         },
         {
           "section": "14",
           "row": "3",
-          "price": 306
+          "price": 304
         },
         {
           "section": "14",
           "row": "5",
-          "price": 306
+          "price": 304
+        },
+        {
+          "section": "13",
+          "row": "6",
+          "price": 304
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 304
         },
         {
           "section": "15",
           "row": "6",
-          "price": 323
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 323
+          "price": 306
         },
         {
           "section": "15",
           "row": "5",
-          "price": 331
+          "price": 315
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 326
         },
         {
           "section": "14",
           "row": "2",
-          "price": 341
+          "price": 345
         },
         {
           "section": "15",
           "row": "3",
-          "price": 355
+          "price": 352
         },
         {
           "section": "15",
           "row": "2",
-          "price": 355
+          "price": 359
         }
       ],
       "parkingListings": [
@@ -5266,16 +3794,6 @@
       "label": "Sun, Sep 13, 2026 · 1:30 PM · vs Phillies",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-13-2026/event/159262176/",
       "listings": [
-        {
-          "section": "13",
-          "row": "13",
-          "price": 239
-        },
-        {
-          "section": "13",
-          "row": "12",
-          "price": 239
-        },
         {
           "section": "13",
           "row": "3",
@@ -5348,7 +3866,7 @@
         {
           "section": "13",
           "row": "3",
-          "price": 166
+          "price": 164
         },
         {
           "section": "15",
@@ -5358,27 +3876,27 @@
         {
           "section": "14",
           "row": "6",
-          "price": 175
+          "price": 173
         },
         {
           "section": "13",
           "row": "2",
-          "price": 187
+          "price": 186
         },
         {
           "section": "13",
           "row": "1",
-          "price": 204
+          "price": 201
         },
         {
           "section": "14",
           "row": "2",
-          "price": 216
+          "price": 214
         },
         {
           "section": "15",
           "row": "2",
-          "price": 225
+          "price": 223
         }
       ],
       "parkingListings": [
@@ -5454,81 +3972,24 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-24-2026/event/159262179/",
       "listings": [
         {
+          "section": "13",
+          "row": "3",
+          "price": 228
+        },
+        {
           "section": "14",
-          "row": "8",
-<<<<<<< Updated upstream
-          "price": 225
-=======
-          "price": 224
->>>>>>> Stashed changes
-        },
-        {
-          "section": "13",
-          "row": "12",
-<<<<<<< Updated upstream
-          "price": 225
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 225
-        },
-        {
-          "section": "13",
-          "row": "11",
-          "price": 225
-=======
-          "price": 224
-        },
-        {
-          "section": "13",
-          "row": "11",
-          "price": 224
->>>>>>> Stashed changes
+          "row": "5",
+          "price": 228
         },
         {
           "section": "14",
-          "row": "5",
-<<<<<<< Updated upstream
-          "price": 230
-=======
+          "row": "8",
           "price": 228
->>>>>>> Stashed changes
-        },
-        {
-          "section": "13",
-          "row": "4",
-          "price": 228
-        },
-        {
-          "section": "13",
-          "row": "5",
-          "price": 228
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 230
-        },
-        {
-          "section": "13",
-<<<<<<< Updated upstream
-          "row": "5",
-          "price": 230
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 232
         },
         {
           "section": "13",
           "row": "2",
-          "price": 238
-=======
-          "row": "2",
-          "price": 236
->>>>>>> Stashed changes
+          "price": 234
         },
         {
           "section": "14",
@@ -5538,44 +3999,28 @@
         {
           "section": "13",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 257
-=======
-          "price": 255
->>>>>>> Stashed changes
+          "price": 253
         },
         {
           "section": "14",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 273
-=======
-          "price": 271
->>>>>>> Stashed changes
+          "price": 268
         },
         {
           "section": "15",
           "row": "2",
-<<<<<<< Updated upstream
-          "price": 284
-=======
-          "price": 282
->>>>>>> Stashed changes
+          "price": 278
         },
         {
           "section": "14",
           "row": "1",
-<<<<<<< Updated upstream
-          "price": 292
-=======
-          "price": 290
+          "price": 286
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
           "price": 54
->>>>>>> Stashed changes
         }
       ],
       "parkingPrice": 54
