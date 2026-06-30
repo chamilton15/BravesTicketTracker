@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T09:20:29.083Z",
+  "lastUpdated": "2026-06-30T08:23:28.911Z",
   "sections": [
     "13",
     "14",
@@ -12,53 +12,35 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-6-30-2026/event/159262138/",
       "listings": [
         {
-          "section": "15",
-          "row": "4",
-          "price": 165
-        },
-        {
-          "section": "14",
-          "row": "7",
-          "price": 134
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 163
-        },
-        {
           "section": "14",
           "row": "3",
-          "price": 171
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 162
-        },
-        {
-          "section": "13",
-          "row": "6",
-          "price": 208
+          "price": 149
         },
         {
           "section": "15",
+          "row": "4",
+          "price": 161
+        },
+        {
+          "section": "13",
           "row": "2",
-          "price": 385
+          "price": 154
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 167
+        },
+        {
+          "section": "15",
+          "row": "1",
+          "price": 512
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
           "price": 45
-        },
-        {
-          "lot": "29",
-          "price": 49
-        },
-        {
-          "lot": "29",
-          "price": 58
         }
       ],
       "parkingPrice": 45
@@ -70,75 +52,42 @@
       "listings": [
         {
           "section": "15",
-          "row": "5",
-          "price": 129
-        },
-        {
-          "section": "15",
-          "row": "9",
-          "price": 127
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 152
+          "row": "4",
+          "price": 93
         },
         {
           "section": "14",
-          "row": "6",
-          "price": 122
+          "row": "2",
+          "price": 103
         },
         {
-          "section": "13",
+          "section": "15",
           "row": "3",
           "price": 116
         },
         {
-          "section": "14",
-          "row": "5",
-          "price": 125
+          "section": "13",
+          "row": "3",
+          "price": 102
         },
         {
           "section": "15",
-          "row": "3",
-          "price": 184
+          "row": "2",
+          "price": 139
         },
         {
           "section": "13",
           "row": "2",
-          "price": 125
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 146
-        },
-        {
-          "section": "15",
-          "row": "4",
-          "price": 171
-        },
-        {
-          "section": "14",
-          "row": "3",
-          "price": 165
+          "price": 114
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
-          "price": 45
-        },
-        {
-          "lot": "29",
-          "price": 54
-        },
-        {
-          "lot": "29",
-          "price": 63
+          "price": 47
         }
       ],
-      "parkingPrice": 45
+      "parkingPrice": 47
     },
     "3": {
       "id": 3,
@@ -146,71 +95,63 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-2-2026/event/159262140/",
       "listings": [
         {
+          "section": "14",
+          "row": "10",
+          "price": 151
+        },
+        {
           "section": "15",
-          "row": "4",
-          "price": 216
+          "row": "6",
+          "price": 189
         },
         {
           "section": "13",
-          "row": "10",
-          "price": 163
-        },
-        {
-          "section": "14",
-          "row": "10",
-          "price": 177
+          "row": "4",
+          "price": 166
         },
         {
           "section": "14",
           "row": "1",
-          "price": 267
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 250
-        },
-        {
-          "section": "14",
-          "row": "3",
-          "price": 210
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 218
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 204
-        },
-        {
-          "section": "13",
-          "row": "4",
-          "price": 193
+          "price": 234
         },
         {
           "section": "15",
-          "row": "9",
-          "price": 273
+          "row": "4",
+          "price": 198
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 189
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 198
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 174
+        },
+        {
+          "section": "14",
+          "row": "3",
+          "price": 185
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 184
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
-          "price": 59
-        },
-        {
-          "lot": "29",
-          "price": 62
-        },
-        {
-          "lot": "29",
-          "price": 83
+          "price": 48
         }
       ],
-      "parkingPrice": 59
+      "parkingPrice": 48
     },
     "4": {
       "id": 4,
@@ -219,72 +160,49 @@
       "listings": [
         {
           "section": "15",
-          "row": "6",
-          "price": 266
-        },
-        {
-          "section": "13",
-          "row": "11",
-          "price": 175
-        },
-        {
-          "section": "15",
           "row": "2",
-          "price": 333
+          "price": 282
         },
         {
           "section": "14",
           "row": "12",
-          "price": 206
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 340
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 288
+          "price": 186
         },
         {
           "section": "15",
-          "row": "5",
-          "price": 298
-        },
-        {
-          "section": "14",
           "row": "4",
-          "price": 273
+          "price": 241
         },
         {
           "section": "13",
           "row": "3",
-          "price": 247
+          "price": 222
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 266
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 289
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 241
         },
         {
           "section": "14",
           "row": "6",
-          "price": 260
-        },
-        {
-          "section": "13",
-          "row": "10",
-          "price": 212
+          "price": 233
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
           "price": 54
-        },
-        {
-          "lot": "29",
-          "price": 67
-        },
-        {
-          "lot": "29",
-          "price": 70
         }
       ],
       "parkingPrice": 54
@@ -296,63 +214,43 @@
       "listings": [
         {
           "section": "15",
+          "row": "4",
+          "price": 312
+        },
+        {
+          "section": "14",
           "row": "3",
-          "price": 372
+          "price": 300
         },
         {
           "section": "15",
           "row": "2",
-          "price": 450
-        },
-        {
-          "section": "15",
-          "row": "7",
-          "price": 346
+          "price": 404
         },
         {
           "section": "13",
           "row": "5",
-          "price": 314
-        },
-        {
-          "section": "15",
-          "row": "4",
-          "price": 366
+          "price": 264
         },
         {
           "section": "14",
-          "row": "3",
-          "price": 360
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 353
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 468
+          "row": "2",
+          "price": 330
         },
         {
           "section": "13",
           "row": "4",
-          "price": 322
+          "price": 274
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 419
         },
         {
           "section": "13",
           "row": "2",
-          "price": 368
-        },
-        {
-          "section": "15",
-          "row": "1",
-          "price": 773
-        },
-        {
-          "section": "15",
-          "row": "6",
-          "price": 360
+          "price": 323
         }
       ],
       "parkingListings": [
@@ -362,7 +260,7 @@
         },
         {
           "lot": "29",
-          "price": 76
+          "price": 72
         }
       ],
       "parkingPrice": 68
@@ -375,70 +273,56 @@
         {
           "section": "15",
           "row": "2",
-          "price": 180
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 145
-        },
-        {
-          "section": "15",
-          "row": "6",
-          "price": 164
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 169
+          "price": 158
         },
         {
           "section": "13",
           "row": "3",
-          "price": 138
+          "price": 127
         },
         {
           "section": "14",
-          "row": "2",
+          "row": "6",
+          "price": 132
+        },
+        {
+          "section": "14",
+          "row": "1",
           "price": 175
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 187
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 164
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 151
         },
         {
           "section": "15",
           "row": "4",
-          "price": 211
+          "price": 146
         },
         {
           "section": "14",
           "row": "3",
-          "price": 217
+          "price": 140
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 151
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 152
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 139
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
-          "price": 49
-        },
-        {
-          "lot": "29",
-          "price": 67
+          "price": 40
         }
       ],
-      "parkingPrice": 49
+      "parkingPrice": 40
     },
     "7": {
       "id": 7,
@@ -461,14 +345,14 @@
           "price": 153
         },
         {
+          "section": "13",
+          "row": "1",
+          "price": 173
+        },
+        {
           "section": "14",
           "row": "2",
           "price": 184
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 160
         },
         {
           "section": "14",
@@ -477,8 +361,8 @@
         },
         {
           "section": "13",
-          "row": "1",
-          "price": 173
+          "row": "2",
+          "price": 160
         },
         {
           "section": "15",
@@ -486,36 +370,27 @@
           "price": 256
         },
         {
-          "section": "15",
-          "row": "4",
-          "price": 250
-        },
-        {
           "section": "14",
           "row": "3",
           "price": 243
         },
         {
-          "section": "13",
-          "row": "8",
-          "price": 205
+          "section": "15",
+          "row": "4",
+          "price": 250
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
-          "price": 45
+          "price": 54
         },
         {
           "lot": "29",
           "price": 57
-        },
-        {
-          "lot": "29",
-          "price": 67
         }
       ],
-      "parkingPrice": 45
+      "parkingPrice": 54
     },
     "8": {
       "id": 8,
@@ -528,19 +403,19 @@
           "price": 271
         },
         {
-          "section": "14",
-          "row": "2",
-          "price": 292
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 259
-        },
-        {
           "section": "13",
           "row": "13",
-          "price": 163
+          "price": 173
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 307
+        },
+        {
+          "section": "14",
+          "row": "12",
+          "price": 207
         },
         {
           "section": "14",
@@ -548,53 +423,25 @@
           "price": 259
         },
         {
-          "section": "14",
-          "row": "12",
-          "price": 198
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 253
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 345
+          "section": "13",
+          "row": "4",
+          "price": 234
         },
         {
           "section": "14",
           "row": "10",
-          "price": 205
-        },
-        {
-          "section": "13",
-          "row": "4",
-          "price": 223
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 247
+          "price": 215
         },
         {
           "section": "13",
           "row": "5",
-          "price": 216
+          "price": 227
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
           "price": 70
-        },
-        {
-          "lot": "29",
-          "price": 86
-        },
-        {
-          "lot": "29",
-          "price": 93
         }
       ],
       "parkingPrice": 70
@@ -612,27 +459,27 @@
         {
           "section": "15",
           "row": "6",
-          "price": 236
+          "price": 231
         },
         {
           "section": "14",
           "row": "10",
-          "price": 190
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 275
+          "price": 187
         },
         {
           "section": "13",
           "row": "5",
-          "price": 201
+          "price": 198
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 270
         },
         {
           "section": "14",
           "row": "4",
-          "price": 242
+          "price": 237
         },
         {
           "section": "15",
@@ -641,13 +488,13 @@
         },
         {
           "section": "13",
-          "row": "3",
-          "price": 218
+          "row": "2",
+          "price": 236
         },
         {
           "section": "13",
-          "row": "2",
-          "price": 240
+          "row": "3",
+          "price": 215
         },
         {
           "section": "14",
@@ -662,12 +509,12 @@
         {
           "section": "14",
           "row": "6",
-          "price": 229
+          "price": 225
         },
         {
           "section": "15",
           "row": "1",
-          "price": 986
+          "price": 952
         }
       ],
       "parkingListings": [
@@ -678,10 +525,6 @@
         {
           "lot": "29",
           "price": 49
-        },
-        {
-          "lot": "29",
-          "price": 62
         }
       ],
       "parkingPrice": 44
@@ -707,19 +550,9 @@
           "price": 160
         },
         {
-          "section": "14",
-          "row": "2",
-          "price": 195
-        },
-        {
           "section": "13",
           "row": "4",
           "price": 142
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 239
         },
         {
           "section": "13",
@@ -730,11 +563,6 @@
           "section": "13",
           "row": "3",
           "price": 151
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 186
         },
         {
           "section": "14",
@@ -756,14 +584,6 @@
         {
           "lot": "29",
           "price": 45
-        },
-        {
-          "lot": "29",
-          "price": 62
-        },
-        {
-          "lot": "29",
-          "price": 65
         }
       ],
       "parkingPrice": 45
@@ -776,22 +596,22 @@
         {
           "section": "14",
           "row": "6",
-          "price": 146
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 180
+          "price": 144
         },
         {
           "section": "13",
           "row": "3",
-          "price": 138
+          "price": 137
         },
         {
           "section": "13",
           "row": "2",
           "price": 156
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 180
         },
         {
           "section": "15",
@@ -801,36 +621,13 @@
         {
           "section": "14",
           "row": "3",
-          "price": 196
-        },
-        {
-          "section": "15",
-          "row": "13",
-          "price": 598
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 184
-        },
-        {
-          "section": "14",
-          "row": "7",
-          "price": 254
+          "price": 209
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
           "price": 45
-        },
-        {
-          "lot": "29",
-          "price": 58
-        },
-        {
-          "lot": "29",
-          "price": 67
         }
       ],
       "parkingPrice": 45
@@ -843,61 +640,53 @@
         {
           "section": "15",
           "row": "6",
-          "price": 171
+          "price": 165
         },
         {
           "section": "14",
           "row": "6",
-          "price": 152
+          "price": 146
         },
         {
           "section": "14",
           "row": "2",
-          "price": 185
+          "price": 178
         },
         {
           "section": "13",
           "row": "4",
-          "price": 136
+          "price": 131
         },
         {
           "section": "14",
           "row": "1",
-          "price": 198
+          "price": 191
         },
         {
           "section": "13",
           "row": "2",
-          "price": 160
+          "price": 153
         },
         {
           "section": "13",
           "row": "3",
-          "price": 143
+          "price": 138
         },
         {
           "section": "14",
           "row": "3",
-          "price": 337
+          "price": 357
         },
         {
           "section": "15",
           "row": "4",
-          "price": 357
+          "price": 408
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
           "price": 45
-        },
-        {
-          "lot": "29",
-          "price": 63
-        },
-        {
-          "lot": "29",
-          "price": 63
         }
       ],
       "parkingPrice": 45
@@ -908,11 +697,6 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-22-2026/event/159262150/",
       "listings": [
         {
-          "section": "13",
-          "row": "4",
-          "price": 163
-        },
-        {
           "section": "14",
           "row": "6",
           "price": 182
@@ -920,7 +704,12 @@
         {
           "section": "14",
           "row": "2",
-          "price": 213
+          "price": 212
+        },
+        {
+          "section": "13",
+          "row": "4",
+          "price": 165
         },
         {
           "section": "14",
@@ -928,14 +717,14 @@
           "price": 228
         },
         {
+          "section": "13",
+          "row": "2",
+          "price": 185
+        },
+        {
           "section": "15",
           "row": "3",
           "price": 404
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 186
         },
         {
           "section": "15",
@@ -946,16 +735,6 @@
           "section": "14",
           "row": "3",
           "price": 291
-        },
-        {
-          "section": "15",
-          "row": "13",
-          "price": 533
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 262
         }
       ],
       "parkingListings": [
@@ -978,27 +757,7 @@
         {
           "section": "15",
           "row": "2",
-          "price": 217
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 178
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 170
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 223
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 208
+          "price": 238
         },
         {
           "section": "15",
@@ -1007,18 +766,38 @@
         },
         {
           "section": "13",
+          "row": "3",
+          "price": 182
+        },
+        {
+          "section": "14",
           "row": "1",
-          "price": 196
+          "price": 245
         },
         {
           "section": "13",
-          "row": "2",
-          "price": 181
+          "row": "1",
+          "price": 215
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 192
         },
         {
           "section": "14",
           "row": "3",
-          "price": 207
+          "price": 196
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 212
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 198
         },
         {
           "section": "15",
@@ -1030,14 +809,6 @@
         {
           "lot": "29",
           "price": 94
-        },
-        {
-          "lot": "29",
-          "price": 122
-        },
-        {
-          "lot": "29",
-          "price": 135
         }
       ],
       "parkingPrice": 94
@@ -1048,71 +819,48 @@
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-30-2026/event/159262152/",
       "listings": [
         {
+          "section": "15",
+          "row": "5",
+          "price": 217
+        },
+        {
           "section": "14",
           "row": "6",
-          "price": 183
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 212
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 192
+          "price": 188
         },
         {
           "section": "15",
           "row": "2",
-          "price": 230
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 221
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 261
+          "price": 233
         },
         {
           "section": "13",
-          "row": "5",
-          "price": 243
+          "row": "2",
+          "price": 195
         },
         {
           "section": "14",
-          "row": "7",
-          "price": 253
+          "row": "2",
+          "price": 223
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 267
         },
         {
           "section": "15",
           "row": "4",
           "price": 386
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 243
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
-          "price": 44
-        },
-        {
-          "lot": "29",
-          "price": 57
-        },
-        {
-          "lot": "29",
-          "price": 66
+          "price": 40
         }
       ],
-      "parkingPrice": 44
+      "parkingPrice": 40
     },
     "16": {
       "id": 16,
@@ -1125,14 +873,14 @@
           "price": 171
         },
         {
-          "section": "15",
-          "row": "3",
-          "price": 378
-        },
-        {
           "section": "14",
           "row": "2",
-          "price": 259
+          "price": 261
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 381
         },
         {
           "section": "13",
@@ -1142,7 +890,7 @@
         {
           "section": "14",
           "row": "6",
-          "price": 241
+          "price": 240
         },
         {
           "section": "14",
@@ -1150,38 +898,25 @@
           "price": 247
         },
         {
-          "section": "13",
-          "row": "3",
-          "price": 215
+          "section": "15",
+          "row": "4",
+          "price": 441
         },
         {
           "section": "13",
           "row": "2",
-          "price": 244
+          "price": 243
         },
         {
-          "section": "15",
-          "row": "4",
-          "price": 438
-        },
-        {
-          "section": "15",
-          "row": "13",
-          "price": 525
+          "section": "13",
+          "row": "3",
+          "price": 217
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
           "price": 59
-        },
-        {
-          "lot": "29",
-          "price": 77
-        },
-        {
-          "lot": "29",
-          "price": 87
         }
       ],
       "parkingPrice": 59
@@ -1194,7 +929,7 @@
         {
           "section": "15",
           "row": "6",
-          "price": 198
+          "price": 199
         },
         {
           "section": "15",
@@ -1202,49 +937,44 @@
           "price": 237
         },
         {
-          "section": "13",
-          "row": "5",
-          "price": 168
+          "section": "14",
+          "row": "2",
+          "price": 228
         },
         {
           "section": "14",
           "row": "6",
-          "price": 193
+          "price": 194
         },
         {
-          "section": "14",
-          "row": "2",
-          "price": 229
+          "section": "13",
+          "row": "5",
+          "price": 170
         },
         {
           "section": "14",
           "row": "4",
-          "price": 204
+          "price": 206
         },
         {
           "section": "13",
           "row": "1",
-          "price": 215
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 317
+          "price": 214
         },
         {
           "section": "13",
-          "row": "3",
-          "price": 184
+          "row": "4",
+          "price": 176
         },
         {
           "section": "14",
           "row": "3",
-          "price": 312
+          "price": 340
         },
         {
           "section": "15",
           "row": "4",
-          "price": 557
+          "price": 561
         }
       ],
       "parkingListings": [
@@ -1263,67 +993,63 @@
         {
           "section": "15",
           "row": "5",
-          "price": 165
+          "price": 160
         },
         {
           "section": "15",
           "row": "2",
-          "price": 177
+          "price": 172
         },
         {
           "section": "14",
           "row": "6",
-          "price": 142
+          "price": 138
         },
         {
           "section": "14",
           "row": "2",
-          "price": 169
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 160
+          "price": 165
         },
         {
           "section": "14",
           "row": "1",
-          "price": 183
+          "price": 177
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 155
         },
         {
           "section": "13",
           "row": "3",
-          "price": 135
+          "price": 131
         },
         {
           "section": "13",
           "row": "2",
-          "price": 147
+          "price": 142
         },
         {
           "section": "15",
           "row": "3",
-          "price": 403
+          "price": 406
         },
         {
           "section": "15",
           "row": "4",
-          "price": 403
+          "price": 406
         },
         {
           "section": "14",
           "row": "3",
-          "price": 403
+          "price": 406
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
           "price": 36
-        },
-        {
-          "lot": "29",
-          "price": 49
         }
       ],
       "parkingPrice": 36
@@ -1336,52 +1062,52 @@
         {
           "section": "15",
           "row": "6",
-          "price": 137
+          "price": 133
         },
         {
           "section": "14",
           "row": "2",
-          "price": 141
+          "price": 138
         },
         {
           "section": "15",
           "row": "2",
-          "price": 147
+          "price": 144
         },
         {
           "section": "14",
           "row": "1",
-          "price": 152
+          "price": 148
         },
         {
           "section": "13",
           "row": "3",
-          "price": 114
+          "price": 111
         },
         {
           "section": "13",
           "row": "1",
-          "price": 132
+          "price": 129
         },
         {
           "section": "13",
           "row": "2",
-          "price": 121
+          "price": 118
         },
         {
           "section": "15",
-          "row": "3",
-          "price": 211
-        },
-        {
-          "section": "14",
           "row": "3",
           "price": 212
         },
         {
+          "section": "14",
+          "row": "3",
+          "price": 245
+        },
+        {
           "section": "15",
           "row": "4",
-          "price": 396
+          "price": 399
         }
       ],
       "parkingListings": [
@@ -1392,10 +1118,6 @@
         {
           "lot": "29",
           "price": 153
-        },
-        {
-          "lot": "29",
-          "price": 218
         }
       ],
       "parkingPrice": 50
@@ -1408,57 +1130,47 @@
         {
           "section": "15",
           "row": "2",
-          "price": 165
+          "price": 163
         },
         {
           "section": "14",
           "row": "2",
-          "price": 157
+          "price": 156
         },
         {
           "section": "14",
           "row": "1",
-          "price": 170
+          "price": 168
         },
         {
           "section": "13",
           "row": "3",
-          "price": 132
+          "price": 129
         },
         {
           "section": "13",
           "row": "1",
-          "price": 148
+          "price": 146
         },
         {
           "section": "13",
           "row": "2",
-          "price": 136
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 216
+          "price": 134
         },
         {
           "section": "14",
           "row": "3",
-          "price": 212
+          "price": 245
         },
         {
           "section": "15",
           "row": "3",
-          "price": 323
-        },
-        {
-          "section": "15",
-          "row": "7",
-          "price": 216
+          "price": 368
         },
         {
           "section": "15",
           "row": "4",
-          "price": 293
+          "price": 296
         }
       ],
       "parkingListings": [
@@ -1477,72 +1189,73 @@
         {
           "section": "15",
           "row": "6",
-          "price": 284
+          "price": 300
         },
         {
           "section": "13",
           "row": "13",
-          "price": 144
+          "price": 162
         },
         {
           "section": "14",
           "row": "8",
-          "price": 211
+          "price": 228
         },
         {
           "section": "15",
           "row": "2",
-          "price": 325
+          "price": 365
         },
         {
           "section": "15",
           "row": "3",
-          "price": 338
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 309
-        },
-        {
-          "section": "13",
-          "row": "9",
-          "price": 157
+          "price": 340
         },
         {
           "section": "14",
           "row": "1",
-          "price": 336
+          "price": 383
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 341
+        },
+        {
+          "section": "13",
+          "row": "9",
+          "price": 178
         },
         {
           "section": "13",
           "row": "2",
-          "price": 256
+          "price": 273
         },
         {
           "section": "15",
           "row": "4",
-          "price": 409
+          "price": 412
         },
         {
           "section": "13",
           "row": "3",
-          "price": 231
+          "price": 245
+        },
+        {
+          "section": "13",
+          "row": "5",
+          "price": 221
         },
         {
           "section": "14",
           "row": "3",
-          "price": 368
+          "price": 371
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
           "price": 158
-        },
-        {
-          "lot": "29",
-          "price": 218
         }
       ],
       "parkingPrice": 158
@@ -1555,47 +1268,52 @@
         {
           "section": "15",
           "row": "6",
-          "price": 171
+          "price": 167
         },
         {
           "section": "14",
           "row": "6",
-          "price": 151
+          "price": 148
         },
         {
           "section": "14",
           "row": "2",
-          "price": 187
+          "price": 183
         },
         {
           "section": "13",
           "row": "3",
-          "price": 143
+          "price": 140
         },
         {
           "section": "13",
           "row": "1",
-          "price": 176
+          "price": 172
         },
         {
           "section": "13",
           "row": "2",
-          "price": 162
+          "price": 159
         },
         {
           "section": "15",
           "row": "3",
-          "price": 253
+          "price": 255
         },
         {
           "section": "14",
           "row": "3",
-          "price": 232
+          "price": 235
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 544
         },
         {
           "section": "15",
           "row": "4",
-          "price": 436
+          "price": 439
         }
       ],
       "parkingListings": [
@@ -1606,10 +1324,6 @@
         {
           "lot": "29",
           "price": 51
-        },
-        {
-          "lot": "29",
-          "price": 67
         }
       ],
       "parkingPrice": 49
@@ -1622,71 +1336,63 @@
         {
           "section": "15",
           "row": "6",
-          "price": 156
+          "price": 153
         },
         {
           "section": "15",
           "row": "2",
-          "price": 186
+          "price": 182
         },
         {
           "section": "14",
           "row": "6",
-          "price": 152
+          "price": 149
         },
         {
           "section": "14",
           "row": "2",
-          "price": 177
+          "price": 175
         },
         {
           "section": "14",
           "row": "1",
-          "price": 191
+          "price": 187
         },
         {
           "section": "13",
           "row": "1",
-          "price": 167
+          "price": 163
         },
         {
           "section": "13",
           "row": "3",
-          "price": 144
+          "price": 142
         },
         {
           "section": "13",
           "row": "2",
-          "price": 153
-        },
-        {
-          "section": "14",
-          "row": "3",
-          "price": 248
+          "price": 151
         },
         {
           "section": "15",
           "row": "3",
-          "price": 417
+          "price": 250
+        },
+        {
+          "section": "14",
+          "row": "3",
+          "price": 250
         },
         {
           "section": "15",
           "row": "4",
-          "price": 465
+          "price": 468
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
           "price": 51
-        },
-        {
-          "lot": "29",
-          "price": 58
-        },
-        {
-          "lot": "29",
-          "price": 63
         }
       ],
       "parkingPrice": 51
@@ -1699,79 +1405,70 @@
         {
           "section": "15",
           "row": "6",
-          "price": 160
+          "price": 154
         },
         {
           "section": "14",
           "row": "6",
-          "price": 156
+          "price": 151
         },
         {
           "section": "15",
           "row": "2",
-          "price": 201
+          "price": 195
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 186
         },
         {
           "section": "15",
           "row": "5",
-          "price": 181
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 193
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 148
+          "price": 175
         },
         {
           "section": "14",
           "row": "1",
-          "price": 207
+          "price": 200
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 143
         },
         {
           "section": "13",
           "row": "2",
-          "price": 167
+          "price": 161
         },
         {
           "section": "14",
           "row": "3",
-          "price": 220
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 195
+          "price": 228
         },
         {
           "section": "15",
           "row": "3",
-          "price": 428
+          "price": 431
         },
         {
           "section": "15",
           "row": "4",
-          "price": 428
+          "price": 431
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
-          "price": 44
+          "price": 35
         },
         {
           "lot": "29",
           "price": 50
-        },
-        {
-          "lot": "29",
-          "price": 67
         }
       ],
-      "parkingPrice": 44
+      "parkingPrice": 35
     },
     "25": {
       "id": 25,
@@ -1781,62 +1478,57 @@
         {
           "section": "15",
           "row": "5",
-          "price": 202
+          "price": 206
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 216
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 244
         },
         {
           "section": "14",
           "row": "9",
-          "price": 167
+          "price": 171
         },
         {
           "section": "14",
-          "row": "1",
-          "price": 240
+          "row": "2",
+          "price": 200
         },
         {
           "section": "13",
           "row": "2",
-          "price": 194
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 224
+          "price": 199
         },
         {
           "section": "13",
-          "row": "1",
-          "price": 210
+          "row": "6",
+          "price": 186
         },
         {
-          "section": "14",
-          "row": "2",
-          "price": 232
+          "section": "13",
+          "row": "5",
+          "price": 196
         },
         {
           "section": "14",
           "row": "6",
-          "price": 192
-        },
-        {
-          "section": "13",
-          "row": "7",
-          "price": 246
+          "price": 196
         },
         {
           "section": "15",
           "row": "3",
-          "price": 410
-        },
-        {
-          "section": "15",
-          "row": "13",
-          "price": 525
+          "price": 413
         },
         {
           "section": "15",
           "row": "4",
-          "price": 440
+          "price": 443
         }
       ],
       "parkingListings": [
@@ -1847,10 +1539,6 @@
         {
           "lot": "29",
           "price": 44
-        },
-        {
-          "lot": "29",
-          "price": 57
         }
       ],
       "parkingPrice": 44
@@ -1863,71 +1551,58 @@
         {
           "section": "15",
           "row": "6",
-          "price": 194
+          "price": 191
+        },
+        {
+          "section": "14",
+          "row": "10",
+          "price": 153
         },
         {
           "section": "13",
           "row": "10",
-          "price": 132
-        },
-        {
-          "section": "14",
-          "row": "10",
-          "price": 156
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 225
+          "price": 130
         },
         {
           "section": "15",
           "row": "2",
-          "price": 234
+          "price": 229
         },
         {
           "section": "14",
           "row": "1",
-          "price": 240
+          "price": 237
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 221
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 208
         },
         {
           "section": "14",
           "row": "6",
-          "price": 189
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 211
+          "price": 187
         },
         {
           "section": "15",
           "row": "3",
-          "price": 426
+          "price": 429
         },
         {
           "section": "14",
           "row": "3",
-          "price": 367
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 269
+          "price": 895
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
           "price": 45
-        },
-        {
-          "lot": "29",
-          "price": 54
-        },
-        {
-          "lot": "29",
-          "price": 65
         }
       ],
       "parkingPrice": 45
@@ -1940,62 +1615,62 @@
         {
           "section": "15",
           "row": "6",
-          "price": 156
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 139
+          "price": 153
         },
         {
           "section": "15",
           "row": "5",
-          "price": 161
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 174
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 167
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 131
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 181
-        },
-        {
-          "section": "13",
-          "row": "1",
           "price": 157
         },
         {
+          "section": "15",
+          "row": "2",
+          "price": 172
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 136
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 165
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 128
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 177
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 155
+        },
+        {
           "section": "13",
           "row": "2",
-          "price": 145
+          "price": 142
         },
         {
           "section": "15",
           "row": "3",
-          "price": 234
+          "price": 236
         },
         {
           "section": "14",
           "row": "3",
-          "price": 234
+          "price": 236
         },
         {
           "section": "15",
           "row": "4",
-          "price": 390
+          "price": 393
         }
       ],
       "parkingListings": [
@@ -2014,81 +1689,78 @@
         {
           "section": "15",
           "row": "3",
-          "price": 350
+          "price": 353
         },
         {
           "section": "15",
           "row": "2",
-          "price": 379
+          "price": 375
+        },
+        {
+          "section": "15",
+          "row": "6",
+          "price": 339
         },
         {
           "section": "15",
           "row": "4",
-          "price": 336
+          "price": 339
         },
         {
           "section": "13",
           "row": "5",
-          "price": 270
+          "price": 266
         },
         {
           "section": "14",
           "row": "12",
-          "price": 246
+          "price": 243
         },
         {
           "section": "13",
           "row": "1",
-          "price": 345
+          "price": 343
         },
         {
           "section": "14",
           "row": "2",
-          "price": 365
+          "price": 363
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 287
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 319
         },
         {
           "section": "14",
           "row": "5",
-          "price": 314
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 291
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 321
+          "price": 309
         },
         {
           "section": "14",
           "row": "10",
-          "price": 256
+          "price": 252
         },
         {
           "section": "14",
           "row": "6",
-          "price": 305
+          "price": 301
         },
         {
           "section": "14",
           "row": "3",
-          "price": 549
+          "price": 553
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
           "price": 63
-        },
-        {
-          "lot": "29",
-          "price": 79
-        },
-        {
-          "lot": "29",
-          "price": 83
         }
       ],
       "parkingPrice": 63
@@ -2101,69 +1773,76 @@
         {
           "section": "15",
           "row": "6",
-          "price": 303
+          "price": 298
         },
         {
           "section": "14",
           "row": "2",
-          "price": 347
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 370
-        },
-        {
-          "section": "14",
-          "row": "10",
-          "price": 247
+          "price": 341
         },
         {
           "section": "13",
           "row": "13",
-          "price": 200
+          "price": 196
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 364
+        },
+        {
+          "section": "14",
+          "row": "10",
+          "price": 243
         },
         {
           "section": "13",
           "row": "1",
-          "price": 329
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 297
+          "price": 323
         },
         {
           "section": "13",
           "row": "2",
-          "price": 305
+          "price": 300
         },
         {
-          "section": "13",
-          "row": "5",
-          "price": 248
+          "section": "14",
+          "row": "6",
+          "price": 290
         },
         {
           "section": "13",
           "row": "10",
-          "price": 213
+          "price": 208
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 277
+        },
+        {
+          "section": "13",
+          "row": "5",
+          "price": 250
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 545
+        },
+        {
+          "section": "15",
+          "row": "4",
+          "price": 641
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
-          "price": 45
-        },
-        {
-          "lot": "29",
-          "price": 61
-        },
-        {
-          "lot": "29",
-          "price": 63
+          "price": 48
         }
       ],
-      "parkingPrice": 45
+      "parkingPrice": 48
     },
     "30": {
       "id": 30,
@@ -2173,56 +1852,53 @@
         {
           "section": "14",
           "row": "10",
-          "price": 348
+          "price": 362
         },
         {
           "section": "15",
           "row": "5",
-          "price": 430
+          "price": 448
         },
         {
           "section": "13",
-          "row": "5",
-          "price": 366
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 394
+          "row": "12",
+          "price": 376
         },
         {
           "section": "13",
           "row": "2",
-          "price": 448
+          "price": 461
+        },
+        {
+          "section": "13",
+          "row": "5",
+          "price": 381
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 410
         },
         {
           "section": "14",
           "row": "5",
-          "price": 422
+          "price": 437
         },
         {
           "section": "14",
           "row": "3",
-          "price": 549
+          "price": 553
         },
         {
           "section": "14",
           "row": "6",
-          "price": 412
+          "price": 427
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
           "price": 45
-        },
-        {
-          "lot": "29",
-          "price": 56
-        },
-        {
-          "lot": "29",
-          "price": 63
         }
       ],
       "parkingPrice": 45
@@ -2235,57 +1911,52 @@
         {
           "section": "15",
           "row": "6",
-          "price": 203
+          "price": 194
         },
         {
           "section": "15",
           "row": "2",
-          "price": 237
+          "price": 229
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 221
         },
         {
           "section": "14",
           "row": "6",
-          "price": 198
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 229
+          "price": 191
         },
         {
           "section": "13",
-          "row": "2",
-          "price": 199
+          "row": "1",
+          "price": 207
         },
         {
           "section": "14",
           "row": "1",
-          "price": 245
+          "price": 235
         },
         {
           "section": "15",
           "row": "5",
-          "price": 229
+          "price": 219
         },
         {
           "section": "13",
-          "row": "1",
-          "price": 215
+          "row": "2",
+          "price": 191
         },
         {
           "section": "14",
           "row": "3",
-          "price": 289
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 223
+          "price": 291
         },
         {
           "section": "15",
           "row": "4",
-          "price": 423
+          "price": 426
         }
       ],
       "parkingListings": [
@@ -2296,10 +1967,6 @@
         {
           "lot": "29",
           "price": 67
-        },
-        {
-          "lot": "29",
-          "price": 90
         }
       ],
       "parkingPrice": 61
@@ -2312,57 +1979,52 @@
         {
           "section": "15",
           "row": "5",
-          "price": 253
+          "price": 240
         },
         {
           "section": "13",
           "row": "13",
-          "price": 145
+          "price": 151
         },
         {
           "section": "14",
           "row": "1",
-          "price": 283
+          "price": 289
         },
         {
           "section": "14",
           "row": "6",
-          "price": 219
+          "price": 229
         },
         {
           "section": "14",
           "row": "2",
-          "price": 265
+          "price": 272
         },
         {
           "section": "14",
           "row": "3",
-          "price": 267
+          "price": 269
         },
         {
           "section": "13",
           "row": "2",
-          "price": 231
+          "price": 237
         },
         {
           "section": "15",
           "row": "3",
-          "price": 410
+          "price": 413
         },
         {
           "section": "13",
           "row": "3",
-          "price": 209
+          "price": 218
         },
         {
           "section": "15",
           "row": "4",
-          "price": 438
-        },
-        {
-          "section": "15",
-          "row": "13",
-          "price": 525
+          "price": 441
         }
       ],
       "parkingListings": [
@@ -2381,62 +2043,62 @@
         {
           "section": "15",
           "row": "6",
-          "price": 172
+          "price": 168
         },
         {
           "section": "15",
           "row": "5",
-          "price": 177
+          "price": 173
         },
         {
           "section": "15",
           "row": "2",
-          "price": 194
+          "price": 189
         },
         {
           "section": "14",
           "row": "6",
-          "price": 153
+          "price": 150
         },
         {
           "section": "14",
           "row": "2",
-          "price": 186
+          "price": 182
         },
         {
           "section": "13",
           "row": "3",
-          "price": 145
+          "price": 142
         },
         {
           "section": "14",
           "row": "1",
-          "price": 199
+          "price": 196
         },
         {
           "section": "13",
           "row": "1",
-          "price": 174
+          "price": 171
         },
         {
           "section": "13",
           "row": "2",
-          "price": 161
+          "price": 157
         },
         {
           "section": "15",
           "row": "1",
-          "price": 560
+          "price": 550
         },
         {
           "section": "14",
           "row": "3",
-          "price": 289
+          "price": 255
         },
         {
           "section": "15",
           "row": "4",
-          "price": 386
+          "price": 389
         }
       ],
       "parkingListings": [
@@ -2460,12 +2122,17 @@
         {
           "section": "15",
           "row": "3",
-          "price": 231
+          "price": 230
+        },
+        {
+          "section": "14",
+          "row": "3",
+          "price": 170
         },
         {
           "section": "14",
           "row": "12",
-          "price": 156
+          "price": 154
         },
         {
           "section": "15",
@@ -2475,27 +2142,7 @@
         {
           "section": "13",
           "row": "2",
-          "price": 206
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 230
-        },
-        {
-          "section": "15",
-          "row": "9",
-          "price": 302
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 302
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 289
+          "price": 205
         }
       ],
       "parkingListings": [
@@ -2506,10 +2153,6 @@
         {
           "lot": "29",
           "price": 43
-        },
-        {
-          "lot": "29",
-          "price": 57
         }
       ],
       "parkingPrice": 40
@@ -2527,42 +2170,37 @@
         {
           "section": "14",
           "row": "2",
-          "price": 171
+          "price": 167
         },
         {
           "section": "14",
           "row": "1",
-          "price": 185
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 134
+          "price": 180
         },
         {
           "section": "15",
           "row": "2",
-          "price": 178
+          "price": 173
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 130
         },
         {
           "section": "13",
           "row": "1",
-          "price": 161
+          "price": 156
         },
         {
           "section": "13",
           "row": "2",
-          "price": 148
+          "price": 143
         },
         {
           "section": "14",
           "row": "3",
-          "price": 213
-        },
-        {
-          "section": "14",
-          "row": "9",
-          "price": 217
+          "price": 253
         },
         {
           "section": "15",
@@ -2590,57 +2228,57 @@
         {
           "section": "14",
           "row": "2",
-          "price": 172
+          "price": 178
         },
         {
           "section": "15",
           "row": "6",
-          "price": 158
+          "price": 164
         },
         {
           "section": "15",
           "row": "2",
-          "price": 180
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 185
+          "price": 186
         },
         {
           "section": "15",
           "row": "5",
-          "price": 163
+          "price": 170
         },
         {
           "section": "13",
           "row": "3",
-          "price": 133
+          "price": 138
         },
         {
-          "section": "15",
-          "row": "3",
-          "price": 209
+          "section": "14",
+          "row": "1",
+          "price": 192
         },
         {
           "section": "13",
           "row": "1",
-          "price": 162
+          "price": 167
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 220
         },
         {
           "section": "13",
           "row": "2",
-          "price": 149
+          "price": 154
         },
         {
           "section": "14",
           "row": "3",
-          "price": 209
+          "price": 220
         },
         {
-          "section": "14",
-          "row": "9",
-          "price": 217
+          "section": "15",
+          "row": "1",
+          "price": 694
         },
         {
           "section": "15",
@@ -2669,42 +2307,37 @@
         {
           "section": "14",
           "row": "2",
-          "price": 168
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 181
+          "price": 163
         },
         {
           "section": "15",
           "row": "2",
+          "price": 171
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 128
+        },
+        {
+          "section": "14",
+          "row": "1",
           "price": 176
         },
         {
           "section": "13",
-          "row": "3",
-          "price": 132
-        },
-        {
-          "section": "13",
           "row": "1",
-          "price": 158
+          "price": 153
         },
         {
           "section": "13",
           "row": "2",
-          "price": 146
+          "price": 142
         },
         {
           "section": "14",
           "row": "3",
-          "price": 220
-        },
-        {
-          "section": "14",
-          "row": "9",
-          "price": 217
+          "price": 225
         },
         {
           "section": "15",
@@ -2716,14 +2349,6 @@
         {
           "lot": "29",
           "price": 68
-        },
-        {
-          "lot": "29",
-          "price": 87
-        },
-        {
-          "lot": "29",
-          "price": 90
         }
       ],
       "parkingPrice": 68
@@ -2736,32 +2361,32 @@
         {
           "section": "15",
           "row": "6",
-          "price": 248
+          "price": 242
         },
         {
           "section": "15",
           "row": "2",
-          "price": 291
+          "price": 284
         },
         {
           "section": "14",
           "row": "6",
-          "price": 242
+          "price": 235
         },
         {
           "section": "13",
           "row": "13",
-          "price": 161
+          "price": 156
         },
         {
           "section": "14",
           "row": "2",
-          "price": 280
+          "price": 273
         },
         {
           "section": "14",
           "row": "1",
-          "price": 299
+          "price": 291
         },
         {
           "section": "15",
@@ -2771,12 +2396,12 @@
         {
           "section": "15",
           "row": "5",
-          "price": 279
+          "price": 272
         },
         {
           "section": "13",
           "row": "1",
-          "price": 264
+          "price": 258
         },
         {
           "section": "14",
@@ -2786,7 +2411,7 @@
         {
           "section": "13",
           "row": "2",
-          "price": 245
+          "price": 239
         },
         {
           "section": "15",
@@ -2798,10 +2423,6 @@
         {
           "lot": "29",
           "price": 50
-        },
-        {
-          "lot": "29",
-          "price": 70
         }
       ],
       "parkingPrice": 50
@@ -2814,17 +2435,17 @@
         {
           "section": "15",
           "row": "2",
-          "price": 301
+          "price": 303
         },
         {
           "section": "13",
           "row": "10",
-          "price": 176
+          "price": 178
         },
         {
           "section": "14",
           "row": "10",
-          "price": 206
+          "price": 209
         },
         {
           "section": "15",
@@ -2834,12 +2455,12 @@
         {
           "section": "14",
           "row": "2",
-          "price": 290
+          "price": 291
         },
         {
           "section": "14",
           "row": "4",
-          "price": 260
+          "price": 264
         },
         {
           "section": "13",
@@ -2848,18 +2469,18 @@
         },
         {
           "section": "14",
-          "row": "3",
-          "price": 330
-        },
-        {
-          "section": "14",
           "row": "6",
-          "price": 248
+          "price": 252
         },
         {
           "section": "13",
           "row": "2",
-          "price": 254
+          "price": 255
+        },
+        {
+          "section": "14",
+          "row": "3",
+          "price": 356
         },
         {
           "section": "15",
@@ -2888,7 +2509,7 @@
         {
           "section": "15",
           "row": "2",
-          "price": 283
+          "price": 280
         },
         {
           "section": "15",
@@ -2898,42 +2519,42 @@
         {
           "section": "14",
           "row": "6",
-          "price": 224
+          "price": 222
         },
         {
           "section": "15",
           "row": "6",
-          "price": 252
+          "price": 249
         },
         {
           "section": "15",
           "row": "5",
-          "price": 259
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 291
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 238
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 230
-        },
-        {
-          "section": "13",
-          "row": "1",
           "price": 257
         },
         {
           "section": "14",
+          "row": "1",
+          "price": 288
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 254
+        },
+        {
+          "section": "14",
+          "row": "5",
+          "price": 228
+        },
+        {
+          "section": "13",
           "row": "2",
-          "price": 273
+          "price": 235
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 269
         },
         {
           "section": "14",
@@ -2944,11 +2565,6 @@
           "section": "15",
           "row": "4",
           "price": 439
-        },
-        {
-          "section": "13",
-          "row": "12",
-          "price": 299
         }
       ],
       "parkingListings": [
@@ -2959,10 +2575,6 @@
         {
           "lot": "29",
           "price": 153
-        },
-        {
-          "lot": "29",
-          "price": 218
         }
       ],
       "parkingPrice": 49
@@ -2975,32 +2587,32 @@
         {
           "section": "15",
           "row": "5",
-          "price": 182
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 173
+          "price": 177
         },
         {
           "section": "15",
           "row": "2",
-          "price": 213
+          "price": 207
         },
         {
-          "section": "13",
-          "row": "2",
-          "price": 177
+          "section": "14",
+          "row": "6",
+          "price": 167
         },
         {
           "section": "14",
           "row": "2",
-          "price": 204
+          "price": 198
         },
         {
           "section": "13",
           "row": "1",
-          "price": 192
+          "price": 186
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 172
         },
         {
           "section": "15",
@@ -3010,22 +2622,7 @@
         {
           "section": "14",
           "row": "3",
-          "price": 241
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 238
-        },
-        {
-          "section": "13",
-          "row": "13",
-          "price": 223
-        },
-        {
-          "section": "14",
-          "row": "7",
-          "price": 233
+          "price": 262
         },
         {
           "section": "15",
@@ -3053,47 +2650,47 @@
         {
           "section": "15",
           "row": "6",
-          "price": 157
+          "price": 156
         },
         {
           "section": "15",
           "row": "2",
-          "price": 177
+          "price": 175
         },
         {
           "section": "15",
           "row": "5",
-          "price": 162
+          "price": 161
         },
         {
           "section": "14",
           "row": "6",
-          "price": 139
+          "price": 138
         },
         {
           "section": "14",
           "row": "2",
-          "price": 170
+          "price": 168
         },
         {
           "section": "14",
           "row": "1",
-          "price": 182
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 158
+          "price": 181
         },
         {
           "section": "13",
           "row": "2",
-          "price": 146
+          "price": 144
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 157
         },
         {
           "section": "15",
           "row": "3",
-          "price": 245
+          "price": 266
         },
         {
           "section": "15",
@@ -3103,7 +2700,7 @@
         {
           "section": "14",
           "row": "3",
-          "price": 245
+          "price": 264
         },
         {
           "section": "15",
@@ -3127,17 +2724,22 @@
         {
           "section": "15",
           "row": "2",
-          "price": 278
+          "price": 277
         },
         {
-          "section": "14",
-          "row": "1",
-          "price": 286
+          "section": "13",
+          "row": "6",
+          "price": 203
         },
         {
           "section": "14",
           "row": "2",
           "price": 267
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 286
         },
         {
           "section": "13",
@@ -3146,13 +2748,8 @@
         },
         {
           "section": "14",
-          "row": "8",
-          "price": 236
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 226
+          "row": "5",
+          "price": 244
         },
         {
           "section": "14",
@@ -3162,12 +2759,12 @@
         {
           "section": "13",
           "row": "2",
-          "price": 234
+          "price": 233
         },
         {
-          "section": "14",
-          "row": "5",
-          "price": 244
+          "section": "13",
+          "row": "3",
+          "price": 226
         },
         {
           "section": "15",
