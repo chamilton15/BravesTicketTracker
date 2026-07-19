@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T06:50:40.272Z",
+  "lastUpdated": "2026-07-19T07:19:23.738Z",
   "sections": [
     "13",
     "14",
@@ -8,134 +8,77 @@
   "games": {
     "1": {
       "id": 1,
-      "label": "Sat, Jul 18, 2026 · 4:10 PM · vs Rangers",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-18-2026/event/159262146/",
-      "listings": [
-        {
-          "section": "14",
-          "row": "3",
-          "price": 164
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 175
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 184
-        },
-        {
-          "section": "15",
-          "row": "4",
-          "price": 233
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 267
-        }
-      ],
-      "parkingListings": [
-        {
-          "lot": "29",
-          "price": 45
-        },
-        {
-          "lot": "29",
-          "price": 47
-        }
-      ],
-      "parkingPrice": 45
-    },
-    "2": {
-      "id": 2,
       "label": "Sun, Jul 19, 2026 · 1:30 PM · vs Rangers",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-19-2026/event/159262147/",
       "listings": [
         {
           "section": "13",
           "row": "4",
-          "price": 75
+          "price": 69
         },
         {
           "section": "13",
           "row": "3",
-          "price": 79
-        },
-        {
-          "section": "14",
-          "row": "7",
-          "price": 83
+          "price": 73
         },
         {
           "section": "14",
           "row": "6",
-          "price": 84
+          "price": 78
+        },
+        {
+          "section": "15",
+          "row": "2",
+          "price": 80
         },
         {
           "section": "14",
           "row": "5",
-          "price": 87
+          "price": 81
         },
         {
           "section": "13",
           "row": "2",
-          "price": 87
-        },
-        {
-          "section": "14",
-          "row": "3",
-          "price": 90
+          "price": 84
         },
         {
           "section": "14",
           "row": "2",
-          "price": 101
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 104
+          "price": 100
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
-          "price": 45
-        },
-        {
-          "lot": "29",
-          "price": 244
+          "price": 43
         }
       ],
-      "parkingPrice": 45
+      "parkingPrice": 43
     },
-    "3": {
-      "id": 3,
+    "2": {
+      "id": 2,
       "label": "Mon, Jul 20, 2026 · 7:15 PM · vs Padres",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-20-2026/event/159262148/",
       "listings": [
         {
           "section": "13",
           "row": "3",
-          "price": 102
+          "price": 97
         },
         {
           "section": "13",
           "row": "1",
-          "price": 107
+          "price": 105
         },
         {
           "section": "14",
           "row": "3",
-          "price": 315
+          "price": 307
         },
         {
           "section": "15",
           "row": "4",
-          "price": 327
+          "price": 320
         }
       ],
       "parkingListings": [
@@ -145,55 +88,50 @@
         },
         {
           "lot": "29",
-          "price": 57
+          "price": 56
         }
       ],
       "parkingPrice": 52
     },
-    "4": {
-      "id": 4,
+    "3": {
+      "id": 3,
       "label": "Tue, Jul 21, 2026 · 7:15 PM · vs Padres",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-21-2026/event/159262149/",
       "listings": [
         {
           "section": "13",
           "row": "12",
-          "price": 71
+          "price": 66
         },
         {
           "section": "14",
           "row": "7",
-          "price": 88
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 97
+          "price": 86
         },
         {
           "section": "13",
           "row": "4",
-          "price": 99
+          "price": 93
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 95
         },
         {
           "section": "14",
           "row": "6",
-          "price": 110
-        },
-        {
-          "section": "14",
-          "row": "5",
-          "price": 114
+          "price": 103
         },
         {
           "section": "14",
           "row": "3",
-          "price": 116
+          "price": 112
         },
         {
           "section": "14",
           "row": "2",
-          "price": 132
+          "price": 125
         }
       ],
       "parkingListings": [
@@ -204,132 +142,128 @@
       ],
       "parkingPrice": 51
     },
-    "5": {
-      "id": 5,
+    "4": {
+      "id": 4,
       "label": "Wed, Jul 22, 2026 · 7:15 PM · vs Padres",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-22-2026/event/159262150/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 81
+          "price": 75
         },
         {
           "section": "13",
           "row": "12",
-          "price": 82
+          "price": 76
+        },
+        {
+          "section": "15",
+          "row": "9",
+          "price": 94
         },
         {
           "section": "13",
           "row": "4",
-          "price": 114
+          "price": 106
         },
         {
           "section": "13",
           "row": "2",
-          "price": 130
+          "price": 121
         },
         {
           "section": "14",
           "row": "5",
-          "price": 131
+          "price": 122
         },
         {
           "section": "14",
           "row": "3",
-          "price": 141
+          "price": 137
         },
         {
           "section": "14",
           "row": "2",
-          "price": 151
+          "price": 140
         },
         {
           "section": "15",
           "row": "4",
-          "price": 154
+          "price": 149
         },
         {
           "section": "14",
           "row": "1",
-          "price": 162
+          "price": 151
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
-          "price": 50
+          "price": 40
         }
       ],
-      "parkingPrice": 50
+      "parkingPrice": 40
     },
-    "6": {
-      "id": 6,
+    "5": {
+      "id": 5,
       "label": "Thu, Jul 23, 2026 · 12:15 PM · vs Padres",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-23-2026/event/159262151/",
       "listings": [
         {
           "section": "13",
           "row": "3",
-          "price": 102
+          "price": 93
         },
         {
           "section": "14",
           "row": "6",
-          "price": 108
+          "price": 97
         },
         {
           "section": "14",
           "row": "5",
-          "price": 111
+          "price": 101
         },
         {
           "section": "13",
           "row": "1",
-          "price": 125
+          "price": 114
         },
         {
           "section": "15",
           "row": "3",
-          "price": 129
+          "price": 118
         },
         {
           "section": "14",
           "row": "1",
-          "price": 145
+          "price": 132
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
-          "price": 80
-        },
-        {
-          "lot": "29",
-          "price": 92
+          "price": 76
         }
       ],
-      "parkingPrice": 80
+      "parkingPrice": 76
     },
-    "7": {
-      "id": 7,
+    "6": {
+      "id": 6,
       "label": "Thu, Jul 30, 2026 · 7:15 PM · vs Nationals",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-30-2026/event/159262152/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 91
-        },
-        {
-          "section": "13",
-          "row": "9",
-          "price": 100
+          "price": 93
         },
         {
           "section": "13",
           "row": "7",
-          "price": 107
+          "price": 108
         },
         {
           "section": "14",
@@ -339,17 +273,17 @@
         {
           "section": "13",
           "row": "4",
-          "price": 128
+          "price": 130
         },
         {
           "section": "14",
           "row": "6",
-          "price": 145
+          "price": 144
         },
         {
           "section": "14",
           "row": "5",
-          "price": 148
+          "price": 149
         },
         {
           "section": "14",
@@ -359,7 +293,7 @@
         {
           "section": "15",
           "row": "4",
-          "price": 383
+          "price": 369
         }
       ],
       "parkingListings": [
@@ -370,104 +304,99 @@
       ],
       "parkingPrice": 48
     },
-    "8": {
-      "id": 8,
+    "7": {
+      "id": 7,
       "label": "Fri, Jul 31, 2026 · 7:15 PM · vs Nationals",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-7-31-2026/event/159262153/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 135
+          "price": 132
         },
         {
           "section": "13",
           "row": "8",
-          "price": 150
+          "price": 148
         },
         {
           "section": "13",
           "row": "3",
-          "price": 191
+          "price": 194
         },
         {
           "section": "14",
           "row": "6",
-          "price": 205
+          "price": 201
         },
         {
           "section": "13",
           "row": "2",
-          "price": 214
+          "price": 211
         },
         {
           "section": "14",
           "row": "2",
-          "price": 245
+          "price": 251
         },
         {
           "section": "15",
           "row": "9",
-          "price": 311
+          "price": 282
         },
         {
           "section": "15",
           "row": "3",
-          "price": 369
+          "price": 366
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
-          "price": 50
+          "price": 56
         }
       ],
-      "parkingPrice": 50
+      "parkingPrice": 56
     },
-    "9": {
-      "id": 9,
+    "8": {
+      "id": 8,
       "label": "Sat, Aug 1, 2026 · 7:15 PM · vs Nationals",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-1-2026/event/159262154/",
       "listings": [
         {
           "section": "13",
-          "row": "13",
-          "price": 134
-        },
-        {
-          "section": "13",
           "row": "9",
-          "price": 145
+          "price": 146
         },
         {
           "section": "14",
           "row": "7",
-          "price": 170
+          "price": 169
         },
         {
           "section": "13",
           "row": "5",
-          "price": 180
+          "price": 181
         },
         {
           "section": "13",
           "row": "4",
-          "price": 185
+          "price": 186
         },
         {
           "section": "14",
           "row": "6",
-          "price": 205
+          "price": 206
         },
         {
           "section": "14",
           "row": "4",
-          "price": 216
+          "price": 218
         },
         {
           "section": "13",
           "row": "1",
-          "price": 231
+          "price": 230
         },
         {
           "section": "14",
@@ -477,7 +406,7 @@
         {
           "section": "15",
           "row": "2",
-          "price": 255
+          "price": 254
         }
       ],
       "parkingListings": [
@@ -488,15 +417,15 @@
       ],
       "parkingPrice": 113
     },
-    "10": {
-      "id": 10,
+    "9": {
+      "id": 9,
       "label": "Sun, Aug 2, 2026 · 1:30 PM · vs Nationals",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-2-2026/event/159262155/",
       "listings": [
         {
           "section": "13",
           "row": "12",
-          "price": 81
+          "price": 82
         },
         {
           "section": "13",
@@ -510,38 +439,87 @@
         },
         {
           "section": "14",
-          "row": "6",
-          "price": 117
+          "row": "7",
+          "price": 108
         },
         {
           "section": "14",
-          "row": "5",
-          "price": 120
+          "row": "6",
+          "price": 116
         },
         {
           "section": "13",
           "row": "2",
-          "price": 123
+          "price": 121
         },
         {
           "section": "13",
           "row": "1",
-          "price": 134
+          "price": 131
         },
         {
           "section": "14",
           "row": "2",
-          "price": 142
+          "price": 140
         },
         {
           "section": "15",
           "row": "3",
-          "price": 380
+          "price": 371
         },
         {
           "section": "15",
           "row": "4",
-          "price": 380
+          "price": 371
+        }
+      ],
+      "parkingListings": [
+        {
+          "lot": "29",
+          "price": 36
+        }
+      ],
+      "parkingPrice": 36
+    },
+    "10": {
+      "id": 10,
+      "label": "Tue, Aug 4, 2026 · 7:15 PM · vs Marlins",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-4-2026/event/159262156/",
+      "listings": [
+        {
+          "section": "13",
+          "row": "3",
+          "price": 88
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 95
+        },
+        {
+          "section": "15",
+          "row": "6",
+          "price": 96
+        },
+        {
+          "section": "13",
+          "row": "1",
+          "price": 103
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 110
+        },
+        {
+          "section": "15",
+          "row": "2",
+          "price": 116
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 120
         }
       ],
       "parkingListings": [
@@ -554,97 +532,48 @@
     },
     "11": {
       "id": 11,
-      "label": "Tue, Aug 4, 2026 · 7:15 PM · vs Marlins",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-4-2026/event/159262156/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "3",
-          "price": 96
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 103
-        },
-        {
-          "section": "15",
-          "row": "6",
-          "price": 104
-        },
-        {
-          "section": "13",
-          "row": "1",
-          "price": 112
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 119
-        },
-        {
-          "section": "15",
-          "row": "2",
-          "price": 126
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 129
-        }
-      ],
-      "parkingListings": [
-        {
-          "lot": "29",
-          "price": 36
-        }
-      ],
-      "parkingPrice": 36
-    },
-    "12": {
-      "id": 12,
       "label": "Wed, Aug 5, 2026 · 7:15 PM · vs Marlins",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-5-2026/event/159262157/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 72
+          "price": 67
         },
         {
           "section": "14",
           "row": "10",
-          "price": 86
+          "price": 81
         },
         {
           "section": "13",
           "row": "6",
-          "price": 94
+          "price": 88
         },
         {
           "section": "15",
           "row": "7",
-          "price": 102
+          "price": 95
         },
         {
           "section": "13",
           "row": "2",
-          "price": 112
+          "price": 104
         },
         {
           "section": "14",
           "row": "2",
-          "price": 129
+          "price": 121
         },
         {
           "section": "15",
           "row": "2",
-          "price": 136
+          "price": 127
         },
         {
           "section": "14",
           "row": "1",
-          "price": 141
+          "price": 131
         }
       ],
       "parkingListings": [
@@ -655,65 +584,65 @@
       ],
       "parkingPrice": 49
     },
-    "13": {
-      "id": 13,
+    "12": {
+      "id": 12,
       "label": "Thu, Aug 6, 2026 · 7:15 PM · vs Marlins",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-6-2026/event/159262158/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 118
+          "price": 113
         },
         {
           "section": "13",
           "row": "12",
-          "price": 134
+          "price": 127
         },
         {
           "section": "13",
           "row": "7",
-          "price": 167
+          "price": 160
         },
         {
           "section": "14",
           "row": "8",
-          "price": 188
+          "price": 182
         },
         {
           "section": "13",
           "row": "3",
-          "price": 202
+          "price": 197
         },
         {
           "section": "13",
           "row": "2",
-          "price": 226
+          "price": 223
         },
         {
           "section": "14",
           "row": "3",
-          "price": 234
+          "price": 236
         },
         {
           "section": "15",
           "row": "6",
-          "price": 241
+          "price": 236
         },
         {
           "section": "15",
           "row": "2",
-          "price": 247
+          "price": 236
         },
         {
           "section": "14",
           "row": "2",
-          "price": 260
+          "price": 262
         },
         {
           "section": "14",
           "row": "1",
-          "price": 281
+          "price": 285
         }
       ],
       "parkingListings": [
@@ -724,60 +653,60 @@
       ],
       "parkingPrice": 158
     },
-    "14": {
-      "id": 14,
+    "13": {
+      "id": 13,
       "label": "Mon, Aug 10, 2026 · 7:15 PM · vs Mets",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-10-2026/event/159262159/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 88
+          "price": 78
         },
         {
           "section": "13",
           "row": "11",
-          "price": 101
+          "price": 90
         },
         {
           "section": "14",
           "row": "10",
-          "price": 113
+          "price": 101
         },
         {
           "section": "13",
           "row": "7",
-          "price": 113
+          "price": 102
         },
         {
           "section": "14",
           "row": "6",
-          "price": 138
+          "price": 125
         },
         {
           "section": "13",
           "row": "2",
-          "price": 143
+          "price": 130
         },
         {
           "section": "15",
           "row": "5",
-          "price": 146
+          "price": 132
         },
         {
           "section": "13",
           "row": "1",
-          "price": 156
+          "price": 140
         },
         {
           "section": "14",
           "row": "2",
-          "price": 167
+          "price": 150
         },
         {
           "section": "15",
           "row": "3",
-          "price": 253
+          "price": 242
         }
       ],
       "parkingListings": [
@@ -788,65 +717,65 @@
       ],
       "parkingPrice": 51
     },
-    "15": {
-      "id": 15,
+    "14": {
+      "id": 14,
       "label": "Tue, Aug 11, 2026 · 7:15 PM · vs Mets",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-11-2026/event/159262160/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 80
+          "price": 72
         },
         {
           "section": "13",
           "row": "11",
-          "price": 93
+          "price": 83
         },
         {
           "section": "14",
           "row": "8",
-          "price": 113
+          "price": 102
         },
         {
           "section": "13",
           "row": "6",
-          "price": 114
+          "price": 102
         },
         {
           "section": "14",
           "row": "6",
-          "price": 128
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 131
+          "price": 115
         },
         {
           "section": "15",
           "row": "6",
-          "price": 132
+          "price": 118
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 118
         },
         {
           "section": "13",
           "row": "1",
-          "price": 142
+          "price": 127
         },
         {
           "section": "14",
           "row": "2",
-          "price": 152
+          "price": 137
         },
         {
           "section": "15",
           "row": "2",
-          "price": 158
+          "price": 143
         },
         {
           "section": "14",
           "row": "1",
-          "price": 163
+          "price": 146
         }
       ],
       "parkingListings": [
@@ -857,70 +786,70 @@
       ],
       "parkingPrice": 45
     },
-    "16": {
-      "id": 16,
+    "15": {
+      "id": 15,
       "label": "Wed, Aug 12, 2026 · 7:15 PM · vs Mets",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-12-2026/event/159262161/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 82
+          "price": 73
         },
         {
           "section": "13",
           "row": "12",
-          "price": 92
+          "price": 82
         },
         {
           "section": "14",
           "row": "10",
-          "price": 106
+          "price": 95
         },
         {
           "section": "14",
           "row": "8",
-          "price": 116
+          "price": 103
         },
         {
           "section": "13",
           "row": "6",
-          "price": 116
+          "price": 103
         },
         {
           "section": "14",
           "row": "6",
-          "price": 129
+          "price": 116
         },
         {
           "section": "15",
           "row": "6",
-          "price": 133
+          "price": 120
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 122
         },
         {
           "section": "15",
           "row": "5",
-          "price": 137
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 137
+          "price": 124
         },
         {
           "section": "14",
           "row": "2",
-          "price": 158
+          "price": 143
         },
         {
           "section": "15",
           "row": "2",
-          "price": 166
+          "price": 149
         },
         {
           "section": "14",
           "row": "1",
-          "price": 171
+          "price": 154
         }
       ],
       "parkingListings": [
@@ -935,40 +864,35 @@
       ],
       "parkingPrice": 35
     },
-    "17": {
-      "id": 17,
+    "16": {
+      "id": 16,
       "label": "Fri, Aug 14, 2026 · 7:15 PM · vs Diamondbacks",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-14-2026/event/159262162/",
       "listings": [
         {
           "section": "13",
-          "row": "13",
-          "price": 89
-        },
-        {
-          "section": "13",
           "row": "11",
-          "price": 102
+          "price": 95
         },
         {
           "section": "14",
           "row": "9",
-          "price": 120
+          "price": 124
         },
         {
           "section": "13",
           "row": "6",
-          "price": 124
+          "price": 127
         },
         {
           "section": "14",
           "row": "6",
-          "price": 139
+          "price": 142
         },
         {
           "section": "13",
           "row": "2",
-          "price": 144
+          "price": 143
         },
         {
           "section": "13",
@@ -978,7 +902,7 @@
         {
           "section": "14",
           "row": "2",
-          "price": 167
+          "price": 166
         },
         {
           "section": "14",
@@ -988,70 +912,71 @@
         {
           "section": "15",
           "row": "3",
-          "price": 407
+          "price": 397
         }
       ],
       "parkingListings": [
         {
           "lot": "29",
-          "price": 42
-        },
-        {
-          "lot": "29",
           "price": 44
         }
       ],
-      "parkingPrice": 42
+      "parkingPrice": 44
     },
-    "18": {
-      "id": 18,
+    "17": {
+      "id": 17,
       "label": "Sat, Aug 15, 2026 · 7:15 PM · vs Diamondbacks",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-15-2026/event/159262163/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 125
+          "price": 122
         },
         {
           "section": "13",
           "row": "11",
-          "price": 131
+          "price": 128
         },
         {
           "section": "14",
           "row": "10",
-          "price": 158
+          "price": 155
         },
         {
           "section": "13",
           "row": "4",
-          "price": 173
+          "price": 169
         },
         {
           "section": "14",
           "row": "6",
-          "price": 191
+          "price": 188
         },
         {
           "section": "14",
           "row": "5",
-          "price": 196
+          "price": 193
         },
         {
           "section": "14",
           "row": "2",
-          "price": 233
+          "price": 229
         },
         {
           "section": "15",
           "row": "2",
-          "price": 243
+          "price": 239
         },
         {
           "section": "14",
           "row": "1",
-          "price": 249
+          "price": 245
+        },
+        {
+          "section": "13",
+          "row": "13",
+          "price": 313
         }
       ],
       "parkingListings": [
@@ -1062,65 +987,75 @@
       ],
       "parkingPrice": 54
     },
-    "19": {
-      "id": 19,
+    "18": {
+      "id": 18,
       "label": "Sun, Aug 16, 2026 · 1:30 PM · vs Diamondbacks",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-16-2026/event/159262164/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 69
+          "price": 64
         },
         {
           "section": "13",
           "row": "11",
-          "price": 80
+          "price": 73
         },
         {
           "section": "14",
           "row": "8",
-          "price": 98
+          "price": 90
         },
         {
           "section": "13",
           "row": "6",
-          "price": 98
+          "price": 90
         },
         {
           "section": "14",
           "row": "6",
-          "price": 111
+          "price": 102
         },
         {
           "section": "13",
           "row": "2",
-          "price": 120
+          "price": 110
         },
         {
           "section": "15",
           "row": "6",
-          "price": 125
+          "price": 115
         },
         {
           "section": "15",
           "row": "5",
-          "price": 129
+          "price": 119
         },
         {
           "section": "13",
           "row": "1",
-          "price": 131
+          "price": 121
         },
         {
           "section": "14",
           "row": "2",
-          "price": 140
+          "price": 130
         },
         {
           "section": "15",
           "row": "2",
-          "price": 146
+          "price": 136
+        },
+        {
+          "section": "13",
+          "row": "13",
+          "price": 313
+        },
+        {
+          "section": "13",
+          "row": "13",
+          "price": 477
         }
       ],
       "parkingListings": [
@@ -1131,50 +1066,50 @@
       ],
       "parkingPrice": 42
     },
-    "20": {
-      "id": 20,
+    "19": {
+      "id": 19,
       "label": "Tue, Aug 25, 2026 · 7:15 PM · vs Dodgers",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-25-2026/event/159262165/",
       "listings": [
         {
           "section": "14",
           "row": "12",
-          "price": 201
+          "price": 192
         },
         {
           "section": "14",
           "row": "10",
-          "price": 208
+          "price": 199
         },
         {
           "section": "13",
           "row": "5",
-          "price": 221
+          "price": 210
         },
         {
           "section": "14",
           "row": "6",
-          "price": 251
+          "price": 240
         },
         {
           "section": "14",
           "row": "5",
-          "price": 257
+          "price": 246
         },
         {
           "section": "15",
           "row": "6",
-          "price": 282
+          "price": 270
         },
         {
           "section": "14",
           "row": "2",
-          "price": 302
+          "price": 289
         },
         {
           "section": "15",
           "row": "2",
-          "price": 315
+          "price": 301
         }
       ],
       "parkingListings": [
@@ -1185,55 +1120,50 @@
       ],
       "parkingPrice": 45
     },
-    "21": {
-      "id": 21,
+    "20": {
+      "id": 20,
       "label": "Wed, Aug 26, 2026 · 7:15 PM · vs Dodgers",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-26-2026/event/159262166/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 163
+          "price": 151
         },
         {
           "section": "13",
           "row": "10",
-          "price": 173
+          "price": 161
         },
         {
           "section": "13",
           "row": "3",
-          "price": 234
+          "price": 217
         },
         {
           "section": "14",
           "row": "6",
-          "price": 245
+          "price": 228
         },
         {
           "section": "14",
           "row": "5",
-          "price": 252
+          "price": 234
         },
         {
           "section": "13",
           "row": "2",
-          "price": 255
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 292
+          "price": 239
         },
         {
           "section": "14",
           "row": "1",
-          "price": 310
+          "price": 291
         },
         {
           "section": "15",
           "row": "4",
-          "price": 636
+          "price": 617
         }
       ],
       "parkingListings": [
@@ -1244,50 +1174,50 @@
       ],
       "parkingPrice": 49
     },
-    "22": {
-      "id": 22,
+    "21": {
+      "id": 21,
       "label": "Thu, Aug 27, 2026 · 7:15 PM · vs Dodgers",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-27-2026/event/159262167/",
       "listings": [
         {
           "section": "13",
           "row": "5",
-          "price": 345
+          "price": 315
         },
         {
           "section": "13",
           "row": "3",
-          "price": 371
+          "price": 339
         },
         {
           "section": "14",
           "row": "6",
-          "price": 388
+          "price": 355
         },
         {
           "section": "14",
           "row": "5",
-          "price": 398
+          "price": 364
         },
         {
           "section": "15",
           "row": "5",
-          "price": 407
+          "price": 371
         },
         {
           "section": "14",
           "row": "4",
-          "price": 408
+          "price": 373
         },
         {
           "section": "13",
           "row": "2",
-          "price": 417
+          "price": 377
         },
         {
           "section": "14",
           "row": "3",
-          "price": 549
+          "price": 524
         }
       ],
       "parkingListings": [
@@ -1302,70 +1232,139 @@
       ],
       "parkingPrice": 66
     },
-    "23": {
-      "id": 23,
+    "22": {
+      "id": 22,
       "label": "Fri, Aug 28, 2026 · 7:15 PM · vs Rockies",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-28-2026/event/159262168/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 92
+          "price": 85
         },
         {
           "section": "13",
           "row": "9",
-          "price": 99
+          "price": 94
         },
         {
           "section": "14",
           "row": "10",
-          "price": 118
+          "price": 110
         },
         {
           "section": "13",
           "row": "7",
-          "price": 119
+          "price": 110
         },
         {
           "section": "14",
           "row": "6",
-          "price": 144
+          "price": 136
         },
         {
           "section": "13",
           "row": "2",
-          "price": 144
+          "price": 136
         },
         {
           "section": "15",
           "row": "5",
-          "price": 152
+          "price": 143
         },
         {
           "section": "13",
           "row": "1",
-          "price": 156
+          "price": 148
         },
         {
           "section": "14",
           "row": "2",
-          "price": 167
+          "price": 157
         },
         {
           "section": "15",
           "row": "2",
-          "price": 174
+          "price": 164
         },
         {
           "section": "14",
           "row": "1",
-          "price": 179
+          "price": 169
         },
         {
           "section": "15",
           "row": "1",
-          "price": 826
+          "price": 800
+        }
+      ],
+      "parkingListings": [
+        {
+          "lot": "29",
+          "price": 45
+        }
+      ],
+      "parkingPrice": 45
+    },
+    "23": {
+      "id": 23,
+      "label": "Sat, Aug 29, 2026 · 4:10 PM · vs Rockies",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-29-2026/event/159262169/",
+      "listings": [
+        {
+          "section": "13",
+          "row": "13",
+          "price": 124
+        },
+        {
+          "section": "13",
+          "row": "12",
+          "price": 138
+        },
+        {
+          "section": "14",
+          "row": "7",
+          "price": 176
+        },
+        {
+          "section": "13",
+          "row": "3",
+          "price": 180
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 189
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 197
+        },
+        {
+          "section": "15",
+          "row": "5",
+          "price": 199
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 225
+        },
+        {
+          "section": "14",
+          "row": "1",
+          "price": 241
+        },
+        {
+          "section": "13",
+          "row": "13",
+          "price": 313
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 397
         }
       ],
       "parkingListings": [
@@ -1378,117 +1377,48 @@
     },
     "24": {
       "id": 24,
-      "label": "Sat, Aug 29, 2026 · 4:10 PM · vs Rockies",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-29-2026/event/159262169/",
-      "listings": [
-        {
-          "section": "13",
-          "row": "13",
-          "price": 127
-        },
-        {
-          "section": "13",
-          "row": "12",
-          "price": 142
-        },
-        {
-          "section": "14",
-          "row": "7",
-          "price": 182
-        },
-        {
-          "section": "13",
-          "row": "3",
-          "price": 186
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 195
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 202
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 205
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 232
-        },
-        {
-          "section": "14",
-          "row": "1",
-          "price": 249
-        },
-        {
-          "section": "15",
-          "row": "4",
-          "price": 339
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 410
-        }
-      ],
-      "parkingListings": [
-        {
-          "lot": "29",
-          "price": 45
-        }
-      ],
-      "parkingPrice": 45
-    },
-    "25": {
-      "id": 25,
       "label": "Sun, Aug 30, 2026 · 1:30 PM · vs Rockies",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-30-2026/event/159262170/",
       "listings": [
         {
           "section": "13",
           "row": "3",
-          "price": 118
+          "price": 108
         },
         {
           "section": "14",
           "row": "6",
-          "price": 125
+          "price": 114
         },
         {
           "section": "13",
           "row": "2",
+          "price": 116
+        },
+        {
+          "section": "13",
+          "row": "1",
           "price": 127
         },
         {
-          "section": "13",
-          "row": "1",
-          "price": 139
-        },
-        {
           "section": "15",
           "row": "6",
-          "price": 141
+          "price": 128
         },
         {
           "section": "14",
           "row": "2",
-          "price": 148
+          "price": 136
         },
         {
           "section": "15",
           "row": "2",
-          "price": 155
+          "price": 142
         },
         {
           "section": "14",
           "row": "1",
-          "price": 160
+          "price": 146
         }
       ],
       "parkingListings": [
@@ -1499,80 +1429,75 @@
       ],
       "parkingPrice": 36
     },
-    "26": {
-      "id": 26,
+    "25": {
+      "id": 25,
       "label": "Mon, Aug 31, 2026 · 6:05 PM · vs Giants",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-8-31-2026/event/159262134/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 102
-        },
-        {
-          "section": "13",
-          "row": "10",
-          "price": 109
+          "price": 97
         },
         {
           "section": "13",
           "row": "9",
-          "price": 121
+          "price": 116
         },
         {
           "section": "14",
           "row": "12",
-          "price": 124
+          "price": 120
         },
         {
           "section": "13",
           "row": "6",
-          "price": 129
+          "price": 125
         },
         {
           "section": "14",
           "row": "10",
-          "price": 129
+          "price": 125
         },
         {
           "section": "15",
           "row": "9",
-          "price": 147
+          "price": 142
         },
         {
           "section": "14",
           "row": "5",
-          "price": 163
+          "price": 157
         },
         {
           "section": "14",
           "row": "3",
-          "price": 169
+          "price": 162
         },
         {
           "section": "13",
           "row": "2",
-          "price": 170
+          "price": 162
         },
         {
           "section": "15",
           "row": "4",
-          "price": 176
+          "price": 168
         },
         {
           "section": "14",
           "row": "2",
-          "price": 176
+          "price": 168
         },
         {
           "section": "15",
           "row": "3",
-          "price": 188
+          "price": 180
         },
         {
           "section": "15",
           "row": "2",
-          "price": 203
+          "price": 195
         }
       ],
       "parkingListings": [
@@ -1583,50 +1508,50 @@
       ],
       "parkingPrice": 40
     },
-    "27": {
-      "id": 27,
+    "26": {
+      "id": 26,
       "label": "Tue, Sep 8, 2026 · 7:15 PM · vs Rays",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-8-2026/event/159262171/",
       "listings": [
         {
           "section": "13",
           "row": "3",
-          "price": 108
+          "price": 103
         },
         {
           "section": "13",
           "row": "2",
-          "price": 118
+          "price": 113
         },
         {
           "section": "13",
           "row": "1",
-          "price": 129
+          "price": 122
         },
         {
           "section": "15",
           "row": "5",
-          "price": 133
+          "price": 126
         },
         {
           "section": "14",
           "row": "2",
-          "price": 138
+          "price": 131
         },
         {
           "section": "15",
           "row": "3",
-          "price": 139
+          "price": 133
         },
         {
           "section": "15",
           "row": "2",
-          "price": 144
+          "price": 137
         },
         {
           "section": "14",
           "row": "1",
-          "price": 149
+          "price": 142
         }
       ],
       "parkingListings": [
@@ -1637,55 +1562,55 @@
       ],
       "parkingPrice": 48
     },
-    "28": {
-      "id": 28,
+    "27": {
+      "id": 27,
       "label": "Wed, Sep 9, 2026 · 7:15 PM · vs Rays",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-9-2026/event/159262172/",
       "listings": [
         {
           "section": "13",
           "row": "3",
-          "price": 137
+          "price": 127
         },
         {
           "section": "13",
           "row": "2",
-          "price": 151
+          "price": 140
         },
         {
           "section": "15",
           "row": "6",
-          "price": 163
+          "price": 151
         },
         {
           "section": "15",
           "row": "3",
-          "price": 167
+          "price": 160
         },
         {
           "section": "14",
           "row": "3",
-          "price": 167
+          "price": 160
         },
         {
           "section": "14",
           "row": "2",
-          "price": 175
+          "price": 162
         },
         {
           "section": "15",
           "row": "2",
-          "price": 182
+          "price": 169
         },
         {
           "section": "14",
           "row": "1",
-          "price": 187
+          "price": 174
         },
         {
           "section": "13",
           "row": "1",
-          "price": 538
+          "price": 513
         }
       ],
       "parkingListings": [
@@ -1696,50 +1621,50 @@
       ],
       "parkingPrice": 41
     },
-    "29": {
-      "id": 29,
+    "28": {
+      "id": 28,
       "label": "Thu, Sep 10, 2026 · 12:15 PM · vs Rays",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-10-2026/event/159262173/",
       "listings": [
         {
           "section": "13",
           "row": "3",
-          "price": 96
+          "price": 89
         },
         {
           "section": "13",
           "row": "2",
-          "price": 106
+          "price": 99
         },
         {
           "section": "15",
           "row": "6",
-          "price": 114
+          "price": 106
         },
         {
           "section": "13",
           "row": "1",
-          "price": 116
+          "price": 107
         },
         {
           "section": "15",
           "row": "5",
-          "price": 118
+          "price": 109
         },
         {
           "section": "14",
           "row": "2",
-          "price": 124
+          "price": 115
         },
         {
           "section": "15",
           "row": "2",
-          "price": 129
+          "price": 120
         },
         {
           "section": "14",
           "row": "1",
-          "price": 134
+          "price": 124
         }
       ],
       "parkingListings": [
@@ -1750,104 +1675,60 @@
       ],
       "parkingPrice": 68
     },
-    "30": {
-      "id": 30,
+    "29": {
+      "id": 29,
       "label": "Fri, Sep 11, 2026 · 7:15 PM · vs Phillies",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-11-2026/event/159262174/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 162
+          "price": 157
         },
         {
           "section": "13",
           "row": "11",
-          "price": 186
+          "price": 181
         },
         {
           "section": "13",
           "row": "8",
-          "price": 197
+          "price": 192
         },
         {
           "section": "14",
           "row": "6",
-          "price": 244
+          "price": 237
         },
         {
           "section": "15",
           "row": "6",
-          "price": 250
+          "price": 242
         },
         {
           "section": "13",
           "row": "1",
-          "price": 262
+          "price": 254
         },
         {
           "section": "14",
           "row": "2",
-          "price": 278
+          "price": 270
         },
         {
           "section": "15",
           "row": "2",
+          "price": 280
+        },
+        {
+          "section": "14",
+          "row": "1",
           "price": 288
         },
         {
-          "section": "14",
-          "row": "1",
-          "price": 297
-        }
-      ],
-      "parkingListings": [
-        {
-          "lot": "29",
-          "price": 44
-        }
-      ],
-      "parkingPrice": 44
-    },
-    "31": {
-      "id": 31,
-      "label": "Sat, Sep 12, 2026 · 7:15 PM · vs Phillies",
-      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-12-2026/event/159262175/",
-      "listings": [
-        {
           "section": "13",
-          "row": "10",
-          "price": 197
-        },
-        {
-          "section": "14",
-          "row": "10",
-          "price": 230
-        },
-        {
-          "section": "14",
-          "row": "6",
-          "price": 276
-        },
-        {
-          "section": "13",
-          "row": "2",
-          "price": 281
-        },
-        {
-          "section": "14",
-          "row": "4",
-          "price": 289
-        },
-        {
-          "section": "14",
-          "row": "2",
-          "price": 320
-        },
-        {
-          "section": "15",
-          "row": "3",
-          "price": 346
+          "row": "13",
+          "price": 399
         }
       ],
       "parkingListings": [
@@ -1858,70 +1739,129 @@
       ],
       "parkingPrice": 45
     },
-    "32": {
-      "id": 32,
+    "30": {
+      "id": 30,
+      "label": "Sat, Sep 12, 2026 · 7:15 PM · vs Phillies",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-12-2026/event/159262175/",
+      "listings": [
+        {
+          "section": "13",
+          "row": "10",
+          "price": 193
+        },
+        {
+          "section": "14",
+          "row": "10",
+          "price": 225
+        },
+        {
+          "section": "14",
+          "row": "6",
+          "price": 270
+        },
+        {
+          "section": "13",
+          "row": "2",
+          "price": 276
+        },
+        {
+          "section": "14",
+          "row": "4",
+          "price": 284
+        },
+        {
+          "section": "14",
+          "row": "2",
+          "price": 314
+        },
+        {
+          "section": "15",
+          "row": "3",
+          "price": 336
+        }
+      ],
+      "parkingListings": [
+        {
+          "lot": "29",
+          "price": 45
+        }
+      ],
+      "parkingPrice": 45
+    },
+    "31": {
+      "id": 31,
       "label": "Sun, Sep 13, 2026 · 1:30 PM · vs Phillies",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-13-2026/event/159262176/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 105
+          "price": 102
         },
         {
           "section": "13",
           "row": "11",
-          "price": 121
+          "price": 118
         },
         {
           "section": "13",
           "row": "6",
-          "price": 134
+          "price": 130
         },
         {
           "section": "14",
           "row": "6",
+          "price": 158
+        },
+        {
+          "section": "14",
+          "row": "5",
           "price": 163
         },
         {
-          "section": "14",
-          "row": "5",
-          "price": 168
-        },
-        {
           "section": "13",
           "row": "2",
-          "price": 174
+          "price": 168
         },
         {
           "section": "15",
           "row": "6",
-          "price": 184
-        },
-        {
-          "section": "15",
-          "row": "5",
-          "price": 189
+          "price": 179
         },
         {
           "section": "13",
           "row": "1",
-          "price": 189
+          "price": 182
+        },
+        {
+          "section": "15",
+          "row": "5",
+          "price": 184
         },
         {
           "section": "14",
           "row": "2",
-          "price": 200
+          "price": 194
         },
         {
           "section": "15",
           "row": "2",
-          "price": 209
+          "price": 203
         },
         {
           "section": "14",
           "row": "1",
-          "price": 215
+          "price": 209
+        },
+        {
+          "section": "13",
+          "row": "13",
+          "price": 399
+        },
+        {
+          "section": "13",
+          "row": "13",
+          "price": 412
         }
       ],
       "parkingListings": [
@@ -1932,8 +1872,8 @@
       ],
       "parkingPrice": 49
     },
-    "33": {
-      "id": 33,
+    "32": {
+      "id": 32,
       "label": "Tue, Sep 22, 2026 · 7:15 PM · vs Reds",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-22-2026/event/159262177/",
       "listings": [
@@ -1945,27 +1885,32 @@
         {
           "section": "13",
           "row": "2",
-          "price": 138
+          "price": 139
         },
         {
           "section": "15",
           "row": "5",
-          "price": 141
+          "price": 142
         },
         {
           "section": "13",
           "row": "1",
-          "price": 150
+          "price": 151
+        },
+        {
+          "section": "14",
+          "row": "3",
+          "price": 160
         },
         {
           "section": "14",
           "row": "2",
-          "price": 160
+          "price": 161
         },
         {
           "section": "15",
           "row": "2",
-          "price": 167
+          "price": 168
         }
       ],
       "parkingListings": [
@@ -1980,45 +1925,45 @@
       ],
       "parkingPrice": 47
     },
-    "34": {
-      "id": 34,
+    "33": {
+      "id": 33,
       "label": "Wed, Sep 23, 2026 · 7:15 PM · vs Reds",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-23-2026/event/159262178/",
       "listings": [
         {
           "section": "14",
           "row": "6",
-          "price": 108
+          "price": 99
         },
         {
           "section": "13",
           "row": "2",
-          "price": 110
+          "price": 102
         },
         {
           "section": "13",
           "row": "1",
-          "price": 120
+          "price": 110
         },
         {
           "section": "15",
           "row": "5",
-          "price": 124
+          "price": 115
         },
         {
           "section": "14",
           "row": "2",
-          "price": 129
+          "price": 119
         },
         {
           "section": "15",
           "row": "2",
-          "price": 134
+          "price": 125
         },
         {
           "section": "14",
           "row": "1",
-          "price": 139
+          "price": 128
         }
       ],
       "parkingListings": [
@@ -2029,55 +1974,55 @@
       ],
       "parkingPrice": 41
     },
-    "35": {
-      "id": 35,
+    "34": {
+      "id": 34,
       "label": "Thu, Sep 24, 2026 · 7:15 PM · vs Reds",
       "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-9-24-2026/event/159262179/",
       "listings": [
         {
           "section": "13",
           "row": "13",
-          "price": 118
+          "price": 109
         },
         {
           "section": "13",
           "row": "11",
-          "price": 135
+          "price": 125
         },
         {
           "section": "13",
           "row": "6",
-          "price": 163
+          "price": 152
         },
         {
           "section": "13",
           "row": "2",
-          "price": 181
+          "price": 168
         },
         {
           "section": "14",
           "row": "5",
-          "price": 187
+          "price": 173
         },
         {
           "section": "13",
           "row": "1",
-          "price": 196
+          "price": 181
         },
         {
           "section": "14",
           "row": "2",
-          "price": 209
+          "price": 193
         },
         {
           "section": "15",
           "row": "2",
-          "price": 218
+          "price": 201
         },
         {
           "section": "14",
           "row": "1",
-          "price": 224
+          "price": 207
         }
       ],
       "parkingListings": [
@@ -2087,6 +2032,38 @@
         }
       ],
       "parkingPrice": 57
+    },
+    "35": {
+      "id": 35,
+      "label": "Thu, Oct 1, 2026",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-10-1-2026/event/161522484/",
+      "listings": [],
+      "parkingListings": [],
+      "parkingPrice": null
+    },
+    "36": {
+      "id": 36,
+      "label": "Fri, Oct 2, 2026",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-10-2-2026/event/161522490/",
+      "listings": [],
+      "parkingListings": [],
+      "parkingPrice": null
+    },
+    "37": {
+      "id": 37,
+      "label": "Sat, Oct 3, 2026",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-10-3-2026/event/161522493/",
+      "listings": [],
+      "parkingListings": [],
+      "parkingPrice": null
+    },
+    "38": {
+      "id": 38,
+      "label": "Wed, Oct 7, 2026",
+      "url": "https://www.stubhub.com/atlanta-braves-atlanta-tickets-10-7-2026/event/161522485/",
+      "listings": [],
+      "parkingListings": [],
+      "parkingPrice": null
     }
   }
 }
